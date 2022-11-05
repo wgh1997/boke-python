@@ -19,4 +19,4 @@ jobs:
           host: ${{ secrets.ALIYUN_HOST }}
           username: ${{ secrets.ALIYUN_USER }}
           password: ${{ secrets.ALIYUN_PASSWORD }}
-          script: cd boke-python&&ls
+          script: cd boke-python&&git pull origin main&&sudo docker start redis_boke boke_mysql boke_web

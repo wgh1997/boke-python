@@ -8,11 +8,12 @@ services:
       MYSQL_ROOT_PASSWORD: "boke" # 为数据库的密码，也就是root用户的密。
       MYSQL_PASS: 'boke' # 密码
     command: "--default-authentication-plugin=mysql_native_password "
+    restart: always
     ports: #为映射端口。
       - 3306:3306
-    volumes:
-      - ./init.sql:/data/application/init.sql  
-      - ./mysql_data:/var/lib/mysql
+    # volumes:
+    #   - ./init.sql:/data/application/init.sql  
+    #   - ./mysql_data:/var/lib/mysql
   redis:
     image: redis:6.2.5
     restart: unless-stopped

@@ -1,0 +1,2220 @@
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-27 10:37:36
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fe699b2f8b0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-27 10:37:36,776: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 10:37:36,779: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 10:37:36,779: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 10:37:36,779: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-27 10:37:43,130: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 2.00 seconds... (1/100)
+
+[2022-10-27 10:37:45,209: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 4.00 seconds... (2/100)
+
+[2022-10-27 10:37:49,216: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 6.00 seconds... (3/100)
+
+[2022-10-27 10:37:55,380: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 8.00 seconds... (4/100)
+
+[2022-10-27 10:38:03,402: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 10.00 seconds... (5/100)
+
+[2022-10-27 10:38:13,419: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 12.00 seconds... (6/100)
+
+[2022-10-27 10:38:25,406: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 14.00 seconds... (7/100)
+
+[2022-10-27 10:38:39,433: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 16.00 seconds... (8/100)
+
+[2022-10-27 10:38:55,431: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 18.00 seconds... (9/100)
+
+[2022-10-27 10:39:13,463: ERROR/MainProcess] consumer: Cannot connect to redis://127.0.0.1:6379//: Error 111 connecting to 127.0.0.1:6379. Connection refused..
+Trying again in 20.00 seconds... (10/100)
+
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-27 10:39:30
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7f20f9d4fcd0
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-27 10:39:31,040: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 10:39:31,041: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 10:39:31,041: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 10:39:31,041: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-27 10:39:31,511: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-27 10:39:31,537: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-27 10:39:32,569: INFO/MainProcess] mingle: all alone
+[2022-10-27 10:39:32,585: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-27 10:39:32,585: INFO/MainProcess] celery@worker_default ready.
+[2022-10-27 10:46:19,531: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 326, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.10/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 618, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.10/site-packages/celery/worker/loops.py", line 97, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.10/site-packages/kombu/asynchronous/hub.py", line 362, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 1326, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 562, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 906, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 916, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1500, in parse_response
+    response = self._execute(conn, conn.read_response)
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    raise error
+  File "/usr/local/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 824, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 318, in read_response
+    raw = self._buffer.readline()
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 249, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 195, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+[2022-10-27 10:46:19,638: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/worker/consumer/consumer.py:361: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered back to the queue.
+You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss setting.
+In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+[2022-10-27 10:46:19,719: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds... (1/100)
+
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-27 14:37:41
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7f9b481dae30
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-27 14:37:42,048: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 14:37:42,051: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 14:37:42,051: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 14:37:42,051: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-27 14:37:47,577: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-27 14:37:47,584: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-27 14:37:48,618: INFO/MainProcess] mingle: all alone
+[2022-10-27 14:37:48,656: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-27 14:37:48,656: INFO/MainProcess] celery@worker_default ready.
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-27 14:38:48
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7f132b92eb00
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-27 14:38:48,434: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 14:38:48,435: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 14:38:48,436: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 14:38:48,436: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-27 14:38:48,888: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-27 14:38:48,893: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-27 14:38:49,910: INFO/MainProcess] mingle: all alone
+[2022-10-27 14:38:49,925: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-27 14:38:49,926: INFO/MainProcess] celery@worker_default ready.
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-27 15:09:47
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fa48add3d00
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-27 15:09:47,746: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:09:47,747: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:09:47,747: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:09:47,747: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-27 15:09:48,185: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-27 15:09:48,191: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-27 15:09:49,210: INFO/MainProcess] mingle: all alone
+[2022-10-27 15:09:49,255: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-27 15:09:49,255: INFO/MainProcess] celery@worker_default ready.
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-27 15:29:19
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fb642552b00
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-27 15:29:19,137: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:29:19,137: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:29:19,138: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:29:19,138: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-27 15:29:19,636: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-27 15:29:19,649: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-27 15:29:20,688: INFO/MainProcess] mingle: all alone
+[2022-10-27 15:29:20,754: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-27 15:29:20,755: INFO/MainProcess] celery@worker_default ready.
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-27 15:52:57
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fd52dd7ea70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-27 15:52:57,455: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:52:57,455: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:52:57,455: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:52:57,455: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:52:57,456: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:52:57,456: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:52:57,456: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:52:57,456: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 15:52:57,456: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-27 15:52:59,956: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-27 15:52:59,991: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-27 15:53:01,321: INFO/MainProcess] mingle: sync with 1 nodes
+[2022-10-27 15:53:01,329: INFO/MainProcess] mingle: sync complete
+[2022-10-27 15:53:01,445: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-27 15:53:01,445: INFO/MainProcess] celery@worker_default ready.
+[2022-10-27 16:00:00,171: INFO/MainProcess] Task users.tasks.timing[9ecbb6b4-dab1-45a5-b653-b36b44d306ff] received
+[2022-10-27 16:00:00,263: INFO/ForkPoolWorker-4] Task users.tasks.timing[9ecbb6b4-dab1-45a5-b653-b36b44d306ff] succeeded in 0.055324900000414345s: '发送成功'
+[2022-10-27 16:06:00,012: INFO/MainProcess] Task users.tasks.timing[39f28dcc-68c8-4f31-bccb-4cbb3b45387b] received
+[2022-10-27 16:06:00,017: INFO/ForkPoolWorker-4] Task users.tasks.timing[39f28dcc-68c8-4f31-bccb-4cbb3b45387b] succeeded in 0.002686100000573788s: '发送成功'
+[2022-10-27 16:07:00,016: INFO/MainProcess] Task users.tasks.timing[221ec54f-d02c-4535-a57a-7a6af1922312] received
+[2022-10-27 16:07:00,021: INFO/ForkPoolWorker-4] Task users.tasks.timing[221ec54f-d02c-4535-a57a-7a6af1922312] succeeded in 0.002255300001706928s: '发送成功'
+[2022-10-27 16:08:00,008: INFO/MainProcess] Task users.tasks.timing[cb7a8419-bf38-44f9-8639-63f72d9be2a3] received
+[2022-10-27 16:08:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[cb7a8419-bf38-44f9-8639-63f72d9be2a3] succeeded in 0.003284200000052806s: '发送成功'
+[2022-10-27 16:09:00,006: INFO/MainProcess] Task users.tasks.timing[83342a8b-21af-4744-b8da-b103e1a42278] received
+[2022-10-27 16:09:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[83342a8b-21af-4744-b8da-b103e1a42278] succeeded in 0.002235599997220561s: '发送成功'
+[2022-10-27 16:10:00,006: INFO/MainProcess] Task users.tasks.timing[a2605cbc-a446-4aa9-9593-4a7c5909db3c] received
+[2022-10-27 16:10:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[a2605cbc-a446-4aa9-9593-4a7c5909db3c] succeeded in 0.001965399998880457s: '发送成功'
+[2022-10-27 16:11:00,005: INFO/MainProcess] Task users.tasks.timing[1ef0c1af-a0eb-43d5-acc3-d41ad330f79c] received
+[2022-10-27 16:11:00,008: INFO/ForkPoolWorker-4] Task users.tasks.timing[1ef0c1af-a0eb-43d5-acc3-d41ad330f79c] succeeded in 0.0017138000039267354s: '发送成功'
+[2022-10-27 16:12:00,004: INFO/MainProcess] Task users.tasks.timing[09705cda-3c73-45b7-b132-d315d6beb539] received
+[2022-10-27 16:12:00,007: INFO/ForkPoolWorker-4] Task users.tasks.timing[09705cda-3c73-45b7-b132-d315d6beb539] succeeded in 0.0017408999992767349s: '发送成功'
+[2022-10-27 16:13:00,006: INFO/MainProcess] Task users.tasks.timing[d14c019b-c860-4859-99c0-7a33e7bbe676] received
+[2022-10-27 16:13:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[d14c019b-c860-4859-99c0-7a33e7bbe676] succeeded in 0.002071599999908358s: '发送成功'
+[2022-10-27 16:14:00,007: INFO/MainProcess] Task users.tasks.timing[950a325b-8d55-43a4-90cd-5f9d20e94484] received
+[2022-10-27 16:14:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[950a325b-8d55-43a4-90cd-5f9d20e94484] succeeded in 0.0012430000060703605s: '发送成功'
+[2022-10-27 16:15:00,006: INFO/MainProcess] Task users.tasks.timing[fbbd4348-4add-4254-9161-bf7e62b644b5] received
+[2022-10-27 16:15:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[fbbd4348-4add-4254-9161-bf7e62b644b5] succeeded in 0.0016239999968092889s: '发送成功'
+[2022-10-27 16:16:00,010: INFO/MainProcess] Task users.tasks.timing[7873eba9-67e0-48eb-99c1-367ff5cbd4fc] received
+[2022-10-27 16:16:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[7873eba9-67e0-48eb-99c1-367ff5cbd4fc] succeeded in 0.0020073999985470437s: '发送成功'
+[2022-10-27 16:17:00,008: INFO/MainProcess] Task users.tasks.timing[4f2ce9a3-d572-404f-83fc-e8671963045a] received
+[2022-10-27 16:17:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[4f2ce9a3-d572-404f-83fc-e8671963045a] succeeded in 0.001811399997677654s: '发送成功'
+[2022-10-27 16:18:00,006: INFO/MainProcess] Task users.tasks.timing[19f36e9e-0406-4144-9737-7d3da9c044be] received
+[2022-10-27 16:18:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[19f36e9e-0406-4144-9737-7d3da9c044be] succeeded in 0.0032299999948008917s: '发送成功'
+[2022-10-27 16:19:00,008: INFO/MainProcess] Task users.tasks.timing[e37a62b9-a86c-4887-b05a-46c58ebe2746] received
+[2022-10-27 16:19:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[e37a62b9-a86c-4887-b05a-46c58ebe2746] succeeded in 0.001432199998816941s: '发送成功'
+[2022-10-27 16:20:00,007: INFO/MainProcess] Task users.tasks.timing[50849659-2444-4fe4-a80c-8c369419423e] received
+[2022-10-27 16:20:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[50849659-2444-4fe4-a80c-8c369419423e] succeeded in 0.0016948999982560053s: '发送成功'
+[2022-10-27 16:21:00,008: INFO/MainProcess] Task users.tasks.timing[47dfda1f-2380-497a-abed-07a5e4d42218] received
+[2022-10-27 16:21:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[47dfda1f-2380-497a-abed-07a5e4d42218] succeeded in 0.0016250000044237822s: '发送成功'
+[2022-10-27 16:22:00,026: INFO/MainProcess] Task users.tasks.timing[a143207f-e3a8-4d22-a67a-32c214cfbfdd] received
+[2022-10-27 16:22:00,044: INFO/ForkPoolWorker-4] Task users.tasks.timing[a143207f-e3a8-4d22-a67a-32c214cfbfdd] succeeded in 0.008215800000471063s: '发送成功'
+[2022-10-27 16:23:00,006: INFO/MainProcess] Task users.tasks.timing[5835cd1e-6835-44a4-9335-e1ef84f1ac9c] received
+[2022-10-27 16:23:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[5835cd1e-6835-44a4-9335-e1ef84f1ac9c] succeeded in 0.002289000003656838s: '发送成功'
+[2022-10-27 16:24:00,008: INFO/MainProcess] Task users.tasks.timing[917dd1d1-c9dd-4c54-a6da-d827d4a05496] received
+[2022-10-27 16:24:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[917dd1d1-c9dd-4c54-a6da-d827d4a05496] succeeded in 0.0010566999990260229s: '发送成功'
+[2022-10-27 16:25:00,006: INFO/MainProcess] Task users.tasks.timing[5239e8ce-2302-42b6-96e6-517bcfb94025] received
+[2022-10-27 16:25:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[5239e8ce-2302-42b6-96e6-517bcfb94025] succeeded in 0.0020361999995657243s: '发送成功'
+[2022-10-27 16:26:00,104: INFO/MainProcess] Task users.tasks.timing[387d1766-1dc7-4f14-a4cb-7f0afc193c7f] received
+[2022-10-27 16:26:00,271: INFO/ForkPoolWorker-4] Task users.tasks.timing[387d1766-1dc7-4f14-a4cb-7f0afc193c7f] succeeded in 0.06819730000279378s: '发送成功'
+[2022-10-27 16:27:00,009: INFO/MainProcess] Task users.tasks.timing[a4a52c7a-b725-49b6-bc52-6d22c7483e22] received
+[2022-10-27 16:27:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[a4a52c7a-b725-49b6-bc52-6d22c7483e22] succeeded in 0.002800900001602713s: '发送成功'
+[2022-10-27 16:28:00,006: INFO/MainProcess] Task users.tasks.timing[81fd6b10-5948-493c-add4-856cee496347] received
+[2022-10-27 16:28:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[81fd6b10-5948-493c-add4-856cee496347] succeeded in 0.0016172000032383949s: '发送成功'
+[2022-10-27 16:29:00,011: INFO/MainProcess] Task users.tasks.timing[b4a47f7d-aadb-4f75-9096-96153ee25414] received
+[2022-10-27 16:29:00,019: INFO/ForkPoolWorker-4] Task users.tasks.timing[b4a47f7d-aadb-4f75-9096-96153ee25414] succeeded in 0.004560100001981482s: '发送成功'
+[2022-10-27 16:30:00,015: INFO/MainProcess] Task users.tasks.timing[79b693c0-49a7-48a9-ad09-c449f442bfcb] received
+[2022-10-27 16:30:00,022: INFO/ForkPoolWorker-4] Task users.tasks.timing[79b693c0-49a7-48a9-ad09-c449f442bfcb] succeeded in 0.001422399996954482s: '发送成功'
+[2022-10-27 16:31:00,006: INFO/MainProcess] Task users.tasks.timing[f82b8946-4cb8-4130-823d-c050c7c794af] received
+[2022-10-27 16:31:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[f82b8946-4cb8-4130-823d-c050c7c794af] succeeded in 0.0020310000036261044s: '发送成功'
+[2022-10-27 16:32:00,010: INFO/MainProcess] Task users.tasks.timing[6693c2d0-ca9c-4e1c-a6ff-258c44372df0] received
+[2022-10-27 16:32:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[6693c2d0-ca9c-4e1c-a6ff-258c44372df0] succeeded in 0.0016858000017236918s: '发送成功'
+[2022-10-27 16:33:00,008: INFO/MainProcess] Task users.tasks.timing[9a5304de-4477-421f-a2c9-df471afd7606] received
+[2022-10-27 16:33:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[9a5304de-4477-421f-a2c9-df471afd7606] succeeded in 0.0014922999980626628s: '发送成功'
+[2022-10-27 16:34:00,009: INFO/MainProcess] Task users.tasks.timing[ae9590bf-169e-4c3f-bf1b-7189d6e9b31b] received
+[2022-10-27 16:34:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[ae9590bf-169e-4c3f-bf1b-7189d6e9b31b] succeeded in 0.0021016999962739646s: '发送成功'
+[2022-10-27 16:35:00,009: INFO/MainProcess] Task users.tasks.timing[89800ded-ca30-457d-aaed-36406af3c94a] received
+[2022-10-27 16:35:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[89800ded-ca30-457d-aaed-36406af3c94a] succeeded in 0.00192349999997532s: '发送成功'
+[2022-10-27 16:36:00,007: INFO/MainProcess] Task users.tasks.timing[00590943-5269-4a1d-9104-b7529f6a9772] received
+[2022-10-27 16:36:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[00590943-5269-4a1d-9104-b7529f6a9772] succeeded in 0.002125699997122865s: '发送成功'
+[2022-10-27 16:37:00,005: INFO/MainProcess] Task users.tasks.timing[36dc5bf7-eeba-4787-b795-411276b1be22] received
+[2022-10-27 16:37:00,008: INFO/ForkPoolWorker-4] Task users.tasks.timing[36dc5bf7-eeba-4787-b795-411276b1be22] succeeded in 0.0017748999962350354s: '发送成功'
+[2022-10-27 16:38:00,008: INFO/MainProcess] Task users.tasks.timing[ad0daa88-ee3f-424a-9e05-760e6ab90870] received
+[2022-10-27 16:38:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[ad0daa88-ee3f-424a-9e05-760e6ab90870] succeeded in 0.0011644999976851977s: '发送成功'
+[2022-10-27 16:39:00,008: INFO/MainProcess] Task users.tasks.timing[2d6163e4-1b94-4c7d-8429-90dda282daa6] received
+[2022-10-27 16:39:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[2d6163e4-1b94-4c7d-8429-90dda282daa6] succeeded in 0.0033416000005672686s: '发送成功'
+[2022-10-27 16:40:00,007: INFO/MainProcess] Task users.tasks.timing[b57a82b9-6a29-44dd-84f6-b41eacb89f16] received
+[2022-10-27 16:40:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[b57a82b9-6a29-44dd-84f6-b41eacb89f16] succeeded in 0.0016690000047674403s: '发送成功'
+[2022-10-27 16:41:00,010: INFO/MainProcess] Task users.tasks.timing[8138b402-6e38-4fa8-b86a-5e692dc85a60] received
+[2022-10-27 16:41:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[8138b402-6e38-4fa8-b86a-5e692dc85a60] succeeded in 0.0013193999984650873s: '发送成功'
+[2022-10-27 16:42:00,007: INFO/MainProcess] Task users.tasks.timing[05c3176b-f80f-427d-99ef-712dd5552e97] received
+[2022-10-27 16:42:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[05c3176b-f80f-427d-99ef-712dd5552e97] succeeded in 0.0020183000015094876s: '发送成功'
+[2022-10-27 16:43:00,004: INFO/MainProcess] Task users.tasks.timing[de9715b9-1961-4e94-b9fb-168928e1ba30] received
+[2022-10-27 16:43:00,008: INFO/ForkPoolWorker-4] Task users.tasks.timing[de9715b9-1961-4e94-b9fb-168928e1ba30] succeeded in 0.00216829999408219s: '发送成功'
+[2022-10-27 16:44:00,041: INFO/MainProcess] Task users.tasks.timing[5c2f456b-e494-4f0d-9df7-5ac86b36800d] received
+[2022-10-27 16:44:00,046: INFO/ForkPoolWorker-4] Task users.tasks.timing[5c2f456b-e494-4f0d-9df7-5ac86b36800d] succeeded in 0.002890899995691143s: '发送成功'
+[2022-10-27 16:45:00,008: INFO/MainProcess] Task users.tasks.timing[bc34d374-8f73-4404-b3c8-4166ea48b7b7] received
+[2022-10-27 16:45:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[bc34d374-8f73-4404-b3c8-4166ea48b7b7] succeeded in 0.0024481000000378117s: '发送成功'
+[2022-10-27 16:46:00,011: INFO/MainProcess] Task users.tasks.timing[9241eaa5-f4a3-4fc1-a1b0-26b2a5165007] received
+[2022-10-27 16:46:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[9241eaa5-f4a3-4fc1-a1b0-26b2a5165007] succeeded in 0.0013113999957568012s: '发送成功'
+[2022-10-27 16:47:00,012: INFO/MainProcess] Task users.tasks.timing[6d2014ef-e657-43d6-88d0-5b1122ce2862] received
+[2022-10-27 16:47:00,014: INFO/ForkPoolWorker-4] Task users.tasks.timing[6d2014ef-e657-43d6-88d0-5b1122ce2862] succeeded in 0.0013880999977118336s: '发送成功'
+[2022-10-27 16:48:00,012: INFO/MainProcess] Task users.tasks.timing[642324b1-0e54-4b2d-9def-044545a8933e] received
+[2022-10-27 16:48:00,016: INFO/ForkPoolWorker-4] Task users.tasks.timing[642324b1-0e54-4b2d-9def-044545a8933e] succeeded in 0.003061600000364706s: '发送成功'
+[2022-10-27 16:49:00,014: INFO/MainProcess] Task users.tasks.timing[706723e3-1f1a-4bfc-97dd-d1399d6b7151] received
+[2022-10-27 16:49:00,024: INFO/ForkPoolWorker-4] Task users.tasks.timing[706723e3-1f1a-4bfc-97dd-d1399d6b7151] succeeded in 0.0036246000017854385s: '发送成功'
+[2022-10-27 16:50:00,006: INFO/MainProcess] Task users.tasks.timing[2ddecb8e-4361-4ccc-a87e-1fd57d90472c] received
+[2022-10-27 16:50:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[2ddecb8e-4361-4ccc-a87e-1fd57d90472c] succeeded in 0.0015548000010312535s: '发送成功'
+[2022-10-27 16:51:00,006: INFO/MainProcess] Task users.tasks.timing[012847e2-ab9e-4084-8702-dc1823c6789a] received
+[2022-10-27 16:51:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[012847e2-ab9e-4084-8702-dc1823c6789a] succeeded in 0.001523899998574052s: '发送成功'
+[2022-10-27 16:52:00,013: INFO/MainProcess] Task users.tasks.timing[3c6681fd-38a4-46fb-9941-83f80cc47d09] received
+[2022-10-27 16:52:00,020: INFO/ForkPoolWorker-4] Task users.tasks.timing[3c6681fd-38a4-46fb-9941-83f80cc47d09] succeeded in 0.0021523000032175332s: '发送成功'
+[2022-10-27 16:53:00,006: INFO/MainProcess] Task users.tasks.timing[67097cdf-917e-4fd1-a977-2c67567e91a3] received
+[2022-10-27 16:53:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[67097cdf-917e-4fd1-a977-2c67567e91a3] succeeded in 0.0022449000025517307s: '发送成功'
+[2022-10-27 16:54:00,006: INFO/MainProcess] Task users.tasks.timing[037b6759-e5fa-4ae1-b498-92f5e63967c4] received
+[2022-10-27 16:54:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[037b6759-e5fa-4ae1-b498-92f5e63967c4] succeeded in 0.0012043000024277717s: '发送成功'
+[2022-10-27 16:55:00,006: INFO/MainProcess] Task users.tasks.timing[9070dbef-8a7f-42cd-a7d4-97f329981fa7] received
+[2022-10-27 16:55:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[9070dbef-8a7f-42cd-a7d4-97f329981fa7] succeeded in 0.0015233000012813136s: '发送成功'
+[2022-10-27 16:56:00,010: INFO/MainProcess] Task users.tasks.timing[d93e6c1d-198b-46d6-9b64-c9063e88dbb1] received
+[2022-10-27 16:56:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[d93e6c1d-198b-46d6-9b64-c9063e88dbb1] succeeded in 0.002970099994854536s: '发送成功'
+[2022-10-27 16:57:00,014: INFO/MainProcess] Task users.tasks.timing[328e76fc-c58c-485a-b087-14547a1b0b70] received
+[2022-10-27 16:57:00,023: INFO/ForkPoolWorker-4] Task users.tasks.timing[328e76fc-c58c-485a-b087-14547a1b0b70] succeeded in 0.0034119999982067384s: '发送成功'
+[2022-10-27 16:58:00,019: INFO/MainProcess] Task users.tasks.timing[33a873d7-87e1-4d7b-8542-0bc522517b33] received
+[2022-10-27 16:58:00,026: INFO/ForkPoolWorker-4] Task users.tasks.timing[33a873d7-87e1-4d7b-8542-0bc522517b33] succeeded in 0.002714800000831019s: '发送成功'
+[2022-10-27 16:59:00,009: INFO/MainProcess] Task users.tasks.timing[5c6d7850-e3c5-4f86-9f2b-897ece4b1533] received
+[2022-10-27 16:59:00,014: INFO/ForkPoolWorker-4] Task users.tasks.timing[5c6d7850-e3c5-4f86-9f2b-897ece4b1533] succeeded in 0.002765899997029919s: '发送成功'
+[2022-10-27 17:00:00,007: INFO/MainProcess] Task users.tasks.timing[67d8ebdf-f867-40d1-b184-4956e2eca2c9] received
+[2022-10-27 17:00:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[67d8ebdf-f867-40d1-b184-4956e2eca2c9] succeeded in 0.0012505000049714s: '发送成功'
+[2022-10-27 17:01:00,007: INFO/MainProcess] Task users.tasks.timing[906886a1-ac8e-48e4-aa21-f7afc32bd1a3] received
+[2022-10-27 17:01:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[906886a1-ac8e-48e4-aa21-f7afc32bd1a3] succeeded in 0.0028920999975525774s: '发送成功'
+[2022-10-27 17:02:00,008: INFO/MainProcess] Task users.tasks.timing[fe86641c-6b23-4d06-a8e0-1eb129204f0e] received
+[2022-10-27 17:02:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[fe86641c-6b23-4d06-a8e0-1eb129204f0e] succeeded in 0.0016524000020581298s: '发送成功'
+[2022-10-27 17:03:00,012: INFO/MainProcess] Task users.tasks.timing[88e560bb-807f-4422-8e95-223112ac553a] received
+[2022-10-27 17:03:00,016: INFO/ForkPoolWorker-4] Task users.tasks.timing[88e560bb-807f-4422-8e95-223112ac553a] succeeded in 0.003125499999441672s: '发送成功'
+[2022-10-27 17:04:00,010: INFO/MainProcess] Task users.tasks.timing[1d29aa31-152e-4cb7-a062-e5abe8255014] received
+[2022-10-27 17:04:00,016: INFO/ForkPoolWorker-4] Task users.tasks.timing[1d29aa31-152e-4cb7-a062-e5abe8255014] succeeded in 0.0037723999994341284s: '发送成功'
+[2022-10-27 17:05:00,005: INFO/MainProcess] Task users.tasks.timing[52b5630f-e057-4047-8557-dd648f367399] received
+[2022-10-27 17:05:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[52b5630f-e057-4047-8557-dd648f367399] succeeded in 0.002067299996269867s: '发送成功'
+[2022-10-27 17:06:00,012: INFO/MainProcess] Task users.tasks.timing[66d4a7a2-1f97-4f54-bcb4-8f8762312a4d] received
+[2022-10-27 17:06:00,017: INFO/ForkPoolWorker-4] Task users.tasks.timing[66d4a7a2-1f97-4f54-bcb4-8f8762312a4d] succeeded in 0.002676100004464388s: '发送成功'
+[2022-10-27 17:07:00,009: INFO/MainProcess] Task users.tasks.timing[d206295f-e150-4e82-9805-ba785646975f] received
+[2022-10-27 17:07:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[d206295f-e150-4e82-9805-ba785646975f] succeeded in 0.0015808000025572255s: '发送成功'
+[2022-10-27 17:08:00,010: INFO/MainProcess] Task users.tasks.timing[e4a7d96c-91dc-4c91-ad32-5c8bcf7ab627] received
+[2022-10-27 17:08:00,014: INFO/ForkPoolWorker-4] Task users.tasks.timing[e4a7d96c-91dc-4c91-ad32-5c8bcf7ab627] succeeded in 0.001612500003830064s: '发送成功'
+[2022-10-27 17:09:00,007: INFO/MainProcess] Task users.tasks.timing[4c3e3603-29d9-42bf-af1c-9e8c435b07d3] received
+[2022-10-27 17:09:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[4c3e3603-29d9-42bf-af1c-9e8c435b07d3] succeeded in 0.002701999997952953s: '发送成功'
+[2022-10-27 17:10:00,005: INFO/MainProcess] Task users.tasks.timing[f5adcc61-761b-4bee-9918-c22534169549] received
+[2022-10-27 17:10:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[f5adcc61-761b-4bee-9918-c22534169549] succeeded in 0.001065500000549946s: '发送成功'
+[2022-10-27 17:11:00,005: INFO/MainProcess] Task users.tasks.timing[28debda9-25f2-4b41-a556-7a7260b876de] received
+[2022-10-27 17:11:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[28debda9-25f2-4b41-a556-7a7260b876de] succeeded in 0.0021646000022883527s: '发送成功'
+[2022-10-27 17:12:00,012: INFO/MainProcess] Task users.tasks.timing[fe0fd81a-241f-44a8-8a23-d5362ea3b5de] received
+[2022-10-27 17:12:00,017: INFO/ForkPoolWorker-4] Task users.tasks.timing[fe0fd81a-241f-44a8-8a23-d5362ea3b5de] succeeded in 0.002549700002418831s: '发送成功'
+[2022-10-27 17:13:00,028: INFO/MainProcess] Task users.tasks.timing[142f6f47-8474-4f80-b7c4-123ebf4d28d9] received
+[2022-10-27 17:13:00,031: INFO/ForkPoolWorker-4] Task users.tasks.timing[142f6f47-8474-4f80-b7c4-123ebf4d28d9] succeeded in 0.0013404999990598299s: '发送成功'
+[2022-10-27 17:14:00,011: INFO/MainProcess] Task users.tasks.timing[6b010abd-a224-43ae-ae7c-4e5d3d89eca3] received
+[2022-10-27 17:14:00,018: INFO/ForkPoolWorker-4] Task users.tasks.timing[6b010abd-a224-43ae-ae7c-4e5d3d89eca3] succeeded in 0.003935799999453593s: '发送成功'
+[2022-10-27 17:15:00,005: INFO/MainProcess] Task users.tasks.timing[3c46b06d-f21f-4dc1-baa9-8f7bed579605] received
+[2022-10-27 17:15:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[3c46b06d-f21f-4dc1-baa9-8f7bed579605] succeeded in 0.0024663000003783964s: '发送成功'
+[2022-10-27 17:16:00,004: INFO/MainProcess] Task users.tasks.timing[cbb8a42d-4b2d-4a0b-b716-24047ace4a3e] received
+[2022-10-27 17:16:00,007: INFO/ForkPoolWorker-4] Task users.tasks.timing[cbb8a42d-4b2d-4a0b-b716-24047ace4a3e] succeeded in 0.0015843000001041219s: '发送成功'
+[2022-10-27 17:17:00,011: INFO/MainProcess] Task users.tasks.timing[d47f2cb8-3849-46cd-a499-cc576344c5ae] received
+[2022-10-27 17:17:00,014: INFO/ForkPoolWorker-4] Task users.tasks.timing[d47f2cb8-3849-46cd-a499-cc576344c5ae] succeeded in 0.001233199996931944s: '发送成功'
+[2022-10-27 17:18:00,006: INFO/MainProcess] Task users.tasks.timing[1e7a5652-4623-44d2-b38e-730c1f1c7b21] received
+[2022-10-27 17:18:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[1e7a5652-4623-44d2-b38e-730c1f1c7b21] succeeded in 0.0021890999996685423s: '发送成功'
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-27 17:18:16
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7f6d6ba72a70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-27 17:18:16,642: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 17:18:16,643: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 17:18:16,643: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 17:18:16,644: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 17:18:16,644: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 17:18:16,644: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 17:18:16,644: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 17:18:16,644: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-27 17:18:16,644: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-27 17:18:17,164: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-27 17:18:17,178: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-27 17:18:18,210: INFO/MainProcess] mingle: all alone
+[2022-10-27 17:18:18,231: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-27 17:18:18,231: INFO/MainProcess] celery@worker_default ready.
+[2022-10-27 17:19:00,027: INFO/MainProcess] Task users.tasks.timing[fabcf93b-05ee-4d0e-8662-3c7b49fd921c] received
+[2022-10-27 17:19:00,036: INFO/ForkPoolWorker-4] Task users.tasks.timing[fabcf93b-05ee-4d0e-8662-3c7b49fd921c] succeeded in 0.006804500000725966s: '发送成功'
+[2022-10-27 17:20:00,042: INFO/MainProcess] Task users.tasks.timing[6a66b3f1-b3d0-49d0-bd8a-2c842ca3e703] received
+[2022-10-27 17:20:00,064: INFO/ForkPoolWorker-4] Task users.tasks.timing[6a66b3f1-b3d0-49d0-bd8a-2c842ca3e703] succeeded in 0.0073998000007122755s: '发送成功'
+[2022-10-27 17:21:00,019: INFO/MainProcess] Task users.tasks.timing[9280660a-b8ca-4072-8d04-a67fdfe266ff] received
+[2022-10-27 17:21:00,034: INFO/ForkPoolWorker-4] Task users.tasks.timing[9280660a-b8ca-4072-8d04-a67fdfe266ff] succeeded in 0.007081900002958719s: '发送成功'
+[2022-10-27 17:22:00,009: INFO/MainProcess] Task users.tasks.timing[eecf6983-c761-4126-8cd0-5dc83d5a6635] received
+[2022-10-27 17:22:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[eecf6983-c761-4126-8cd0-5dc83d5a6635] succeeded in 0.001535299998067785s: '发送成功'
+[2022-10-27 17:23:00,008: INFO/MainProcess] Task users.tasks.timing[96796052-f696-46cf-8af5-d65f8dd21a84] received
+[2022-10-27 17:23:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[96796052-f696-46cf-8af5-d65f8dd21a84] succeeded in 0.0017117999959737062s: '发送成功'
+[2022-10-27 17:24:00,009: INFO/MainProcess] Task users.tasks.timing[24fdda32-c389-448d-9156-58a222dee09d] received
+[2022-10-27 17:24:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[24fdda32-c389-448d-9156-58a222dee09d] succeeded in 0.0033903000003192574s: '发送成功'
+[2022-10-27 17:25:00,009: INFO/MainProcess] Task users.tasks.timing[a89a6840-6dd5-43e2-8fda-ab88f4409010] received
+[2022-10-27 17:25:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[a89a6840-6dd5-43e2-8fda-ab88f4409010] succeeded in 0.0035908999998355284s: '发送成功'
+[2022-10-27 17:26:00,014: INFO/MainProcess] Task users.tasks.timing[168b2417-8cbf-47b0-9f91-c212038e6fdb] received
+[2022-10-27 17:26:00,020: INFO/ForkPoolWorker-4] Task users.tasks.timing[168b2417-8cbf-47b0-9f91-c212038e6fdb] succeeded in 0.003511299997626338s: '发送成功'
+[2022-10-27 17:27:00,007: INFO/MainProcess] Task users.tasks.timing[21146673-b226-44ee-b9de-77951250b4a9] received
+[2022-10-27 17:27:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[21146673-b226-44ee-b9de-77951250b4a9] succeeded in 0.0030526999980793335s: '发送成功'
+[2022-10-27 17:28:00,018: INFO/MainProcess] Task users.tasks.timing[566c3cba-ccc7-4ecc-b5d2-a1602a022ed5] received
+[2022-10-27 17:28:00,023: INFO/ForkPoolWorker-4] Task users.tasks.timing[566c3cba-ccc7-4ecc-b5d2-a1602a022ed5] succeeded in 0.0029550000035669655s: '发送成功'
+[2022-10-27 17:29:00,006: INFO/MainProcess] Task users.tasks.timing[89ff862a-d5b8-414d-80e3-8a4bacc7dacf] received
+[2022-10-27 17:29:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[89ff862a-d5b8-414d-80e3-8a4bacc7dacf] succeeded in 0.0026436000043759122s: '发送成功'
+[2022-10-27 17:30:00,019: INFO/MainProcess] Task users.tasks.timing[a9b0cfb9-8e78-4c97-94df-7e295057879d] received
+[2022-10-27 17:30:00,057: INFO/ForkPoolWorker-4] Task users.tasks.timing[a9b0cfb9-8e78-4c97-94df-7e295057879d] succeeded in 0.032705099998565856s: '发送成功'
+[2022-10-27 17:31:00,019: INFO/MainProcess] Task users.tasks.timing[94cd61f2-8da6-4ab8-aa18-00242eba570f] received
+[2022-10-27 17:31:00,028: INFO/ForkPoolWorker-4] Task users.tasks.timing[94cd61f2-8da6-4ab8-aa18-00242eba570f] succeeded in 0.006113499999628402s: '发送成功'
+[2022-10-27 17:32:00,024: INFO/MainProcess] Task users.tasks.timing[19bece89-a132-473d-a3bf-6bd5509cd885] received
+[2022-10-27 17:32:00,027: INFO/ForkPoolWorker-4] Task users.tasks.timing[19bece89-a132-473d-a3bf-6bd5509cd885] succeeded in 0.0016352000020560808s: '发送成功'
+[2022-10-27 17:33:00,031: INFO/MainProcess] Task users.tasks.timing[e57fe2d5-773b-496f-beb4-e87597d7c8e3] received
+[2022-10-27 17:33:00,120: INFO/ForkPoolWorker-4] Task users.tasks.timing[e57fe2d5-773b-496f-beb4-e87597d7c8e3] succeeded in 0.04769310000119731s: '发送成功'
+[2022-10-27 17:34:00,027: INFO/MainProcess] Task users.tasks.timing[f1cf6db9-abdb-4b94-94d3-f73e51b4b46f] received
+[2022-10-27 17:34:00,038: INFO/ForkPoolWorker-4] Task users.tasks.timing[f1cf6db9-abdb-4b94-94d3-f73e51b4b46f] succeeded in 0.0018958000000566244s: '发送成功'
+[2022-10-27 17:35:00,009: INFO/MainProcess] Task users.tasks.timing[a8a841de-bc0f-4c16-9f31-9f62464c3e26] received
+[2022-10-27 17:35:00,014: INFO/ForkPoolWorker-4] Task users.tasks.timing[a8a841de-bc0f-4c16-9f31-9f62464c3e26] succeeded in 0.0033427999951527454s: '发送成功'
+[2022-10-27 17:36:00,017: INFO/MainProcess] Task users.tasks.timing[70b483fb-c30d-4352-b3e2-e58fac1ae3b2] received
+[2022-10-27 17:36:00,027: INFO/ForkPoolWorker-4] Task users.tasks.timing[70b483fb-c30d-4352-b3e2-e58fac1ae3b2] succeeded in 0.0048647000003256835s: '发送成功'
+[2022-10-27 17:37:00,013: INFO/MainProcess] Task users.tasks.timing[0ab77a6f-a3b4-4e1f-a605-0c80eb3dd1be] received
+[2022-10-27 17:37:00,021: INFO/ForkPoolWorker-4] Task users.tasks.timing[0ab77a6f-a3b4-4e1f-a605-0c80eb3dd1be] succeeded in 0.004651399998692796s: '发送成功'
+[2022-10-27 17:38:00,009: INFO/MainProcess] Task users.tasks.timing[97d73f35-c8e3-4764-a6ab-35f5fcd2c5aa] received
+[2022-10-27 17:38:00,014: INFO/ForkPoolWorker-4] Task users.tasks.timing[97d73f35-c8e3-4764-a6ab-35f5fcd2c5aa] succeeded in 0.002167300001019612s: '发送成功'
+[2022-10-27 17:39:00,021: INFO/MainProcess] Task users.tasks.timing[7e156f14-b96c-4380-b0f7-eee501745a9f] received
+[2022-10-27 17:39:00,033: INFO/ForkPoolWorker-4] Task users.tasks.timing[7e156f14-b96c-4380-b0f7-eee501745a9f] succeeded in 0.004627400005119853s: '发送成功'
+[2022-10-27 17:40:00,010: INFO/MainProcess] Task users.tasks.timing[23244bc2-2bed-4cb1-b491-07630e48e17e] received
+[2022-10-27 17:40:00,023: INFO/ForkPoolWorker-4] Task users.tasks.timing[23244bc2-2bed-4cb1-b491-07630e48e17e] succeeded in 0.006469300002208911s: '发送成功'
+[2022-10-27 17:41:00,006: INFO/MainProcess] Task users.tasks.timing[f13afb75-0708-4b8d-a49f-d4205d4d9a25] received
+[2022-10-27 17:41:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[f13afb75-0708-4b8d-a49f-d4205d4d9a25] succeeded in 0.0018683999951463193s: '发送成功'
+[2022-10-27 17:42:00,010: INFO/MainProcess] Task users.tasks.timing[12db410b-0c02-47a1-9958-1b44cf7c4669] received
+[2022-10-27 17:42:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[12db410b-0c02-47a1-9958-1b44cf7c4669] succeeded in 0.0013321999940671958s: '发送成功'
+[2022-10-27 17:43:00,009: INFO/MainProcess] Task users.tasks.timing[56031011-f4ae-4694-afdc-3f48795a9047] received
+[2022-10-27 17:43:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[56031011-f4ae-4694-afdc-3f48795a9047] succeeded in 0.0013685999947483651s: '发送成功'
+[2022-10-27 17:44:00,011: INFO/MainProcess] Task users.tasks.timing[800cbe30-6446-4b21-bcff-491a64c8dd1d] received
+[2022-10-27 17:44:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[800cbe30-6446-4b21-bcff-491a64c8dd1d] succeeded in 0.001964299997780472s: '发送成功'
+[2022-10-27 17:45:00,013: INFO/MainProcess] Task users.tasks.timing[e3bc8568-adf3-46ee-8c70-0a31f692b9b0] received
+[2022-10-27 17:45:00,029: INFO/ForkPoolWorker-4] Task users.tasks.timing[e3bc8568-adf3-46ee-8c70-0a31f692b9b0] succeeded in 0.007493099998100661s: '发送成功'
+[2022-10-27 17:46:00,005: INFO/MainProcess] Task users.tasks.timing[a1d10248-a55b-4098-b16a-26626e764f78] received
+[2022-10-27 17:46:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[a1d10248-a55b-4098-b16a-26626e764f78] succeeded in 0.0044932000018889084s: '发送成功'
+[2022-10-27 17:47:00,006: INFO/MainProcess] Task users.tasks.timing[0867ffc2-faf1-4ffa-ab3a-206fd98583e3] received
+[2022-10-27 17:47:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[0867ffc2-faf1-4ffa-ab3a-206fd98583e3] succeeded in 0.0025198000003001653s: '发送成功'
+[2022-10-27 17:48:00,009: INFO/MainProcess] Task users.tasks.timing[97cffeb4-673d-43ba-bf1c-3b7812c8d870] received
+[2022-10-27 17:48:00,014: INFO/ForkPoolWorker-4] Task users.tasks.timing[97cffeb4-673d-43ba-bf1c-3b7812c8d870] succeeded in 0.0027436000018496998s: '发送成功'
+[2022-10-27 17:49:00,017: INFO/MainProcess] Task users.tasks.timing[a976b53e-1793-4493-bfe8-791eedab51c0] received
+[2022-10-27 17:49:00,020: INFO/ForkPoolWorker-4] Task users.tasks.timing[a976b53e-1793-4493-bfe8-791eedab51c0] succeeded in 0.0015991999971447513s: '发送成功'
+[2022-10-27 17:50:00,009: INFO/MainProcess] Task users.tasks.timing[b963b05e-3c7f-40df-8384-870d6794112e] received
+[2022-10-27 17:50:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[b963b05e-3c7f-40df-8384-870d6794112e] succeeded in 0.0017960999975912273s: '发送成功'
+[2022-10-27 17:51:00,010: INFO/MainProcess] Task users.tasks.timing[fcf1953d-d723-46f3-bab9-0dfaef4becc8] received
+[2022-10-27 17:51:00,014: INFO/ForkPoolWorker-4] Task users.tasks.timing[fcf1953d-d723-46f3-bab9-0dfaef4becc8] succeeded in 0.0016554999965592287s: '发送成功'
+[2022-10-27 17:52:00,010: INFO/MainProcess] Task users.tasks.timing[edc3bcee-b551-4f2a-b2d0-1f4162a9c461] received
+[2022-10-27 17:52:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[edc3bcee-b551-4f2a-b2d0-1f4162a9c461] succeeded in 0.0019366999986232258s: '发送成功'
+[2022-10-27 17:53:00,008: INFO/MainProcess] Task users.tasks.timing[fde94d93-2702-448b-ae9a-12087789cdc7] received
+[2022-10-27 17:53:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[fde94d93-2702-448b-ae9a-12087789cdc7] succeeded in 0.0023388999979943037s: '发送成功'
+[2022-10-27 17:54:00,010: INFO/MainProcess] Task users.tasks.timing[7309c437-0b25-46e0-883c-3f0fb5dc4d9a] received
+[2022-10-27 17:54:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[7309c437-0b25-46e0-883c-3f0fb5dc4d9a] succeeded in 0.0019881999978679232s: '发送成功'
+[2022-10-27 17:55:00,018: INFO/MainProcess] Task users.tasks.timing[34940188-b08b-4eda-8c33-c5b40119af8e] received
+[2022-10-27 17:55:00,037: INFO/ForkPoolWorker-4] Task users.tasks.timing[34940188-b08b-4eda-8c33-c5b40119af8e] succeeded in 0.01016229999368079s: '发送成功'
+[2022-10-27 17:56:00,060: INFO/MainProcess] Task users.tasks.timing[a55a3fe8-23f8-4cf3-a4a8-15e613c5a324] received
+[2022-10-27 17:56:00,091: INFO/ForkPoolWorker-4] Task users.tasks.timing[a55a3fe8-23f8-4cf3-a4a8-15e613c5a324] succeeded in 0.01111720000335481s: '发送成功'
+[2022-10-27 17:57:00,009: INFO/MainProcess] Task users.tasks.timing[168a051f-b150-49cc-9b27-94ed210a3634] received
+[2022-10-27 17:57:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[168a051f-b150-49cc-9b27-94ed210a3634] succeeded in 0.0014931999903637916s: '发送成功'
+[2022-10-27 17:58:00,008: INFO/MainProcess] Task users.tasks.timing[bff368f4-8891-4236-a857-e2e720cbc645] received
+[2022-10-27 17:58:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[bff368f4-8891-4236-a857-e2e720cbc645] succeeded in 0.0021444000012706965s: '发送成功'
+[2022-10-27 17:59:00,016: INFO/MainProcess] Task users.tasks.timing[b0b3bf4d-f216-4124-afd0-34d1c8bd4535] received
+[2022-10-27 17:59:00,023: INFO/ForkPoolWorker-4] Task users.tasks.timing[b0b3bf4d-f216-4124-afd0-34d1c8bd4535] succeeded in 0.003522799990605563s: '发送成功'
+[2022-10-27 18:00:00,008: INFO/MainProcess] Task users.tasks.timing[55f220be-6ec6-4a15-9cdc-4ace19747779] received
+[2022-10-27 18:00:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[55f220be-6ec6-4a15-9cdc-4ace19747779] succeeded in 0.00438919999578502s: '发送成功'
+[2022-10-27 18:01:00,007: INFO/MainProcess] Task users.tasks.timing[31aa5379-c656-4c50-a4a3-087b71ed43e2] received
+[2022-10-27 18:01:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[31aa5379-c656-4c50-a4a3-087b71ed43e2] succeeded in 0.0030294000025605783s: '发送成功'
+[2022-10-27 18:02:00,007: INFO/MainProcess] Task users.tasks.timing[a2992888-acd4-4ace-ae52-edc837d45671] received
+[2022-10-27 18:02:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[a2992888-acd4-4ace-ae52-edc837d45671] succeeded in 0.0026362999924458563s: '发送成功'
+[2022-10-27 18:02:49,050: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-27 18:03:00,077: INFO/MainProcess] Task users.tasks.timing[f2a1bfb8-5758-495f-b482-f5014fd9b097] received
+[2022-10-27 18:03:00,138: INFO/ForkPoolWorker-4] Task users.tasks.timing[f2a1bfb8-5758-495f-b482-f5014fd9b097] succeeded in 0.023697199998423457s: '发送成功'
+[2022-10-27 18:06:21,239: INFO/MainProcess] Task users.tasks.timing[6969948e-3eff-4769-90a3-275f6f848d85] received
+[2022-10-27 18:06:21,837: INFO/ForkPoolWorker-4] Task users.tasks.timing[6969948e-3eff-4769-90a3-275f6f848d85] succeeded in 0.34335350000765175s: '发送成功'
+[2022-10-27 18:36:12,767: INFO/MainProcess] Task users.tasks.timing[e6754fb0-412d-44ea-98df-6c17b7cad929] received
+[2022-10-27 18:36:12,770: INFO/ForkPoolWorker-4] Task users.tasks.timing[e6754fb0-412d-44ea-98df-6c17b7cad929] succeeded in 0.0021587999945040792s: '发送成功'
+[2022-10-27 19:08:38,776: INFO/MainProcess] Task users.tasks.timing[ba769cec-39f7-4fff-961b-51d4d6473724] received
+[2022-10-27 19:08:38,788: INFO/ForkPoolWorker-4] Task users.tasks.timing[ba769cec-39f7-4fff-961b-51d4d6473724] succeeded in 0.010012399987317622s: '发送成功'
+[2022-10-27 19:09:00,286: INFO/MainProcess] Task users.tasks.timing[fa0177fc-4407-41cb-95d9-af7ecf90f412] received
+[2022-10-27 19:09:00,372: INFO/ForkPoolWorker-4] Task users.tasks.timing[fa0177fc-4407-41cb-95d9-af7ecf90f412] succeeded in 0.05147410000790842s: '发送成功'
+[2022-10-27 19:09:27,771: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-27 20:04:27,744: INFO/MainProcess] Task users.tasks.timing[5302436b-1946-4898-ab64-7e0ae6b34273] received
+[2022-10-27 20:04:27,769: INFO/ForkPoolWorker-4] Task users.tasks.timing[5302436b-1946-4898-ab64-7e0ae6b34273] succeeded in 0.010993900010362267s: '发送成功'
+[2022-10-27 20:04:42,814: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-27 20:04:56,307: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-27 22:50:32,730: WARNING/MainProcess] Substantial drift from celery@worker_send_msg may mean clocks are out of sync.  Current drift is 9936 seconds.  [orig: 2022-10-27 22:50:32.678833 recv: 2022-10-27 20:04:56.067093]
+[2022-10-27 22:50:33,094: INFO/MainProcess] Task users.tasks.timing[14410d42-55d7-434d-9dfa-6f97e28dd035] received
+[2022-10-27 22:50:33,138: INFO/ForkPoolWorker-4] Task users.tasks.timing[14410d42-55d7-434d-9dfa-6f97e28dd035] succeeded in 0.016030600003432482s: '发送成功'
+[2022-10-27 22:50:46,970: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-27 22:51:00,062: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-27 22:51:00,257: INFO/MainProcess] Task users.tasks.timing[fc616869-573e-43aa-abdd-aaf1efeb1ea1] received
+[2022-10-27 22:51:00,304: INFO/ForkPoolWorker-4] Task users.tasks.timing[fc616869-573e-43aa-abdd-aaf1efeb1ea1] succeeded in 0.019690400004037656s: '发送成功'
+[2022-10-28 02:26:50,771: INFO/MainProcess] Task users.tasks.timing[fe8bda88-81ed-4a86-9894-0bbb617cea90] received
+[2022-10-28 02:26:50,774: INFO/ForkPoolWorker-4] Task users.tasks.timing[fe8bda88-81ed-4a86-9894-0bbb617cea90] succeeded in 0.0012102000036975369s: '发送成功'
+[2022-10-28 02:26:58,390: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 02:27:00,037: INFO/MainProcess] Task users.tasks.timing[0bc7afb2-e623-4853-9407-663a35264e98] received
+[2022-10-28 02:27:00,066: INFO/ForkPoolWorker-4] Task users.tasks.timing[0bc7afb2-e623-4853-9407-663a35264e98] succeeded in 0.013290199989569373s: '发送成功'
+[2022-10-28 04:15:11,926: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 04:15:13,443: INFO/MainProcess] Task users.tasks.timing[262bea38-ef4c-461d-94d5-8a483a42da0e] received
+[2022-10-28 04:15:13,446: INFO/ForkPoolWorker-4] Task users.tasks.timing[262bea38-ef4c-461d-94d5-8a483a42da0e] succeeded in 0.0013325000036275014s: '发送成功'
+[2022-10-28 04:15:43,926: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 06:03:03,842: INFO/MainProcess] Task users.tasks.timing[3ae68594-0908-4e08-a40f-f85090133f97] received
+[2022-10-28 06:03:03,879: INFO/ForkPoolWorker-4] Task users.tasks.timing[3ae68594-0908-4e08-a40f-f85090133f97] succeeded in 0.01719200001389254s: '发送成功'
+[2022-10-28 06:03:16,371: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 09:12:40,261: INFO/MainProcess] Task users.tasks.timing[067dded4-ed36-4da1-9a76-1458b8e67501] received
+[2022-10-28 09:12:40,336: INFO/ForkPoolWorker-4] Task users.tasks.timing[067dded4-ed36-4da1-9a76-1458b8e67501] succeeded in 0.0413228999968851s: '发送成功'
+[2022-10-28 09:13:00,005: INFO/MainProcess] Task users.tasks.timing[8a57d5f2-92c6-4dd4-9c17-69f6e44a3ecc] received
+[2022-10-28 09:13:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[8a57d5f2-92c6-4dd4-9c17-69f6e44a3ecc] succeeded in 0.001332100000581704s: '发送成功'
+[2022-10-28 09:14:00,056: INFO/MainProcess] Task users.tasks.timing[95254b36-d963-43e9-96d3-450d1db6520a] received
+[2022-10-28 09:14:00,061: INFO/ForkPoolWorker-4] Task users.tasks.timing[95254b36-d963-43e9-96d3-450d1db6520a] succeeded in 0.001215800002682954s: '发送成功'
+[2022-10-28 09:15:00,017: INFO/MainProcess] Task users.tasks.timing[6a3b5f63-0c42-40e7-a966-0918c51e7932] received
+[2022-10-28 09:15:00,030: INFO/ForkPoolWorker-4] Task users.tasks.timing[6a3b5f63-0c42-40e7-a966-0918c51e7932] succeeded in 0.0015672000008635223s: '发送成功'
+[2022-10-28 09:16:00,040: INFO/MainProcess] Task users.tasks.timing[bcb9a2cd-dabe-4667-9e40-fe5d3a13449f] received
+[2022-10-28 09:16:00,046: INFO/ForkPoolWorker-4] Task users.tasks.timing[bcb9a2cd-dabe-4667-9e40-fe5d3a13449f] succeeded in 0.001989500000490807s: '发送成功'
+[2022-10-28 09:17:00,008: INFO/MainProcess] Task users.tasks.timing[b3aad02e-534a-433b-bfc7-dedd85d546a1] received
+[2022-10-28 09:17:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[b3aad02e-534a-433b-bfc7-dedd85d546a1] succeeded in 0.0015024999884190038s: '发送成功'
+[2022-10-28 09:18:00,013: INFO/MainProcess] Task users.tasks.timing[09c3e8cb-1ff9-4796-821d-32e21db3cd0f] received
+[2022-10-28 09:18:00,018: INFO/ForkPoolWorker-4] Task users.tasks.timing[09c3e8cb-1ff9-4796-821d-32e21db3cd0f] succeeded in 0.002854299993487075s: '发送成功'
+[2022-10-28 09:19:00,022: INFO/MainProcess] Task users.tasks.timing[cd28675f-9708-4999-b534-c83fd7017bb6] received
+[2022-10-28 09:19:00,024: INFO/ForkPoolWorker-4] Task users.tasks.timing[cd28675f-9708-4999-b534-c83fd7017bb6] succeeded in 0.0016408000083174556s: '发送成功'
+[2022-10-28 09:20:00,013: INFO/MainProcess] Task users.tasks.timing[f88edbdd-fcb1-43c0-8a03-e2139fd515a5] received
+[2022-10-28 09:20:00,017: INFO/ForkPoolWorker-4] Task users.tasks.timing[f88edbdd-fcb1-43c0-8a03-e2139fd515a5] succeeded in 0.0014413999888347462s: '发送成功'
+[2022-10-28 09:21:00,015: INFO/MainProcess] Task users.tasks.timing[8f5f1223-04bc-425d-ac8b-0df5e9e30b0c] received
+[2022-10-28 09:21:00,021: INFO/ForkPoolWorker-4] Task users.tasks.timing[8f5f1223-04bc-425d-ac8b-0df5e9e30b0c] succeeded in 0.0018857999966712669s: '发送成功'
+[2022-10-28 09:22:00,008: INFO/MainProcess] Task users.tasks.timing[34be7ced-b817-488b-a821-8fa4a72c4ca4] received
+[2022-10-28 09:22:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[34be7ced-b817-488b-a821-8fa4a72c4ca4] succeeded in 0.001931099992361851s: '发送成功'
+[2022-10-28 09:23:00,008: INFO/MainProcess] Task users.tasks.timing[77004cc0-fa07-4418-8d8e-fbef6911e380] received
+[2022-10-28 09:23:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[77004cc0-fa07-4418-8d8e-fbef6911e380] succeeded in 0.0016602999967290089s: '发送成功'
+[2022-10-28 09:24:00,011: INFO/MainProcess] Task users.tasks.timing[0309e7fd-c239-4dc4-b8aa-d661e1914fa6] received
+[2022-10-28 09:24:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[0309e7fd-c239-4dc4-b8aa-d661e1914fa6] succeeded in 0.0024372000043513253s: '发送成功'
+[2022-10-28 09:25:00,013: INFO/MainProcess] Task users.tasks.timing[5e5a0529-a1b8-4432-8dbf-ea4d264f0d80] received
+[2022-10-28 09:25:00,017: INFO/ForkPoolWorker-4] Task users.tasks.timing[5e5a0529-a1b8-4432-8dbf-ea4d264f0d80] succeeded in 0.0015480000001844019s: '发送成功'
+[2022-10-28 09:26:00,024: INFO/MainProcess] Task users.tasks.timing[6b2b1a76-3c2b-4cf5-963d-ecc1abbfb731] received
+[2022-10-28 09:26:00,027: INFO/ForkPoolWorker-4] Task users.tasks.timing[6b2b1a76-3c2b-4cf5-963d-ecc1abbfb731] succeeded in 0.00141859998984728s: '发送成功'
+[2022-10-28 09:27:00,009: INFO/MainProcess] Task users.tasks.timing[b2e79203-d598-4d9f-9e23-5977decae29f] received
+[2022-10-28 09:27:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[b2e79203-d598-4d9f-9e23-5977decae29f] succeeded in 0.0019262999994680285s: '发送成功'
+[2022-10-28 09:28:00,013: INFO/MainProcess] Task users.tasks.timing[e1c58ae9-f8d1-4c93-9ecb-122f9ad13f6e] received
+[2022-10-28 09:28:00,019: INFO/ForkPoolWorker-4] Task users.tasks.timing[e1c58ae9-f8d1-4c93-9ecb-122f9ad13f6e] succeeded in 0.005289499997161329s: '发送成功'
+[2022-10-28 09:29:00,007: INFO/MainProcess] Task users.tasks.timing[977c329d-9ec8-4f3f-aa6d-02f546488757] received
+[2022-10-28 09:29:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[977c329d-9ec8-4f3f-aa6d-02f546488757] succeeded in 0.002125200000591576s: '发送成功'
+[2022-10-28 09:30:00,008: INFO/MainProcess] Task users.tasks.timing[b1d24dac-cfc9-4601-b707-28c0926e1b24] received
+[2022-10-28 09:30:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[b1d24dac-cfc9-4601-b707-28c0926e1b24] succeeded in 0.001645599986659363s: '发送成功'
+[2022-10-28 09:31:00,005: INFO/MainProcess] Task users.tasks.timing[49f9f353-8dc8-4f14-8ea7-e2e04aa54dbe] received
+[2022-10-28 09:31:00,008: INFO/ForkPoolWorker-4] Task users.tasks.timing[49f9f353-8dc8-4f14-8ea7-e2e04aa54dbe] succeeded in 0.002200599992647767s: '发送成功'
+[2022-10-28 09:32:00,031: INFO/MainProcess] Task users.tasks.timing[b9578ca0-ebe2-4de8-bf94-a81cb3ce9f46] received
+[2022-10-28 09:32:00,035: INFO/ForkPoolWorker-4] Task users.tasks.timing[b9578ca0-ebe2-4de8-bf94-a81cb3ce9f46] succeeded in 0.00234759999148082s: '发送成功'
+[2022-10-28 09:33:00,123: INFO/MainProcess] Task users.tasks.timing[acb68e0d-d3d4-4c40-a149-149b4a36c9fb] received
+[2022-10-28 09:33:00,136: INFO/ForkPoolWorker-4] Task users.tasks.timing[acb68e0d-d3d4-4c40-a149-149b4a36c9fb] succeeded in 0.0026874000031966716s: '发送成功'
+[2022-10-28 09:34:00,017: INFO/MainProcess] Task users.tasks.timing[b06b50f3-cd4c-4d39-a8e9-81661d0bf69f] received
+[2022-10-28 09:34:00,024: INFO/ForkPoolWorker-4] Task users.tasks.timing[b06b50f3-cd4c-4d39-a8e9-81661d0bf69f] succeeded in 0.0014442999963648617s: '发送成功'
+[2022-10-28 09:35:00,007: INFO/MainProcess] Task users.tasks.timing[d415756c-3325-4885-9c92-e5f9d3503a9a] received
+[2022-10-28 09:35:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[d415756c-3325-4885-9c92-e5f9d3503a9a] succeeded in 0.0016550000000279397s: '发送成功'
+[2022-10-28 09:36:00,017: INFO/MainProcess] Task users.tasks.timing[e7e5fda9-47f7-46aa-83ae-9771a93b481c] received
+[2022-10-28 09:36:00,041: INFO/ForkPoolWorker-4] Task users.tasks.timing[e7e5fda9-47f7-46aa-83ae-9771a93b481c] succeeded in 0.011782000001403503s: '发送成功'
+[2022-10-28 09:37:00,006: INFO/MainProcess] Task users.tasks.timing[db0e854a-6857-46a0-9a97-640bab3b8983] received
+[2022-10-28 09:37:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[db0e854a-6857-46a0-9a97-640bab3b8983] succeeded in 0.002179300005082041s: '发送成功'
+[2022-10-28 09:38:00,029: INFO/MainProcess] Task users.tasks.timing[f46ad228-3b7d-4e25-8e27-3a3343d4ffb0] received
+[2022-10-28 09:38:00,067: INFO/ForkPoolWorker-4] Task users.tasks.timing[f46ad228-3b7d-4e25-8e27-3a3343d4ffb0] succeeded in 0.018602500000270084s: '发送成功'
+[2022-10-28 09:39:00,010: INFO/MainProcess] Task users.tasks.timing[b2975d27-eb7f-45f0-aba6-321c1a1a56ec] received
+[2022-10-28 09:39:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[b2975d27-eb7f-45f0-aba6-321c1a1a56ec] succeeded in 0.001793500006897375s: '发送成功'
+[2022-10-28 09:40:00,009: INFO/MainProcess] Task users.tasks.timing[e74cd008-c638-456e-9370-88e335a679fc] received
+[2022-10-28 09:40:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[e74cd008-c638-456e-9370-88e335a679fc] succeeded in 0.0015838999970583245s: '发送成功'
+[2022-10-28 09:41:00,006: INFO/MainProcess] Task users.tasks.timing[d6d7273b-158d-4d9b-8b48-801e27f12cd8] received
+[2022-10-28 09:41:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[d6d7273b-158d-4d9b-8b48-801e27f12cd8] succeeded in 0.0022044000070309266s: '发送成功'
+[2022-10-28 09:42:00,015: INFO/MainProcess] Task users.tasks.timing[4c8ca805-af81-4241-b1c5-7a2a9c8409c2] received
+[2022-10-28 09:42:00,021: INFO/ForkPoolWorker-4] Task users.tasks.timing[4c8ca805-af81-4241-b1c5-7a2a9c8409c2] succeeded in 0.0017592999938642606s: '发送成功'
+[2022-10-28 09:43:00,010: INFO/MainProcess] Task users.tasks.timing[1cbc90f8-c4f6-45b7-b244-7a0b4317d459] received
+[2022-10-28 09:43:00,035: INFO/ForkPoolWorker-4] Task users.tasks.timing[1cbc90f8-c4f6-45b7-b244-7a0b4317d459] succeeded in 0.020377699998789467s: '发送成功'
+[2022-10-28 09:44:00,008: INFO/MainProcess] Task users.tasks.timing[b2255d70-bf0b-485d-acdd-9799d6c8ffa0] received
+[2022-10-28 09:44:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[b2255d70-bf0b-485d-acdd-9799d6c8ffa0] succeeded in 0.0016019000031519681s: '发送成功'
+[2022-10-28 09:45:00,043: INFO/MainProcess] Task users.tasks.timing[f87a2da6-16de-4fea-8688-88ff5a504745] received
+[2022-10-28 09:45:00,057: INFO/ForkPoolWorker-4] Task users.tasks.timing[f87a2da6-16de-4fea-8688-88ff5a504745] succeeded in 0.0028221999964443967s: '发送成功'
+[2022-10-28 09:46:00,042: INFO/MainProcess] Task users.tasks.timing[e211a3ef-e7f4-4e8b-a806-d04b63b0943c] received
+[2022-10-28 09:46:00,086: INFO/ForkPoolWorker-4] Task users.tasks.timing[e211a3ef-e7f4-4e8b-a806-d04b63b0943c] succeeded in 0.024919499992392957s: '发送成功'
+[2022-10-28 09:47:00,006: INFO/MainProcess] Task users.tasks.timing[3191429c-34e7-46ad-bec4-f8cf32af6212] received
+[2022-10-28 09:47:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[3191429c-34e7-46ad-bec4-f8cf32af6212] succeeded in 0.001674799990723841s: '发送成功'
+[2022-10-28 09:48:00,010: INFO/MainProcess] Task users.tasks.timing[c3ab73a5-d63d-4ca2-b1a2-b064d68e8db9] received
+[2022-10-28 09:48:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[c3ab73a5-d63d-4ca2-b1a2-b064d68e8db9] succeeded in 0.0018835999944712967s: '发送成功'
+[2022-10-28 09:49:00,008: INFO/MainProcess] Task users.tasks.timing[3afd2d55-e967-4b64-ac10-3092b661b475] received
+[2022-10-28 09:49:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[3afd2d55-e967-4b64-ac10-3092b661b475] succeeded in 0.0010598999942885712s: '发送成功'
+[2022-10-28 09:50:00,005: INFO/MainProcess] Task users.tasks.timing[d8973164-2e9f-4fd7-ab3e-3e8e47060c4b] received
+[2022-10-28 09:50:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[d8973164-2e9f-4fd7-ab3e-3e8e47060c4b] succeeded in 0.0020315000001573935s: '发送成功'
+[2022-10-28 09:51:00,008: INFO/MainProcess] Task users.tasks.timing[9350e1a7-c443-4c02-b862-9d7ed514e8a2] received
+[2022-10-28 09:51:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[9350e1a7-c443-4c02-b862-9d7ed514e8a2] succeeded in 0.002031600000918843s: '发送成功'
+[2022-10-28 09:52:00,005: INFO/MainProcess] Task users.tasks.timing[97078aa8-1e0f-4d97-8f28-b22536ba3471] received
+[2022-10-28 09:52:00,008: INFO/ForkPoolWorker-4] Task users.tasks.timing[97078aa8-1e0f-4d97-8f28-b22536ba3471] succeeded in 0.0016143999964697286s: '发送成功'
+[2022-10-28 09:53:00,007: INFO/MainProcess] Task users.tasks.timing[14c69782-0c2d-4ed4-aad2-0551498da4c3] received
+[2022-10-28 09:53:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[14c69782-0c2d-4ed4-aad2-0551498da4c3] succeeded in 0.0017597999976715073s: '发送成功'
+[2022-10-28 09:54:00,007: INFO/MainProcess] Task users.tasks.timing[54fbcd45-769a-4d6c-8ce8-1434ff7aa061] received
+[2022-10-28 09:54:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[54fbcd45-769a-4d6c-8ce8-1434ff7aa061] succeeded in 0.0020944999996572733s: '发送成功'
+[2022-10-28 09:55:00,009: INFO/MainProcess] Task users.tasks.timing[3f38458b-d927-4e0b-862a-97e00a4933bc] received
+[2022-10-28 09:55:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[3f38458b-d927-4e0b-862a-97e00a4933bc] succeeded in 0.0015893999952822924s: '发送成功'
+[2022-10-28 09:56:00,015: INFO/MainProcess] Task users.tasks.timing[de7a0796-fb70-4f8e-ae2c-fce82f600dbb] received
+[2022-10-28 09:56:00,020: INFO/ForkPoolWorker-4] Task users.tasks.timing[de7a0796-fb70-4f8e-ae2c-fce82f600dbb] succeeded in 0.002098400000249967s: '发送成功'
+[2022-10-28 09:57:00,007: INFO/MainProcess] Task users.tasks.timing[7383daaf-8378-4202-83ad-78f6bfb827e0] received
+[2022-10-28 09:57:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[7383daaf-8378-4202-83ad-78f6bfb827e0] succeeded in 0.0019012999982805923s: '发送成功'
+[2022-10-28 09:58:00,008: INFO/MainProcess] Task users.tasks.timing[69ba8838-e39d-46e5-9b19-e647b4af9f06] received
+[2022-10-28 09:58:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[69ba8838-e39d-46e5-9b19-e647b4af9f06] succeeded in 0.0027412999916123226s: '发送成功'
+[2022-10-28 09:59:00,055: INFO/MainProcess] Task users.tasks.timing[decc09af-15c9-4807-b438-ca9db2f9e6fb] received
+[2022-10-28 09:59:00,058: INFO/ForkPoolWorker-4] Task users.tasks.timing[decc09af-15c9-4807-b438-ca9db2f9e6fb] succeeded in 0.0015177000022958964s: '发送成功'
+[2022-10-28 10:00:00,007: INFO/MainProcess] Task users.tasks.timing[5d2b75b0-f0b4-4bd7-bcbe-b53fb11dadb4] received
+[2022-10-28 10:00:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[5d2b75b0-f0b4-4bd7-bcbe-b53fb11dadb4] succeeded in 0.003267399995820597s: '发送成功'
+[2022-10-28 10:01:00,006: INFO/MainProcess] Task users.tasks.timing[3bab89a3-a298-4713-82a2-ed4f84a31e90] received
+[2022-10-28 10:01:00,010: INFO/ForkPoolWorker-4] Task users.tasks.timing[3bab89a3-a298-4713-82a2-ed4f84a31e90] succeeded in 0.0018856999959098175s: '发送成功'
+[2022-10-28 10:02:00,009: INFO/MainProcess] Task users.tasks.timing[c964f51f-20f0-4c10-ab1c-89aad552f109] received
+[2022-10-28 10:02:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[c964f51f-20f0-4c10-ab1c-89aad552f109] succeeded in 0.002114100003382191s: '发送成功'
+[2022-10-28 10:03:00,008: INFO/MainProcess] Task users.tasks.timing[d08cd7db-0ef9-439b-9f77-10f80e4e12d0] received
+[2022-10-28 10:03:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[d08cd7db-0ef9-439b-9f77-10f80e4e12d0] succeeded in 0.0018880999996326864s: '发送成功'
+[2022-10-28 10:04:00,008: INFO/MainProcess] Task users.tasks.timing[d42ea39d-76bc-4044-af4b-9cd0eb3c01cb] received
+[2022-10-28 10:04:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[d42ea39d-76bc-4044-af4b-9cd0eb3c01cb] succeeded in 0.0017609999922569841s: '发送成功'
+[2022-10-28 10:05:00,009: INFO/MainProcess] Task users.tasks.timing[14e2ac5a-5bdf-4aa8-a7ef-b597ad8c1544] received
+[2022-10-28 10:05:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[14e2ac5a-5bdf-4aa8-a7ef-b597ad8c1544] succeeded in 0.0016702000139048323s: '发送成功'
+[2022-10-28 10:06:00,006: INFO/MainProcess] Task users.tasks.timing[40b8bfa1-81e6-44d7-aef7-b20c3d48160f] received
+[2022-10-28 10:06:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[40b8bfa1-81e6-44d7-aef7-b20c3d48160f] succeeded in 0.0015789999888511375s: '发送成功'
+[2022-10-28 10:07:00,012: INFO/MainProcess] Task users.tasks.timing[3a542e6d-a192-4795-bf26-96954ff28830] received
+[2022-10-28 10:07:00,016: INFO/ForkPoolWorker-4] Task users.tasks.timing[3a542e6d-a192-4795-bf26-96954ff28830] succeeded in 0.0015786000003572553s: '发送成功'
+[2022-10-28 10:08:00,010: INFO/MainProcess] Task users.tasks.timing[eb913f41-7f29-4570-82b4-499b0e158ca7] received
+[2022-10-28 10:08:00,014: INFO/ForkPoolWorker-4] Task users.tasks.timing[eb913f41-7f29-4570-82b4-499b0e158ca7] succeeded in 0.002929599999333732s: '发送成功'
+[2022-10-28 10:09:00,015: INFO/MainProcess] Task users.tasks.timing[35caddcc-7234-4ea5-9b29-6d4bab7bb7fc] received
+[2022-10-28 10:09:00,019: INFO/ForkPoolWorker-4] Task users.tasks.timing[35caddcc-7234-4ea5-9b29-6d4bab7bb7fc] succeeded in 0.002155099995434284s: '发送成功'
+[2022-10-28 10:10:00,119: INFO/MainProcess] Task users.tasks.timing[837f0eb7-57b1-4c71-bee9-12d047cc5ee7] received
+[2022-10-28 10:10:00,298: INFO/ForkPoolWorker-4] Task users.tasks.timing[837f0eb7-57b1-4c71-bee9-12d047cc5ee7] succeeded in 0.10334479999437463s: '发送成功'
+[2022-10-28 10:11:00,023: INFO/MainProcess] Task users.tasks.timing[826e8c7a-9d64-4122-b0b5-3d5e5c84eb13] received
+[2022-10-28 10:11:00,052: INFO/ForkPoolWorker-4] Task users.tasks.timing[826e8c7a-9d64-4122-b0b5-3d5e5c84eb13] succeeded in 0.014040500012924895s: '发送成功'
+[2022-10-28 10:12:00,022: INFO/MainProcess] Task users.tasks.timing[3bfc26b2-5e36-4027-8d66-6b612ed9cef5] received
+[2022-10-28 10:12:00,038: INFO/ForkPoolWorker-4] Task users.tasks.timing[3bfc26b2-5e36-4027-8d66-6b612ed9cef5] succeeded in 0.005623400007607415s: '发送成功'
+[2022-10-28 10:13:00,016: INFO/MainProcess] Task users.tasks.timing[2f9e0a95-d512-4849-a6eb-8e6c6919aa53] received
+[2022-10-28 10:13:00,020: INFO/ForkPoolWorker-4] Task users.tasks.timing[2f9e0a95-d512-4849-a6eb-8e6c6919aa53] succeeded in 0.002158399991458282s: '发送成功'
+[2022-10-28 10:14:00,020: INFO/MainProcess] Task users.tasks.timing[c4e2f62e-1b40-4c6a-8d9a-007cc2983127] received
+[2022-10-28 10:14:00,023: INFO/ForkPoolWorker-4] Task users.tasks.timing[c4e2f62e-1b40-4c6a-8d9a-007cc2983127] succeeded in 0.0021339999948395416s: '发送成功'
+[2022-10-28 10:15:00,006: INFO/MainProcess] Task users.tasks.timing[a39e9c65-4e92-4343-ac96-6e2ab2ffc2cd] received
+[2022-10-28 10:15:00,009: INFO/ForkPoolWorker-4] Task users.tasks.timing[a39e9c65-4e92-4343-ac96-6e2ab2ffc2cd] succeeded in 0.002126000006683171s: '发送成功'
+[2022-10-28 10:16:00,009: INFO/MainProcess] Task users.tasks.timing[a80bb4c2-b91c-4157-b5f9-1fd48130c7da] received
+[2022-10-28 10:16:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[a80bb4c2-b91c-4157-b5f9-1fd48130c7da] succeeded in 0.0019245000003138557s: '发送成功'
+[2022-10-28 10:17:00,009: INFO/MainProcess] Task users.tasks.timing[c37b1046-d277-4d27-a75c-4dc0aa0bad4a] received
+[2022-10-28 10:17:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[c37b1046-d277-4d27-a75c-4dc0aa0bad4a] succeeded in 0.0015598000027239323s: '发送成功'
+[2022-10-28 10:18:00,032: INFO/MainProcess] Task users.tasks.timing[dfab011d-35ec-46a7-89c3-079f06cb26d8] received
+[2022-10-28 10:18:00,043: INFO/ForkPoolWorker-4] Task users.tasks.timing[dfab011d-35ec-46a7-89c3-079f06cb26d8] succeeded in 0.004222699993988499s: '发送成功'
+[2022-10-28 10:19:00,063: INFO/MainProcess] Task users.tasks.timing[90b8b62e-e9aa-4ecc-ab9c-311982b298e7] received
+[2022-10-28 10:19:00,071: INFO/ForkPoolWorker-4] Task users.tasks.timing[90b8b62e-e9aa-4ecc-ab9c-311982b298e7] succeeded in 0.005989700002828613s: '发送成功'
+[2022-10-28 10:20:00,130: INFO/MainProcess] Task users.tasks.timing[3c9bc8c1-0844-4c3b-adc4-fb36548222e9] received
+[2022-10-28 10:20:00,185: INFO/ForkPoolWorker-4] Task users.tasks.timing[3c9bc8c1-0844-4c3b-adc4-fb36548222e9] succeeded in 0.038521800001035444s: '发送成功'
+[2022-10-28 10:21:00,014: INFO/MainProcess] Task users.tasks.timing[1e4937cf-8d0d-4dea-8188-20007fc62190] received
+[2022-10-28 10:21:00,017: INFO/ForkPoolWorker-4] Task users.tasks.timing[1e4937cf-8d0d-4dea-8188-20007fc62190] succeeded in 0.0015958000003593042s: '发送成功'
+[2022-10-28 10:22:00,041: INFO/MainProcess] Task users.tasks.timing[04a0b198-be72-478f-bfee-f23e617756c4] received
+[2022-10-28 10:22:00,082: INFO/ForkPoolWorker-4] Task users.tasks.timing[04a0b198-be72-478f-bfee-f23e617756c4] succeeded in 0.010966299989377148s: '发送成功'
+[2022-10-28 10:23:00,247: INFO/MainProcess] Task users.tasks.timing[87422184-b8bb-4e56-8da2-efe05276f274] received
+[2022-10-28 10:23:00,397: INFO/ForkPoolWorker-4] Task users.tasks.timing[87422184-b8bb-4e56-8da2-efe05276f274] succeeded in 0.0628802999999607s: '发送成功'
+[2022-10-28 10:24:00,033: INFO/MainProcess] Task users.tasks.timing[faf744d0-67d8-49b9-bdbb-bd3dc9403846] received
+[2022-10-28 10:24:00,061: INFO/ForkPoolWorker-4] Task users.tasks.timing[faf744d0-67d8-49b9-bdbb-bd3dc9403846] succeeded in 0.002868199997465126s: '发送成功'
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-28 10:24:24
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fb13ff4ea70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-28 10:24:24,981: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:24:24,982: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:24:24,982: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:24:24,982: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:24:24,982: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:24:24,982: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:24:24,982: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:24:24,982: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:24:24,983: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-28 10:24:27,630: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-28 10:24:27,696: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-28 10:24:28,737: INFO/MainProcess] mingle: all alone
+[2022-10-28 10:24:28,839: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-28 10:24:28,840: INFO/MainProcess] celery@worker_default ready.
+[2022-10-28 10:24:41,823: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 10:26:08,801: INFO/MainProcess] Task users.tasks.timing[9e0684ed-dc5e-44fe-b19d-e5d9e28be9bd] received
+[2022-10-28 10:26:09,342: INFO/ForkPoolWorker-4] Task users.tasks.timing[9e0684ed-dc5e-44fe-b19d-e5d9e28be9bd] succeeded in 0.20181440000305884s: '发送成功'
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-28 10:27:02
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7ff9a5e6ea70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-28 10:27:02,140: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:27:02,140: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:27:02,141: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:27:02,141: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:27:02,141: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:27:02,141: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:27:02,141: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:27:02,141: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 10:27:02,142: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-28 10:27:03,083: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-28 10:27:03,092: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-28 10:27:04,306: INFO/MainProcess] mingle: all alone
+[2022-10-28 10:27:06,165: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-28 10:27:06,167: INFO/MainProcess] celery@worker_default ready.
+[2022-10-28 10:27:06,195: INFO/MainProcess] Task users.tasks.timing[b6657cba-a8a5-476c-9866-9ed9fb4d1fdd] received
+[2022-10-28 10:27:06,478: INFO/ForkPoolWorker-4] Task users.tasks.timing[b6657cba-a8a5-476c-9866-9ed9fb4d1fdd] succeeded in 0.20647330000065267s: '发送成功'
+[2022-10-28 10:28:00,093: INFO/MainProcess] Task users.tasks.timing[3cdde294-f2b7-4494-a2d5-629ecf6165d7] received
+[2022-10-28 10:28:00,115: INFO/ForkPoolWorker-4] Task users.tasks.timing[3cdde294-f2b7-4494-a2d5-629ecf6165d7] succeeded in 0.00420260000100825s: '发送成功'
+[2022-10-28 10:29:00,018: INFO/MainProcess] Task users.tasks.timing[f028dd91-5c59-4471-9853-07adfa498dd0] received
+[2022-10-28 10:29:00,032: INFO/ForkPoolWorker-4] Task users.tasks.timing[f028dd91-5c59-4471-9853-07adfa498dd0] succeeded in 0.00685469999734778s: '发送成功'
+[2022-10-28 10:30:00,044: INFO/MainProcess] Task users.tasks.timing[cbe24173-969e-45c6-861d-bd6938cd31e7] received
+[2022-10-28 10:30:00,072: INFO/ForkPoolWorker-4] Task users.tasks.timing[cbe24173-969e-45c6-861d-bd6938cd31e7] succeeded in 0.008774500005529262s: '发送成功'
+[2022-10-28 10:31:00,013: INFO/MainProcess] Task users.tasks.timing[c5e7ae65-6e9e-4863-8561-9f2d9064afab] received
+[2022-10-28 10:31:00,018: INFO/ForkPoolWorker-4] Task users.tasks.timing[c5e7ae65-6e9e-4863-8561-9f2d9064afab] succeeded in 0.0031771000067237765s: '发送成功'
+[2022-10-28 10:32:00,019: INFO/MainProcess] Task users.tasks.timing[5f737343-13c0-41fd-9b16-ce34f7507135] received
+[2022-10-28 10:32:00,073: INFO/ForkPoolWorker-4] Task users.tasks.timing[5f737343-13c0-41fd-9b16-ce34f7507135] succeeded in 0.02418490000127349s: '发送成功'
+[2022-10-28 10:33:00,063: INFO/MainProcess] Task users.tasks.timing[00f60865-e6c3-447a-9e0d-28d3455f398f] received
+[2022-10-28 10:33:00,096: INFO/ForkPoolWorker-4] Task users.tasks.timing[00f60865-e6c3-447a-9e0d-28d3455f398f] succeeded in 0.011363300000084564s: '发送成功'
+[2022-10-28 10:34:00,018: INFO/MainProcess] Task users.tasks.timing[6aa97a99-f4ec-4e76-88db-cae43e27b8b5] received
+[2022-10-28 10:34:00,028: INFO/ForkPoolWorker-4] Task users.tasks.timing[6aa97a99-f4ec-4e76-88db-cae43e27b8b5] succeeded in 0.005457899998873472s: '发送成功'
+[2022-10-28 10:35:00,017: INFO/MainProcess] Task users.tasks.timing[1687f2f8-464d-4fc8-8854-a316188fe74b] received
+[2022-10-28 10:35:00,037: INFO/ForkPoolWorker-4] Task users.tasks.timing[1687f2f8-464d-4fc8-8854-a316188fe74b] succeeded in 0.009565700005623512s: '发送成功'
+[2022-10-28 10:36:00,021: INFO/MainProcess] Task users.tasks.timing[64cca296-6682-4fac-a349-a63d9f7c7da8] received
+[2022-10-28 10:36:00,050: INFO/ForkPoolWorker-4] Task users.tasks.timing[64cca296-6682-4fac-a349-a63d9f7c7da8] succeeded in 0.010033600003225729s: '发送成功'
+[2022-10-28 10:37:00,009: INFO/MainProcess] Task users.tasks.timing[19a7c178-264e-455b-95be-69334b74c144] received
+[2022-10-28 10:37:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[19a7c178-264e-455b-95be-69334b74c144] succeeded in 0.0028591000009328127s: '发送成功'
+[2022-10-28 10:38:00,011: INFO/MainProcess] Task users.tasks.timing[a514c357-58b5-4fb3-95bf-9e31c67660ee] received
+[2022-10-28 10:38:00,017: INFO/ForkPoolWorker-4] Task users.tasks.timing[a514c357-58b5-4fb3-95bf-9e31c67660ee] succeeded in 0.003642499999841675s: '发送成功'
+[2022-10-28 10:39:00,009: INFO/MainProcess] Task users.tasks.timing[9d730488-e456-4500-b5ee-0ec612d8edea] received
+[2022-10-28 10:39:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[9d730488-e456-4500-b5ee-0ec612d8edea] succeeded in 0.002267399991978891s: '发送成功'
+[2022-10-28 10:40:00,008: INFO/MainProcess] Task users.tasks.timing[0c02d736-43b6-46f0-a99b-36a6b4c18245] received
+[2022-10-28 10:40:00,011: INFO/ForkPoolWorker-4] Task users.tasks.timing[0c02d736-43b6-46f0-a99b-36a6b4c18245] succeeded in 0.0021951000089757144s: '发送成功'
+[2022-10-28 10:41:00,008: INFO/MainProcess] Task users.tasks.timing[32858cd6-931f-46ae-8ae3-cc43b5b5198c] received
+[2022-10-28 10:41:00,013: INFO/ForkPoolWorker-4] Task users.tasks.timing[32858cd6-931f-46ae-8ae3-cc43b5b5198c] succeeded in 0.0015951999957906082s: '发送成功'
+[2022-10-28 10:42:00,023: INFO/MainProcess] Task users.tasks.timing[78cd9c3a-5ce8-4516-9e5a-2b1eee5ff443] received
+[2022-10-28 10:42:00,047: INFO/ForkPoolWorker-4] Task users.tasks.timing[78cd9c3a-5ce8-4516-9e5a-2b1eee5ff443] succeeded in 0.002578399988124147s: '发送成功'
+[2022-10-28 10:43:00,012: INFO/MainProcess] Task users.tasks.timing[3dc986b3-682a-46da-ba58-3657f546c3ab] received
+[2022-10-28 10:43:00,018: INFO/ForkPoolWorker-4] Task users.tasks.timing[3dc986b3-682a-46da-ba58-3657f546c3ab] succeeded in 0.003981400004704483s: '发送成功'
+[2022-10-28 10:44:00,005: INFO/MainProcess] Task users.tasks.timing[ce3bc81f-881a-4e62-a9a0-6c981791372a] received
+[2022-10-28 10:44:00,008: INFO/ForkPoolWorker-4] Task users.tasks.timing[ce3bc81f-881a-4e62-a9a0-6c981791372a] succeeded in 0.0024399999965680763s: '发送成功'
+[2022-10-28 10:45:00,033: INFO/MainProcess] Task users.tasks.timing[1ea759d4-58c2-4e07-b3d4-b875b3927007] received
+[2022-10-28 10:45:00,051: INFO/ForkPoolWorker-4] Task users.tasks.timing[1ea759d4-58c2-4e07-b3d4-b875b3927007] succeeded in 0.006269999998039566s: '发送成功'
+[2022-10-28 10:46:00,011: INFO/MainProcess] Task users.tasks.timing[a53ec4be-ac78-4c42-8afd-870b11773150] received
+[2022-10-28 10:46:00,018: INFO/ForkPoolWorker-4] Task users.tasks.timing[a53ec4be-ac78-4c42-8afd-870b11773150] succeeded in 0.0038498999929288402s: '发送成功'
+[2022-10-28 10:47:00,009: INFO/MainProcess] Task users.tasks.timing[9309c0eb-0375-4891-9a18-37f2cc0d31d2] received
+[2022-10-28 10:47:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[9309c0eb-0375-4891-9a18-37f2cc0d31d2] succeeded in 0.0019380000012461096s: '发送成功'
+[2022-10-28 10:48:00,009: INFO/MainProcess] Task users.tasks.timing[a29791dd-1017-4127-bb56-bb3165129f6e] received
+[2022-10-28 10:48:00,012: INFO/ForkPoolWorker-4] Task users.tasks.timing[a29791dd-1017-4127-bb56-bb3165129f6e] succeeded in 0.002053800009889528s: '发送成功'
+[2022-10-28 10:49:00,209: INFO/MainProcess] Task users.tasks.timing[fbb6151f-0c04-4fb3-852f-fe7cd366259d] received
+[2022-10-28 10:49:00,225: INFO/ForkPoolWorker-4] Task users.tasks.timing[fbb6151f-0c04-4fb3-852f-fe7cd366259d] succeeded in 0.014543999990564771s: '发送成功'
+[2022-10-28 10:50:00,009: INFO/MainProcess] Task users.tasks.timing[d1e3ff08-0973-4ba7-a68b-caf50c90006c] received
+[2022-10-28 10:50:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[d1e3ff08-0973-4ba7-a68b-caf50c90006c] succeeded in 0.0030620000034105033s: '发送成功'
+[2022-10-28 10:51:00,011: INFO/MainProcess] Task users.tasks.timing[8ce90579-533c-4947-b07e-0e8cb5803c54] received
+[2022-10-28 10:51:00,015: INFO/ForkPoolWorker-4] Task users.tasks.timing[8ce90579-533c-4947-b07e-0e8cb5803c54] succeeded in 0.001378200002363883s: '发送成功'
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-28 11:09:17
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7f42e4216a70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-28 11:09:17,914: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 11:09:17,914: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 11:09:17,915: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 11:09:17,916: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 11:09:17,916: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 11:09:17,916: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 11:09:17,917: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 11:09:17,917: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-28 11:09:17,919: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-28 11:09:18,584: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-28 11:09:18,593: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-28 11:09:19,609: INFO/MainProcess] mingle: all alone
+[2022-10-28 11:09:19,624: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-28 11:09:19,624: INFO/MainProcess] celery@worker_default ready.
+[2022-10-28 11:10:00,021: INFO/MainProcess] Task article.tasks.cogradient[425a9818-f97b-4338-8edf-05c3be00336c] received
+[2022-10-28 11:10:00,024: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:10:00,034: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[425a9818-f97b-4338-8edf-05c3be00336c] succeeded in 0.011007099994458258s: '同步成功'
+[2022-10-28 11:11:00,006: INFO/MainProcess] Task article.tasks.cogradient[36c20f36-4455-4f99-851b-10c65053338d] received
+[2022-10-28 11:11:00,010: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:11:00,012: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[36c20f36-4455-4f99-851b-10c65053338d] succeeded in 0.003297200004453771s: '同步成功'
+[2022-10-28 11:12:00,008: INFO/MainProcess] Task article.tasks.cogradient[5917bab9-0ffc-4995-90b6-2e26ae923303] received
+[2022-10-28 11:12:00,009: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:12:00,011: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[5917bab9-0ffc-4995-90b6-2e26ae923303] succeeded in 0.0018936999986181036s: '同步成功'
+[2022-10-28 11:13:00,011: INFO/MainProcess] Task article.tasks.cogradient[9fba685c-4888-4a69-98c6-9296a6f24380] received
+[2022-10-28 11:13:00,012: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:13:00,014: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[9fba685c-4888-4a69-98c6-9296a6f24380] succeeded in 0.0024770000018179417s: '同步成功'
+[2022-10-28 11:14:00,006: INFO/MainProcess] Task article.tasks.cogradient[b76b4716-20d1-46af-81cb-688f38182733] received
+[2022-10-28 11:14:00,009: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:14:00,010: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[b76b4716-20d1-46af-81cb-688f38182733] succeeded in 0.0017210000078193843s: '同步成功'
+[2022-10-28 11:15:00,117: INFO/MainProcess] Task article.tasks.cogradient[0d63bb59-96b6-4021-86f9-efd9f59dab3e] received
+[2022-10-28 11:15:00,151: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:15:00,161: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[0d63bb59-96b6-4021-86f9-efd9f59dab3e] succeeded in 0.017430100007914007s: '同步成功'
+[2022-10-28 11:16:00,079: INFO/MainProcess] Task article.tasks.cogradient[5701b0fe-cfd0-4362-bc0e-61f50f4e9e7a] received
+[2022-10-28 11:16:00,137: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:16:00,160: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[5701b0fe-cfd0-4362-bc0e-61f50f4e9e7a] succeeded in 0.03496570000424981s: '同步成功'
+[2022-10-28 11:17:00,060: INFO/MainProcess] Task article.tasks.cogradient[5177ced0-4887-4e0d-9931-fa3c75777211] received
+[2022-10-28 11:17:00,083: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:17:00,090: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[5177ced0-4887-4e0d-9931-fa3c75777211] succeeded in 0.012402300009853207s: '同步成功'
+[2022-10-28 11:18:00,015: INFO/MainProcess] Task article.tasks.cogradient[0e899c36-792f-4a8f-917a-2fce201e2ac2] received
+[2022-10-28 11:18:00,033: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:18:00,041: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[0e899c36-792f-4a8f-917a-2fce201e2ac2] succeeded in 0.010380599997006357s: '同步成功'
+[2022-10-28 11:19:00,006: INFO/MainProcess] Task article.tasks.cogradient[e76e134e-e264-41ae-9f93-bacb5d1ee395] received
+[2022-10-28 11:19:00,008: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:19:00,010: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[e76e134e-e264-41ae-9f93-bacb5d1ee395] succeeded in 0.0020043000113219023s: '同步成功'
+[2022-10-28 11:20:00,015: INFO/MainProcess] Task article.tasks.cogradient[e8393a65-0383-4a57-9b39-d723201ce963] received
+[2022-10-28 11:20:00,019: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:20:00,022: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[e8393a65-0383-4a57-9b39-d723201ce963] succeeded in 0.0035682999878190458s: '同步成功'
+[2022-10-28 11:21:00,021: INFO/MainProcess] Task article.tasks.cogradient[c8c95134-b222-435c-86d4-6c153e321329] received
+[2022-10-28 11:21:00,027: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:21:00,033: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[c8c95134-b222-435c-86d4-6c153e321329] succeeded in 0.005931799998506904s: '同步成功'
+[2022-10-28 11:22:00,006: INFO/MainProcess] Task article.tasks.cogradient[c0b4e9f6-8676-47ff-b487-204e797f9a51] received
+[2022-10-28 11:22:00,008: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:22:00,010: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[c0b4e9f6-8676-47ff-b487-204e797f9a51] succeeded in 0.0022699999972246587s: '同步成功'
+[2022-10-28 11:23:00,008: INFO/MainProcess] Task article.tasks.cogradient[e21ae9f9-8bfd-4589-ab9a-36ca56a772c1] received
+[2022-10-28 11:23:00,009: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:23:00,010: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[e21ae9f9-8bfd-4589-ab9a-36ca56a772c1] succeeded in 0.0016235999937634915s: '同步成功'
+[2022-10-28 11:24:00,011: INFO/MainProcess] Task article.tasks.cogradient[70a9a92d-22b5-48df-bd97-85b3766c1389] received
+[2022-10-28 11:24:00,012: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:24:00,014: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[70a9a92d-22b5-48df-bd97-85b3766c1389] succeeded in 0.0018585999932838604s: '同步成功'
+[2022-10-28 11:25:00,043: INFO/MainProcess] Task article.tasks.cogradient[15f91b1d-e2e5-4ee4-87de-4cd141ee4144] received
+[2022-10-28 11:25:00,045: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:25:00,047: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[15f91b1d-e2e5-4ee4-87de-4cd141ee4144] succeeded in 0.002124200007528998s: '同步成功'
+[2022-10-28 11:26:00,547: INFO/MainProcess] Task article.tasks.cogradient[c797027c-3199-4bcd-8880-73552123c848] received
+[2022-10-28 11:26:00,613: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 11:26:00,903: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[c797027c-3199-4bcd-8880-73552123c848] succeeded in 0.29260499999509193s: '同步成功'
+[2022-10-28 12:47:57,470: INFO/MainProcess] Task article.tasks.cogradient[4faaf1f4-f206-4e45-8306-b0d526ab21a7] received
+[2022-10-28 12:47:57,498: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 12:47:57,554: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[4faaf1f4-f206-4e45-8306-b0d526ab21a7] succeeded in 0.050060599998687394s: '同步成功'
+[2022-10-28 12:47:58,511: INFO/MainProcess] Task celery.backend_cleanup[51444f19-e637-4c73-bda1-e6725a93f01a] received
+[2022-10-28 12:47:58,772: INFO/ForkPoolWorker-4] Task celery.backend_cleanup[51444f19-e637-4c73-bda1-e6725a93f01a] succeeded in 0.13876090000849217s: None
+[2022-10-28 12:48:00,248: INFO/MainProcess] Task article.tasks.cogradient[0a74019c-7af5-481e-9e9b-97ca5941f287] received
+[2022-10-28 12:48:00,298: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 12:48:00,335: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[0a74019c-7af5-481e-9e9b-97ca5941f287] succeeded in 0.037806700012879446s: '同步成功'
+[2022-10-28 12:58:02,218: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 12:58:02,589: INFO/MainProcess] Task article.tasks.cogradient[c836c841-13ea-4e1f-9be4-dc4d248319d6] received
+[2022-10-28 12:58:02,626: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 12:58:02,706: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[c836c841-13ea-4e1f-9be4-dc4d248319d6] succeeded in 0.09291200000734534s: '同步成功'
+[2022-10-28 12:59:00,161: INFO/MainProcess] Task article.tasks.cogradient[d57afc3c-0bf1-4e3c-a137-caa3a858cdc6] received
+[2022-10-28 12:59:00,181: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 12:59:00,284: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[d57afc3c-0bf1-4e3c-a137-caa3a858cdc6] succeeded in 0.10348700000031386s: '同步成功'
+[2022-10-28 14:05:34,496: INFO/MainProcess] Task article.tasks.cogradient[3564e55f-1b7c-41cf-a6c8-0cde4232a4bb] received
+[2022-10-28 14:05:34,541: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:05:34,582: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[3564e55f-1b7c-41cf-a6c8-0cde4232a4bb] succeeded in 0.04565790000197012s: '同步成功'
+[2022-10-28 14:06:00,023: INFO/MainProcess] Task article.tasks.cogradient[1fbc1b59-a376-4b55-a87e-e043c7aeca7d] received
+[2022-10-28 14:06:00,031: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:06:00,040: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[1fbc1b59-a376-4b55-a87e-e043c7aeca7d] succeeded in 0.010341700006392784s: '同步成功'
+[2022-10-28 14:07:00,010: INFO/MainProcess] Task article.tasks.cogradient[0dc1ad1a-9226-4d86-a7bd-f63c19b14296] received
+[2022-10-28 14:07:00,012: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:07:00,013: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[0dc1ad1a-9226-4d86-a7bd-f63c19b14296] succeeded in 0.0014701999898534268s: '同步成功'
+[2022-10-28 14:08:00,013: INFO/MainProcess] Task article.tasks.cogradient[4c3be745-f910-4402-b86e-617eeb27dcfe] received
+[2022-10-28 14:08:00,016: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:08:00,020: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[4c3be745-f910-4402-b86e-617eeb27dcfe] succeeded in 0.004392200004076585s: '同步成功'
+[2022-10-28 14:09:00,010: INFO/MainProcess] Task article.tasks.cogradient[d3bca655-981b-4465-9b30-1121d312346f] received
+[2022-10-28 14:09:00,012: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:09:00,014: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[d3bca655-981b-4465-9b30-1121d312346f] succeeded in 0.0032553000055486336s: '同步成功'
+[2022-10-28 14:10:00,006: INFO/MainProcess] Task article.tasks.cogradient[6ac5a512-4e41-47e5-b679-abc6a83d9fdf] received
+[2022-10-28 14:10:00,007: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:10:00,009: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[6ac5a512-4e41-47e5-b679-abc6a83d9fdf] succeeded in 0.0022696999949403107s: '同步成功'
+[2022-10-28 14:11:00,006: INFO/MainProcess] Task article.tasks.cogradient[951c0bc2-460c-4483-9a04-80be4dd93ba4] received
+[2022-10-28 14:11:00,008: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:11:00,011: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[951c0bc2-460c-4483-9a04-80be4dd93ba4] succeeded in 0.0028782000008504838s: '同步成功'
+[2022-10-28 14:12:00,017: INFO/MainProcess] Task article.tasks.cogradient[bd80ef47-b758-487e-bae6-88735798a79e] received
+[2022-10-28 14:12:00,019: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:12:00,021: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[bd80ef47-b758-487e-bae6-88735798a79e] succeeded in 0.001959900007932447s: '同步成功'
+[2022-10-28 14:13:00,009: INFO/MainProcess] Task article.tasks.cogradient[f511cd6e-54c2-42d3-8436-036575b39f3c] received
+[2022-10-28 14:13:00,010: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:13:00,012: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[f511cd6e-54c2-42d3-8436-036575b39f3c] succeeded in 0.0022316999966278672s: '同步成功'
+[2022-10-28 14:14:00,011: INFO/MainProcess] Task article.tasks.cogradient[504012cc-f03f-4e9e-b77a-54295fdc5193] received
+[2022-10-28 14:14:00,014: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:14:00,016: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[504012cc-f03f-4e9e-b77a-54295fdc5193] succeeded in 0.0027102000021841377s: '同步成功'
+[2022-10-28 14:15:00,024: INFO/MainProcess] Task article.tasks.cogradient[4c1d4684-f443-4c9f-82dd-0404e5bbd5bc] received
+[2022-10-28 14:15:00,027: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:15:00,030: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[4c1d4684-f443-4c9f-82dd-0404e5bbd5bc] succeeded in 0.0034320999984629452s: '同步成功'
+[2022-10-28 14:16:00,011: INFO/MainProcess] Task article.tasks.cogradient[82238ba4-4d3d-4c44-9460-3b72c27aa493] received
+[2022-10-28 14:16:00,016: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:16:00,018: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[82238ba4-4d3d-4c44-9460-3b72c27aa493] succeeded in 0.003278499993029982s: '同步成功'
+[2022-10-28 14:17:00,008: INFO/MainProcess] Task article.tasks.cogradient[a60bfefe-373b-49e9-9205-55f551d37462] received
+[2022-10-28 14:17:00,012: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:17:00,015: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[a60bfefe-373b-49e9-9205-55f551d37462] succeeded in 0.0026419000059831887s: '同步成功'
+[2022-10-28 14:18:00,009: INFO/MainProcess] Task article.tasks.cogradient[8e55c60b-803d-4838-90d4-9b7f6eaf61e4] received
+[2022-10-28 14:18:00,011: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:18:00,014: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[8e55c60b-803d-4838-90d4-9b7f6eaf61e4] succeeded in 0.003528600005665794s: '同步成功'
+[2022-10-28 14:19:00,013: INFO/MainProcess] Task article.tasks.cogradient[51480fcb-73d5-4e24-9938-e36ae4de2f68] received
+[2022-10-28 14:19:00,015: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:19:00,017: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[51480fcb-73d5-4e24-9938-e36ae4de2f68] succeeded in 0.0024044000019785017s: '同步成功'
+[2022-10-28 14:20:00,008: INFO/MainProcess] Task article.tasks.cogradient[fc7f8262-638a-4617-98b7-2a5c2ac2bd68] received
+[2022-10-28 14:20:00,010: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:20:00,012: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[fc7f8262-638a-4617-98b7-2a5c2ac2bd68] succeeded in 0.0016955000028247014s: '同步成功'
+[2022-10-28 14:21:00,006: INFO/MainProcess] Task article.tasks.cogradient[25a60b40-3fbd-458f-9ca9-52684da93213] received
+[2022-10-28 14:21:00,008: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:21:00,010: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[25a60b40-3fbd-458f-9ca9-52684da93213] succeeded in 0.0023419999924954027s: '同步成功'
+[2022-10-28 14:22:00,009: INFO/MainProcess] Task article.tasks.cogradient[6669231d-0ccb-4245-8ab8-c7ab85248886] received
+[2022-10-28 14:22:00,011: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:22:00,014: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[6669231d-0ccb-4245-8ab8-c7ab85248886] succeeded in 0.00424629999906756s: '同步成功'
+[2022-10-28 14:23:00,010: INFO/MainProcess] Task article.tasks.cogradient[4b4f2031-d1ec-43f7-ad4c-012230e95245] received
+[2022-10-28 14:23:00,013: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:23:00,014: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[4b4f2031-d1ec-43f7-ad4c-012230e95245] succeeded in 0.0019419000018388033s: '同步成功'
+[2022-10-28 14:24:00,007: INFO/MainProcess] Task article.tasks.cogradient[8f95eba6-a589-4301-8dea-9e2cdd4acfbd] received
+[2022-10-28 14:24:00,009: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:24:00,011: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[8f95eba6-a589-4301-8dea-9e2cdd4acfbd] succeeded in 0.0025791999942157418s: '同步成功'
+[2022-10-28 14:25:00,007: INFO/MainProcess] Task article.tasks.cogradient[80e5e40e-3650-4179-979c-fb1859f23ba4] received
+[2022-10-28 14:25:00,015: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:25:00,020: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[80e5e40e-3650-4179-979c-fb1859f23ba4] succeeded in 0.006303800008026883s: '同步成功'
+[2022-10-28 14:26:00,008: INFO/MainProcess] Task article.tasks.cogradient[a41071eb-139d-4bbd-b674-fbcae2b48d56] received
+[2022-10-28 14:26:00,010: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:26:00,014: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[a41071eb-139d-4bbd-b674-fbcae2b48d56] succeeded in 0.004268999997293577s: '同步成功'
+[2022-10-28 14:27:00,006: INFO/MainProcess] Task article.tasks.cogradient[d8656ccd-02c5-48b5-a550-9031901d5ee8] received
+[2022-10-28 14:27:00,028: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:27:00,034: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[d8656ccd-02c5-48b5-a550-9031901d5ee8] succeeded in 0.013196799991419539s: '同步成功'
+[2022-10-28 14:28:00,007: INFO/MainProcess] Task article.tasks.cogradient[7013abb9-0f74-4b52-aded-15db75aa1315] received
+[2022-10-28 14:28:00,010: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:28:00,012: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[7013abb9-0f74-4b52-aded-15db75aa1315] succeeded in 0.002590000003692694s: '同步成功'
+[2022-10-28 14:29:00,010: INFO/MainProcess] Task article.tasks.cogradient[b7ad39a7-360e-4582-a4a5-de7c834aa0dd] received
+[2022-10-28 14:29:00,012: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:29:00,013: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[b7ad39a7-360e-4582-a4a5-de7c834aa0dd] succeeded in 0.001805500010959804s: '同步成功'
+[2022-10-28 14:30:00,009: INFO/MainProcess] Task article.tasks.cogradient[7280bec4-cf1c-4172-a28f-8946e8ea2ad4] received
+[2022-10-28 14:30:00,011: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:30:00,013: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[7280bec4-cf1c-4172-a28f-8946e8ea2ad4] succeeded in 0.0030546000052709132s: '同步成功'
+[2022-10-28 14:31:00,016: INFO/MainProcess] Task article.tasks.cogradient[9d4c7aa4-c5c6-47f9-91e9-f5c8756881de] received
+[2022-10-28 14:31:00,018: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:31:00,019: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[9d4c7aa4-c5c6-47f9-91e9-f5c8756881de] succeeded in 0.001475799988838844s: '同步成功'
+[2022-10-28 14:32:00,007: INFO/MainProcess] Task article.tasks.cogradient[c7f39c42-83ee-42d1-a857-fe678a0db6c0] received
+[2022-10-28 14:32:00,009: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:32:00,012: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[c7f39c42-83ee-42d1-a857-fe678a0db6c0] succeeded in 0.003141299996059388s: '同步成功'
+[2022-10-28 14:33:00,005: INFO/MainProcess] Task article.tasks.cogradient[88b65d3f-7657-4173-9ddb-2e4fb4ce4c06] received
+[2022-10-28 14:33:00,006: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:33:00,009: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[88b65d3f-7657-4173-9ddb-2e4fb4ce4c06] succeeded in 0.0023545000003650784s: '同步成功'
+[2022-10-28 14:34:00,004: INFO/MainProcess] Task article.tasks.cogradient[6da19f77-514a-4c7a-a4c8-b5fbca393839] received
+[2022-10-28 14:34:00,005: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:34:00,007: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[6da19f77-514a-4c7a-a4c8-b5fbca393839] succeeded in 0.0023559999972349033s: '同步成功'
+[2022-10-28 14:35:00,014: INFO/MainProcess] Task article.tasks.cogradient[e607a486-3f53-4bd1-911a-1e2472899a9f] received
+[2022-10-28 14:35:00,017: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:35:00,020: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[e607a486-3f53-4bd1-911a-1e2472899a9f] succeeded in 0.0037404999893624336s: '同步成功'
+[2022-10-28 14:36:00,007: INFO/MainProcess] Task article.tasks.cogradient[8c89eb50-0920-4799-b1fe-6599a9bf3bfe] received
+[2022-10-28 14:36:00,008: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:36:00,012: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[8c89eb50-0920-4799-b1fe-6599a9bf3bfe] succeeded in 0.003403099995921366s: '同步成功'
+[2022-10-28 14:37:00,016: INFO/MainProcess] Task article.tasks.cogradient[47db54ef-0f67-4df4-8345-f41cdd8f6d3d] received
+[2022-10-28 14:37:00,018: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:37:00,021: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[47db54ef-0f67-4df4-8345-f41cdd8f6d3d] succeeded in 0.0033835000067483634s: '同步成功'
+[2022-10-28 14:38:00,019: INFO/MainProcess] Task article.tasks.cogradient[4fcf163e-3333-4f2f-bde7-ca1dec7ca943] received
+[2022-10-28 14:38:00,028: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:38:00,030: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[4fcf163e-3333-4f2f-bde7-ca1dec7ca943] succeeded in 0.0020373000006657094s: '同步成功'
+[2022-10-28 14:39:00,009: INFO/MainProcess] Task article.tasks.cogradient[d164a70a-7e07-4046-87c7-18611fa7927c] received
+[2022-10-28 14:39:00,012: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:39:00,015: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[d164a70a-7e07-4046-87c7-18611fa7927c] succeeded in 0.0023944999993545935s: '同步成功'
+[2022-10-28 14:40:00,011: INFO/MainProcess] Task article.tasks.cogradient[ef9b617d-5908-427e-a523-b3ad63690be9] received
+[2022-10-28 14:40:00,013: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:40:00,016: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[ef9b617d-5908-427e-a523-b3ad63690be9] succeeded in 0.002765900004305877s: '同步成功'
+[2022-10-28 14:40:55,225: INFO/MainProcess] Task article.tasks.cogradient[04865c6e-5bd9-40b3-baa6-2ca6acdbf887] received
+[2022-10-28 14:40:55,228: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:40:55,230: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[04865c6e-5bd9-40b3-baa6-2ca6acdbf887] succeeded in 0.0036903000000165775s: '同步成功'
+[2022-10-28 14:41:00,010: INFO/MainProcess] Task article.tasks.cogradient[0fcd55e9-cb8c-4ac7-a4a6-cccf14d4195b] received
+[2022-10-28 14:41:00,012: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:41:00,014: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[0fcd55e9-cb8c-4ac7-a4a6-cccf14d4195b] succeeded in 0.0017345999949611723s: '同步成功'
+[2022-10-28 14:43:00,026: INFO/MainProcess] Task article.tasks.cogradient[046f1570-25c2-47fb-9260-9bb344c77fde] received
+[2022-10-28 14:43:00,031: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:43:00,040: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[046f1570-25c2-47fb-9260-9bb344c77fde] succeeded in 0.009920900003635325s: '同步成功'
+[2022-10-28 14:51:00,010: INFO/MainProcess] Task article.tasks.cogradient[05d1af15-728c-4c17-ab97-11706a231865] received
+[2022-10-28 14:51:00,017: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:51:00,019: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[05d1af15-728c-4c17-ab97-11706a231865] succeeded in 0.003064400007133372s: '同步成功'
+[2022-10-28 14:52:00,006: INFO/MainProcess] Task article.tasks.cogradient[60cf3fea-bf18-4a91-bae0-94c2a3246b42] received
+[2022-10-28 14:52:00,009: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:52:00,011: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[60cf3fea-bf18-4a91-bae0-94c2a3246b42] succeeded in 0.0020348999969428405s: '同步成功'
+[2022-10-28 14:53:00,005: INFO/MainProcess] Task article.tasks.cogradient[7294e608-bead-4418-88d2-117176fbd71a] received
+[2022-10-28 14:53:00,006: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:53:00,009: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[7294e608-bead-4418-88d2-117176fbd71a] succeeded in 0.0033854999928735197s: '同步成功'
+[2022-10-28 14:54:00,005: INFO/MainProcess] Task article.tasks.cogradient[840d0ff4-6726-4a55-b22a-d54aced4f237] received
+[2022-10-28 14:54:00,007: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 14:54:00,009: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[840d0ff4-6726-4a55-b22a-d54aced4f237] succeeded in 0.0017173999949591234s: '同步成功'
+[2022-10-28 15:06:00,030: INFO/MainProcess] Task article.tasks.cogradient[ee05118d-72dd-44c5-81de-c221ce355bbc] received
+[2022-10-28 15:06:00,069: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 15:06:00,087: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[ee05118d-72dd-44c5-81de-c221ce355bbc] succeeded in 0.028496200000518s: '同步成功'
+[2022-10-28 15:07:00,015: INFO/MainProcess] Task article.tasks.cogradient[213ae3b6-7699-465b-93d7-7d4fb541cffe] received
+[2022-10-28 15:07:00,016: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 15:07:00,019: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[213ae3b6-7699-465b-93d7-7d4fb541cffe] succeeded in 0.003138899992336519s: '同步成功'
+[2022-10-28 15:08:00,010: INFO/MainProcess] Task article.tasks.cogradient[1be4e80c-6ab7-4bd1-ac22-74209d698759] received
+[2022-10-28 15:08:00,014: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 15:08:00,016: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[1be4e80c-6ab7-4bd1-ac22-74209d698759] succeeded in 0.002277400009916164s: '同步成功'
+[2022-10-28 15:09:00,010: INFO/MainProcess] Task article.tasks.cogradient[3d2352c5-06bc-4a79-be47-76543ccb4837] received
+[2022-10-28 15:09:00,012: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 15:09:00,014: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[3d2352c5-06bc-4a79-be47-76543ccb4837] succeeded in 0.001594500005012378s: '同步成功'
+[2022-10-28 15:10:00,004: INFO/MainProcess] Task article.tasks.cogradient[1e277be6-c957-403e-8c2c-347278f7dbb1] received
+[2022-10-28 15:10:00,007: WARNING/ForkPoolWorker-4] (10, 2, 76)
+[2022-10-28 15:10:00,010: INFO/ForkPoolWorker-4] Task article.tasks.cogradient[1e277be6-c957-403e-8c2c-347278f7dbb1] succeeded in 0.0038003000081516802s: '同步成功'
+[2022-10-28 15:27:24,841: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 18:01:21,905: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 18:57:06,962: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 18:58:35,975: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 21:49:22,373: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-28 21:49:35,150: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-29 01:25:25,110: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-29 01:25:34,366: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-29 01:25:48,309: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-29 04:29:48,280: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-29 08:15:05,861: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-29 08:30:33,362: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-29 15:13:10,133: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-29 23:57:57,707: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-30 01:54:43,333: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-30 05:20:06,103: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-30 08:56:37,361: WARNING/MainProcess] Substantial drift from celery@worker_send_msg may mean clocks are out of sync.  Current drift is 6436 seconds.  [orig: 2022-10-30 08:56:37.301648 recv: 2022-10-30 07:09:21.739081]
+[2022-10-31 00:56:21,667: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 00:56:35,764: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 03:53:00,584: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 03:53:11,657: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 03:53:25,015: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 07:29:14,071: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 07:29:22,693: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-31 14:08:02
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fd6f498ea70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-31 14:08:02,513: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 14:08:02,517: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 14:08:02,517: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 14:08:02,531: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 14:08:02,531: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 14:08:02,531: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 14:08:02,531: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 14:08:02,531: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 14:08:02,531: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-31 14:08:05,112: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-31 14:08:05,195: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-31 14:08:06,319: INFO/MainProcess] mingle: all alone
+[2022-10-31 14:08:06,359: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-31 14:08:06,359: INFO/MainProcess] celery@worker_default ready.
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-10-31 20:37:32
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fcbba96aa70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-10-31 20:37:32,596: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 20:37:32,598: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 20:37:32,602: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 20:37:32,603: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 20:37:32,606: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 20:37:32,608: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 20:37:32,609: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 20:37:32,609: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-10-31 20:37:32,610: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-10-31 20:37:33,218: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-10-31 20:37:33,228: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-31 20:37:34,250: INFO/MainProcess] mingle: all alone
+[2022-10-31 20:37:34,267: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-31 20:37:34,267: INFO/MainProcess] celery@worker_default ready.
+[2022-10-31 22:30:05,932: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 22:30:15,340: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 22:31:02,429: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 22:31:12,186: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-10-31 22:31:25,441: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-01 02:06:38,065: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-01 02:06:47,725: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-01 08:58:55,788: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-01 09:00:08,858: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-01 09:18:27,802: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 326, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.10/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 618, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.10/site-packages/celery/worker/loops.py", line 97, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.10/site-packages/kombu/asynchronous/hub.py", line 362, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 1326, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 562, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 906, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 916, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1500, in parse_response
+    response = self._execute(conn, conn.read_response)
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    raise error
+  File "/usr/local/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 824, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 318, in read_response
+    raw = self._buffer.readline()
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 249, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 195, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+[2022-11-01 09:18:27,889: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/worker/consumer/consumer.py:361: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered back to the queue.
+You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss setting.
+In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+[2022-11-01 09:18:28,015: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds... (1/100)
+
+[2022-11-01 09:18:30,063: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: Error -2 connecting to redis:6379. Name or service not known..
+Trying again in 4.00 seconds... (2/100)
+
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-11-01 15:21:02
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7f22b7bc2a70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-11-01 15:21:02,393: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 15:21:02,393: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 15:21:02,394: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 15:21:02,394: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 15:21:02,394: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 15:21:02,394: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 15:21:02,394: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 15:21:02,395: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 15:21:02,395: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-11-01 15:21:03,076: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-11-01 15:21:03,088: INFO/MainProcess] mingle: searching for neighbors
+[2022-11-01 15:21:04,102: INFO/MainProcess] mingle: all alone
+[2022-11-01 15:21:04,113: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-11-01 15:21:04,113: INFO/MainProcess] celery@worker_default ready.
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-11-01 17:36:21
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fdfbe1eea70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-11-01 17:36:21,593: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 17:36:21,598: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 17:36:21,599: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 17:36:21,600: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 17:36:21,600: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 17:36:21,600: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 17:36:21,600: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 17:36:21,600: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-01 17:36:21,601: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-11-01 17:36:22,404: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-11-01 17:36:22,412: INFO/MainProcess] mingle: searching for neighbors
+[2022-11-01 17:36:23,432: INFO/MainProcess] mingle: all alone
+[2022-11-01 17:36:23,448: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-11-01 17:36:23,448: INFO/MainProcess] celery@worker_default ready.
+[2022-11-01 18:05:11,935: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-01 18:50:24,489: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-01 18:51:40,560: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-01 19:40:41,257: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-11-02 10:13:48
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fe87585aa40
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-11-02 10:13:48,581: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 10:13:48,581: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 10:13:48,582: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 10:13:48,582: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 10:13:48,582: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 10:13:48,582: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 10:13:48,582: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 10:13:48,583: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 10:13:48,583: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-11-02 10:13:49,366: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-11-02 10:13:49,375: INFO/MainProcess] mingle: searching for neighbors
+[2022-11-02 10:13:50,421: INFO/MainProcess] mingle: all alone
+[2022-11-02 10:13:50,438: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-11-02 10:13:50,438: INFO/MainProcess] celery@worker_default ready.
+[2022-11-02 13:35:45,435: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-02 13:45:52,200: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-02 18:50:25,779: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-02 20:20:10,567: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 326, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.10/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.10/site-packages/celery/worker/consumer/consumer.py", line 618, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.10/site-packages/celery/worker/loops.py", line 97, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.10/site-packages/kombu/asynchronous/hub.py", line 362, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 1326, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 562, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 906, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python3.10/site-packages/kombu/transport/redis.py", line 916, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1500, in parse_response
+    response = self._execute(conn, conn.read_response)
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    raise error
+  File "/usr/local/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 824, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 318, in read_response
+    raw = self._buffer.readline()
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 249, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.10/site-packages/redis/connection.py", line 195, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+[2022-11-02 20:20:10,631: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/worker/consumer/consumer.py:361: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered back to the queue.
+You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss setting.
+In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+[2022-11-02 20:20:10,801: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds... (1/100)
+
+/usr/local/lib/python3.10/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-11-02 20:20:59
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7fc7d16caa70
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-11-02 20:20:59,984: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 20:20:59,985: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 20:20:59,987: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 20:20:59,987: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 20:20:59,987: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 20:20:59,989: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 20:20:59,991: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 20:20:59,991: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-02 20:20:59,994: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-11-02 20:21:00,928: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-11-02 20:21:00,933: INFO/MainProcess] mingle: searching for neighbors
+[2022-11-02 20:21:01,940: INFO/MainProcess] mingle: all alone
+[2022-11-02 20:21:01,958: WARNING/MainProcess] /usr/local/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-11-02 20:21:01,958: INFO/MainProcess] celery@worker_default ready.
+[2022-11-03 18:42:52,203: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-04 00:05:51,718: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-04 09:17:09,194: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-04 09:17:09,609: WARNING/MainProcess] Substantial drift from celery@worker_send_msg may mean clocks are out of sync.  Current drift is 33052 seconds.  [orig: 2022-11-04 09:17:09.592121 recv: 2022-11-04 00:06:17.866632]
+[2022-11-04 20:01:43,999: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-04 20:12:07,907: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-05 04:47:32,607: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-05 08:24:04,206: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-05 10:11:50,526: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-05 10:13:14,135: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-05 11:14:01,879: INFO/MainProcess] missed heartbeat from celery@worker_send_msg
+[2022-11-05 12:46:24,828: INFO/MainProcess] missed heartbeat from celery@worker_send_msg

@@ -1,0 +1,1424 @@
+2022-10-14 07:24:56,342 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-14 07:24:56,375 INFO RPC interface 'supervisor' initialized
+2022-10-14 07:24:56,376 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-14 07:24:56,383 INFO supervisord started with pid 1
+2022-10-14 07:24:57,394 INFO spawned: 'migrate' with pid 8
+2022-10-14 07:24:57,422 INFO spawned: 'web' with pid 9
+2022-10-14 07:24:58,425 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-14 07:24:58,427 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-14 07:25:00,172 INFO exited: migrate (exit status 0; expected)
+2022-10-14 07:33:20,437 WARN received SIGTERM indicating exit request
+2022-10-14 07:33:20,485 INFO waiting for web to die
+2022-10-14 07:33:21,909 INFO stopped: web (exit status 0)
+2022-10-14 07:33:34,442 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-14 07:33:34,463 INFO RPC interface 'supervisor' initialized
+2022-10-14 07:33:34,464 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-14 07:33:34,470 INFO supervisord started with pid 1
+2022-10-14 07:33:35,480 INFO spawned: 'migrate' with pid 7
+2022-10-14 07:33:35,493 INFO spawned: 'web' with pid 8
+2022-10-14 07:33:36,498 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-14 07:33:36,500 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-14 07:33:39,265 INFO exited: migrate (exit status 0; expected)
+2022-10-17 07:29:25,835 WARN received SIGTERM indicating exit request
+2022-10-17 07:29:25,927 INFO waiting for web to die
+2022-10-17 07:29:28,960 INFO waiting for web to die
+2022-10-17 07:29:29,249 INFO stopped: web (exit status 0)
+2022-10-17 07:29:52,668 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 07:29:52,693 INFO RPC interface 'supervisor' initialized
+2022-10-17 07:29:52,694 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 07:29:52,703 INFO supervisord started with pid 1
+2022-10-17 07:29:53,710 INFO spawned: 'migrate' with pid 10
+2022-10-17 07:29:53,718 INFO spawned: 'web' with pid 11
+2022-10-17 07:29:54,784 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:29:54,785 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:29:54,787 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:29:55,161 INFO spawned: 'migrate' with pid 14
+2022-10-17 07:29:55,964 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:29:56,975 INFO spawned: 'migrate' with pid 15
+2022-10-17 07:29:57,793 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:29:59,809 INFO spawned: 'migrate' with pid 16
+2022-10-17 07:30:00,327 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:30:03,343 INFO spawned: 'migrate' with pid 17
+2022-10-17 07:30:04,927 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:30:04,929 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:30:05,939 INFO spawned: 'migrate' with pid 18
+2022-10-17 07:30:06,596 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:30:07,606 INFO spawned: 'migrate' with pid 19
+2022-10-17 07:30:08,278 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:30:10,290 INFO spawned: 'migrate' with pid 20
+2022-10-17 07:30:11,871 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:30:11,872 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:30:12,883 INFO spawned: 'migrate' with pid 21
+2022-10-17 07:30:13,439 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:30:14,449 INFO spawned: 'migrate' with pid 22
+2022-10-17 07:30:15,016 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:30:17,042 INFO spawned: 'migrate' with pid 23
+2022-10-17 07:30:17,528 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:30:20,539 INFO spawned: 'migrate' with pid 24
+2022-10-17 07:30:21,096 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:30:22,101 INFO gave up: migrate entered FATAL state, too many start retries too quickly
+2022-10-17 07:33:36,650 WARN received SIGTERM indicating exit request
+2022-10-17 07:33:36,656 INFO waiting for web to die
+2022-10-17 07:33:36,825 INFO stopped: web (exit status 0)
+2022-10-17 07:33:49,294 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 07:33:49,305 INFO RPC interface 'supervisor' initialized
+2022-10-17 07:33:49,306 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 07:33:49,312 INFO supervisord started with pid 1
+2022-10-17 07:33:50,318 INFO spawned: 'migrate' with pid 7
+2022-10-17 07:33:50,332 INFO spawned: 'web' with pid 8
+2022-10-17 07:33:51,278 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:33:51,645 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:33:52,674 INFO spawned: 'migrate' with pid 11
+2022-10-17 07:33:53,181 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:33:55,199 INFO spawned: 'migrate' with pid 12
+2022-10-17 07:33:55,703 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:33:58,720 INFO spawned: 'migrate' with pid 13
+2022-10-17 07:33:59,295 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:34:00,299 INFO gave up: migrate entered FATAL state, too many start retries too quickly
+2022-10-17 07:37:20,349 WARN received SIGTERM indicating exit request
+2022-10-17 07:37:20,351 INFO waiting for web to die
+2022-10-17 07:37:21,451 INFO stopped: web (exit status 0)
+2022-10-17 07:37:33,819 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 07:37:33,826 INFO RPC interface 'supervisor' initialized
+2022-10-17 07:37:33,833 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 07:37:33,841 INFO supervisord started with pid 1
+2022-10-17 07:37:34,856 INFO spawned: 'migrate' with pid 7
+2022-10-17 07:37:34,879 INFO spawned: 'web' with pid 8
+2022-10-17 07:37:35,637 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:37:35,888 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:37:36,913 INFO spawned: 'migrate' with pid 11
+2022-10-17 07:37:37,635 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:37:39,648 INFO spawned: 'migrate' with pid 12
+2022-10-17 07:37:40,060 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:37:43,073 INFO spawned: 'migrate' with pid 13
+2022-10-17 07:37:43,382 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:37:44,398 INFO gave up: migrate entered FATAL state, too many start retries too quickly
+2022-10-17 07:42:24,326 WARN received SIGTERM indicating exit request
+2022-10-17 07:42:24,332 INFO waiting for web to die
+2022-10-17 07:42:24,440 INFO stopped: web (exit status 0)
+2022-10-17 07:42:34,388 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 07:42:34,394 INFO RPC interface 'supervisor' initialized
+2022-10-17 07:42:34,395 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 07:42:34,399 INFO supervisord started with pid 1
+2022-10-17 07:42:35,410 INFO spawned: 'migrate' with pid 8
+2022-10-17 07:42:35,432 INFO spawned: 'web' with pid 9
+2022-10-17 07:42:36,455 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:42:36,457 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:42:36,459 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:42:36,774 INFO spawned: 'migrate' with pid 12
+2022-10-17 07:42:38,518 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:42:38,519 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:42:39,536 INFO spawned: 'migrate' with pid 13
+2022-10-17 07:42:40,356 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:42:41,377 INFO spawned: 'migrate' with pid 14
+2022-10-17 07:42:41,905 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:42:43,921 INFO spawned: 'migrate' with pid 15
+2022-10-17 07:42:44,423 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:42:48,407 INFO spawned: 'migrate' with pid 16
+2022-10-17 07:42:49,215 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:42:50,220 INFO gave up: migrate entered FATAL state, too many start retries too quickly
+2022-10-17 07:47:37,854 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 07:47:37,865 INFO RPC interface 'supervisor' initialized
+2022-10-17 07:47:37,866 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 07:47:37,882 INFO supervisord started with pid 1
+2022-10-17 07:47:38,890 INFO spawned: 'migrate' with pid 7
+2022-10-17 07:47:38,896 INFO spawned: 'web' with pid 8
+2022-10-17 07:47:39,973 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:47:39,976 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:47:40,012 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:47:40,314 INFO spawned: 'migrate' with pid 11
+2022-10-17 07:47:41,252 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:47:42,320 INFO spawned: 'migrate' with pid 12
+2022-10-17 07:47:43,219 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:47:45,231 INFO spawned: 'migrate' with pid 13
+2022-10-17 07:47:46,083 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:47:50,070 INFO spawned: 'migrate' with pid 14
+2022-10-17 07:47:51,954 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:47:51,958 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:47:52,971 INFO spawned: 'migrate' with pid 15
+2022-10-17 07:47:53,793 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:47:54,802 INFO spawned: 'migrate' with pid 16
+2022-10-17 07:47:55,678 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:47:57,692 INFO spawned: 'migrate' with pid 17
+2022-10-17 07:47:58,722 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:47:58,723 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:47:59,732 INFO spawned: 'migrate' with pid 18
+2022-10-17 07:48:00,801 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 07:48:00,803 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:48:01,810 INFO spawned: 'migrate' with pid 19
+2022-10-17 07:48:02,734 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:48:03,745 INFO spawned: 'migrate' with pid 20
+2022-10-17 07:48:04,680 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:48:06,695 INFO spawned: 'migrate' with pid 21
+2022-10-17 07:48:07,526 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:48:10,544 INFO spawned: 'migrate' with pid 22
+2022-10-17 07:48:11,410 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 07:48:12,414 INFO gave up: migrate entered FATAL state, too many start retries too quickly
+2022-10-17 08:35:16,587 WARN received SIGTERM indicating exit request
+2022-10-17 08:35:16,613 INFO waiting for web to die
+2022-10-17 08:35:17,657 INFO stopped: web (exit status 0)
+2022-10-17 08:39:46,891 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 08:39:46,900 INFO RPC interface 'supervisor' initialized
+2022-10-17 08:39:46,901 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 08:39:46,905 INFO supervisord started with pid 1
+2022-10-17 08:39:47,912 INFO spawned: 'migrate' with pid 9
+2022-10-17 08:39:47,922 INFO spawned: 'web' with pid 10
+2022-10-17 08:39:48,927 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:39:48,929 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:39:49,717 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 08:39:49,727 INFO spawned: 'migrate' with pid 13
+2022-10-17 08:39:50,832 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:39:52,000 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 08:39:53,006 INFO spawned: 'migrate' with pid 14
+2022-10-17 08:39:54,009 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:39:55,205 INFO exited: migrate (exit status 0; expected)
+2022-10-17 08:42:16,382 WARN received SIGTERM indicating exit request
+2022-10-17 08:42:16,388 INFO waiting for web to die
+2022-10-17 08:42:16,581 INFO stopped: web (exit status 0)
+2022-10-17 08:42:29,422 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 08:42:29,434 INFO RPC interface 'supervisor' initialized
+2022-10-17 08:42:29,435 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 08:42:29,447 INFO supervisord started with pid 1
+2022-10-17 08:42:30,456 INFO spawned: 'migrate' with pid 8
+2022-10-17 08:42:30,468 INFO spawned: 'web' with pid 9
+2022-10-17 08:42:31,471 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:42:31,472 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:42:32,281 INFO exited: migrate (exit status 0; expected)
+2022-10-17 08:44:55,897 WARN received SIGTERM indicating exit request
+2022-10-17 08:44:55,900 INFO waiting for web to die
+2022-10-17 08:44:56,025 INFO stopped: web (exit status 0)
+2022-10-17 08:45:08,075 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 08:45:08,084 INFO RPC interface 'supervisor' initialized
+2022-10-17 08:45:08,085 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 08:45:08,092 INFO supervisord started with pid 1
+2022-10-17 08:45:09,108 INFO spawned: 'migrate' with pid 8
+2022-10-17 08:45:09,114 INFO spawned: 'web' with pid 9
+2022-10-17 08:45:10,118 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:45:10,122 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:45:12,112 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 08:45:12,831 INFO spawned: 'migrate' with pid 12
+2022-10-17 08:45:14,141 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:45:16,112 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 08:45:17,123 INFO spawned: 'migrate' with pid 13
+2022-10-17 08:45:18,130 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 08:45:21,482 INFO exited: migrate (exit status 0; expected)
+2022-10-17 09:02:36,736 WARN received SIGTERM indicating exit request
+2022-10-17 09:02:36,756 INFO waiting for web to die
+2022-10-17 09:02:37,607 INFO stopped: web (exit status 0)
+2022-10-17 09:05:12,415 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 09:05:12,446 INFO RPC interface 'supervisor' initialized
+2022-10-17 09:05:12,451 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 09:05:12,466 INFO supervisord started with pid 1
+2022-10-17 09:05:13,482 INFO spawned: 'migrate' with pid 7
+2022-10-17 09:05:13,498 INFO spawned: 'web' with pid 8
+2022-10-17 09:05:14,507 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:14,533 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:17,934 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:18,224 INFO spawned: 'migrate' with pid 11
+2022-10-17 09:05:19,288 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:21,598 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:22,607 INFO spawned: 'migrate' with pid 12
+2022-10-17 09:05:23,625 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:24,216 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:25,225 INFO spawned: 'migrate' with pid 13
+2022-10-17 09:05:26,227 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:26,877 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:27,884 INFO spawned: 'migrate' with pid 14
+2022-10-17 09:05:28,808 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:29,830 INFO spawned: 'migrate' with pid 15
+2022-10-17 09:05:30,844 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:33,144 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:34,154 INFO spawned: 'migrate' with pid 16
+2022-10-17 09:05:35,156 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:36,569 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:37,725 INFO spawned: 'migrate' with pid 17
+2022-10-17 09:05:38,740 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:40,718 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:41,704 INFO spawned: 'migrate' with pid 18
+2022-10-17 09:05:42,756 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:42,759 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:43,768 INFO spawned: 'migrate' with pid 19
+2022-10-17 09:05:44,671 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:45,680 INFO spawned: 'migrate' with pid 20
+2022-10-17 09:05:46,514 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:48,531 INFO spawned: 'migrate' with pid 21
+2022-10-17 09:05:49,419 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:52,433 INFO spawned: 'migrate' with pid 22
+2022-10-17 09:05:54,299 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:05:54,304 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:55,321 INFO spawned: 'migrate' with pid 23
+2022-10-17 09:05:56,163 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:05:57,179 INFO spawned: 'migrate' with pid 24
+2022-10-17 09:05:58,026 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:06:00,045 INFO spawned: 'migrate' with pid 25
+2022-10-17 09:06:00,903 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:06:03,929 INFO spawned: 'migrate' with pid 26
+2022-10-17 09:06:04,785 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:06:05,790 INFO gave up: migrate entered FATAL state, too many start retries too quickly
+2022-10-17 09:08:38,014 WARN received SIGTERM indicating exit request
+2022-10-17 09:08:38,028 INFO waiting for web to die
+2022-10-17 09:08:38,737 INFO stopped: web (exit status 0)
+2022-10-17 09:10:34,808 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 09:10:34,816 INFO RPC interface 'supervisor' initialized
+2022-10-17 09:10:34,817 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 09:10:34,822 INFO supervisord started with pid 1
+2022-10-17 09:10:35,836 INFO spawned: 'migrate' with pid 7
+2022-10-17 09:10:35,842 INFO spawned: 'web' with pid 8
+2022-10-17 09:10:36,938 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:10:36,939 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:10:36,940 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:10:36,951 INFO spawned: 'migrate' with pid 11
+2022-10-17 09:10:37,809 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:10:38,824 INFO spawned: 'migrate' with pid 12
+2022-10-17 09:10:39,660 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:10:42,642 INFO spawned: 'migrate' with pid 13
+2022-10-17 09:10:43,530 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:10:46,545 INFO spawned: 'migrate' with pid 14
+2022-10-17 09:10:47,442 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:10:48,449 INFO gave up: migrate entered FATAL state, too many start retries too quickly
+2022-10-17 09:12:13,662 WARN received SIGTERM indicating exit request
+2022-10-17 09:12:13,679 INFO waiting for web to die
+2022-10-17 09:12:14,146 INFO stopped: web (exit status 0)
+2022-10-17 09:12:40,761 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 09:12:40,776 INFO RPC interface 'supervisor' initialized
+2022-10-17 09:12:40,780 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 09:12:40,795 INFO supervisord started with pid 1
+2022-10-17 09:12:41,767 INFO spawned: 'migrate' with pid 8
+2022-10-17 09:12:41,773 INFO spawned: 'web' with pid 9
+2022-10-17 09:12:42,771 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:12:42,772 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:12:42,929 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:12:42,961 INFO spawned: 'migrate' with pid 12
+2022-10-17 09:12:43,812 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:12:44,828 INFO spawned: 'migrate' with pid 13
+2022-10-17 09:12:45,746 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:12:47,761 INFO spawned: 'migrate' with pid 14
+2022-10-17 09:12:49,007 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:12:49,009 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:12:50,020 INFO spawned: 'migrate' with pid 15
+2022-10-17 09:12:51,026 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:12:51,487 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:12:52,496 INFO spawned: 'migrate' with pid 16
+2022-10-17 09:12:53,725 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:12:53,728 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:12:54,738 INFO spawned: 'migrate' with pid 17
+2022-10-17 09:12:55,904 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:12:55,918 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:12:56,935 INFO spawned: 'migrate' with pid 18
+2022-10-17 09:12:58,036 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:12:58,038 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:12:59,045 INFO spawned: 'migrate' with pid 19
+2022-10-17 09:13:00,049 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:01,950 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:02,964 INFO spawned: 'migrate' with pid 20
+2022-10-17 09:13:04,071 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:04,073 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:05,080 INFO spawned: 'migrate' with pid 21
+2022-10-17 09:13:06,083 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:06,343 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:07,351 INFO spawned: 'migrate' with pid 22
+2022-10-17 09:13:08,356 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:09,566 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:10,580 INFO spawned: 'migrate' with pid 23
+2022-10-17 09:13:11,628 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:11,820 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:12,828 INFO spawned: 'migrate' with pid 24
+2022-10-17 09:13:13,984 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:13,985 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:15,000 INFO spawned: 'migrate' with pid 25
+2022-10-17 09:13:16,160 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:16,162 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:17,170 INFO spawned: 'migrate' with pid 26
+2022-10-17 09:13:18,170 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:18,172 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:19,180 INFO spawned: 'migrate' with pid 27
+2022-10-17 09:13:20,232 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:20,234 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:21,241 INFO spawned: 'migrate' with pid 28
+2022-10-17 09:13:22,377 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:22,379 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:23,387 INFO spawned: 'migrate' with pid 29
+2022-10-17 09:13:24,502 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:24,505 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:25,517 INFO spawned: 'migrate' with pid 30
+2022-10-17 09:13:26,518 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:27,685 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:28,751 INFO spawned: 'migrate' with pid 31
+2022-10-17 09:13:29,759 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:30,628 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:31,636 INFO spawned: 'migrate' with pid 32
+2022-10-17 09:13:32,649 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:32,799 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:33,812 INFO spawned: 'migrate' with pid 33
+2022-10-17 09:13:34,836 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:34,839 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:35,849 INFO spawned: 'migrate' with pid 34
+2022-10-17 09:13:36,820 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:37,830 INFO spawned: 'migrate' with pid 35
+2022-10-17 09:13:38,833 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:39,320 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:40,332 INFO spawned: 'migrate' with pid 36
+2022-10-17 09:13:41,417 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:41,418 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:42,430 INFO spawned: 'migrate' with pid 37
+2022-10-17 09:13:43,478 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:43,479 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:44,488 INFO spawned: 'migrate' with pid 38
+2022-10-17 09:13:45,557 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:45,558 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:46,566 INFO spawned: 'migrate' with pid 39
+2022-10-17 09:13:47,732 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:47,737 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:48,746 INFO spawned: 'migrate' with pid 40
+2022-10-17 09:13:49,858 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:49,859 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:50,868 INFO spawned: 'migrate' with pid 41
+2022-10-17 09:13:51,873 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:52,301 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:53,310 INFO spawned: 'migrate' with pid 42
+2022-10-17 09:13:54,431 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:54,434 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:55,441 INFO spawned: 'migrate' with pid 43
+2022-10-17 09:13:56,510 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:56,511 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:57,524 INFO spawned: 'migrate' with pid 44
+2022-10-17 09:13:58,660 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:13:58,661 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:13:59,669 INFO spawned: 'migrate' with pid 45
+2022-10-17 09:14:00,666 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:00,869 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:01,896 INFO spawned: 'migrate' with pid 46
+2022-10-17 09:14:02,878 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:03,063 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:04,074 INFO spawned: 'migrate' with pid 47
+2022-10-17 09:14:05,138 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:05,140 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:06,148 INFO spawned: 'migrate' with pid 48
+2022-10-17 09:14:07,198 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:07,200 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:08,209 INFO spawned: 'migrate' with pid 49
+2022-10-17 09:14:09,312 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:09,315 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:10,328 INFO spawned: 'migrate' with pid 50
+2022-10-17 09:14:11,375 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:11,377 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:12,386 INFO spawned: 'migrate' with pid 51
+2022-10-17 09:14:13,525 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:13,527 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:14,539 INFO spawned: 'migrate' with pid 52
+2022-10-17 09:14:15,661 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:15,664 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:16,674 INFO spawned: 'migrate' with pid 53
+2022-10-17 09:14:17,818 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:17,823 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:18,833 INFO spawned: 'migrate' with pid 54
+2022-10-17 09:14:19,960 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:19,962 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:20,970 INFO spawned: 'migrate' with pid 55
+2022-10-17 09:14:22,045 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:22,046 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:23,059 INFO spawned: 'migrate' with pid 56
+2022-10-17 09:14:24,063 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:24,404 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:25,415 INFO spawned: 'migrate' with pid 57
+2022-10-17 09:14:26,418 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:26,758 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:27,767 INFO spawned: 'migrate' with pid 58
+2022-10-17 09:14:28,769 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:31,960 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:32,971 INFO spawned: 'migrate' with pid 59
+2022-10-17 09:14:34,107 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:34,109 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:35,122 INFO spawned: 'migrate' with pid 60
+2022-10-17 09:14:36,116 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:36,368 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:37,379 INFO spawned: 'migrate' with pid 61
+2022-10-17 09:14:38,382 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:41,701 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:42,711 INFO spawned: 'migrate' with pid 62
+2022-10-17 09:14:43,832 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:43,834 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:44,840 INFO spawned: 'migrate' with pid 63
+2022-10-17 09:14:45,976 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:45,978 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:46,984 INFO spawned: 'migrate' with pid 64
+2022-10-17 09:14:47,989 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:48,418 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:49,429 INFO spawned: 'migrate' with pid 65
+2022-10-17 09:14:50,526 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:50,528 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:51,538 INFO spawned: 'migrate' with pid 66
+2022-10-17 09:14:52,618 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:52,620 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:53,630 INFO spawned: 'migrate' with pid 67
+2022-10-17 09:14:54,717 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:54,719 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:55,728 INFO spawned: 'migrate' with pid 68
+2022-10-17 09:14:56,731 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:57,368 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:14:58,383 INFO spawned: 'migrate' with pid 69
+2022-10-17 09:14:59,450 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:14:59,451 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:00,460 INFO spawned: 'migrate' with pid 70
+2022-10-17 09:15:01,411 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:02,419 INFO spawned: 'migrate' with pid 71
+2022-10-17 09:15:03,320 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:05,334 INFO spawned: 'migrate' with pid 72
+2022-10-17 09:15:06,247 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:09,267 INFO spawned: 'migrate' with pid 73
+2022-10-17 09:15:10,270 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:10,604 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:11,580 INFO spawned: 'migrate' with pid 74
+2022-10-17 09:15:12,675 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:12,677 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:13,685 INFO spawned: 'migrate' with pid 75
+2022-10-17 09:15:14,689 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:14,909 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:15,925 INFO spawned: 'migrate' with pid 76
+2022-10-17 09:15:16,931 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:17,267 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:18,280 INFO spawned: 'migrate' with pid 77
+2022-10-17 09:15:19,283 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:19,564 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:20,578 INFO spawned: 'migrate' with pid 78
+2022-10-17 09:15:21,582 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:25,141 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:26,156 INFO spawned: 'migrate' with pid 79
+2022-10-17 09:15:27,161 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:33,600 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:34,617 INFO spawned: 'migrate' with pid 80
+2022-10-17 09:15:35,631 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:37,580 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:38,590 INFO spawned: 'migrate' with pid 81
+2022-10-17 09:15:39,598 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:40,872 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:41,870 INFO spawned: 'migrate' with pid 82
+2022-10-17 09:15:42,875 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:44,749 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:45,787 INFO spawned: 'migrate' with pid 83
+2022-10-17 09:15:46,808 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:48,768 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:49,779 INFO spawned: 'migrate' with pid 84
+2022-10-17 09:15:50,786 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:53,098 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:54,108 INFO spawned: 'migrate' with pid 85
+2022-10-17 09:15:55,114 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:15:57,507 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:15:58,516 INFO spawned: 'migrate' with pid 86
+2022-10-17 09:15:59,520 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:01,429 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:02,439 INFO spawned: 'migrate' with pid 87
+2022-10-17 09:16:03,443 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:05,016 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:06,027 INFO spawned: 'migrate' with pid 88
+2022-10-17 09:16:07,033 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:08,823 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:10,532 INFO spawned: 'migrate' with pid 89
+2022-10-17 09:16:11,535 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:13,496 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:14,505 INFO spawned: 'migrate' with pid 90
+2022-10-17 09:16:15,661 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:15,662 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:16,668 INFO spawned: 'migrate' with pid 91
+2022-10-17 09:16:17,810 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:17,811 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:18,819 INFO spawned: 'migrate' with pid 92
+2022-10-17 09:16:19,982 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:19,985 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:20,993 INFO spawned: 'migrate' with pid 93
+2022-10-17 09:16:22,053 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:22,054 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:23,063 INFO spawned: 'migrate' with pid 94
+2022-10-17 09:16:24,141 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:24,144 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:25,152 INFO spawned: 'migrate' with pid 95
+2022-10-17 09:16:26,262 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:26,264 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:27,271 INFO spawned: 'migrate' with pid 96
+2022-10-17 09:16:28,268 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:28,452 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:29,461 INFO spawned: 'migrate' with pid 97
+2022-10-17 09:16:30,587 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:30,589 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:31,596 INFO spawned: 'migrate' with pid 98
+2022-10-17 09:16:32,624 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:32,628 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:33,636 INFO spawned: 'migrate' with pid 99
+2022-10-17 09:16:34,697 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:34,699 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:35,705 INFO spawned: 'migrate' with pid 100
+2022-10-17 09:16:36,792 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:36,795 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:37,803 INFO spawned: 'migrate' with pid 101
+2022-10-17 09:16:38,884 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:38,886 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:39,893 INFO spawned: 'migrate' with pid 102
+2022-10-17 09:16:41,036 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:41,045 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:42,053 INFO spawned: 'migrate' with pid 103
+2022-10-17 09:16:43,234 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:43,236 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:44,244 INFO spawned: 'migrate' with pid 104
+2022-10-17 09:16:45,249 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:45,724 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:46,738 INFO spawned: 'migrate' with pid 105
+2022-10-17 09:16:47,743 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:51,745 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:52,774 INFO spawned: 'migrate' with pid 106
+2022-10-17 09:16:53,758 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:53,946 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:54,964 INFO spawned: 'migrate' with pid 107
+2022-10-17 09:16:55,968 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:56,708 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:57,722 INFO spawned: 'migrate' with pid 108
+2022-10-17 09:16:58,829 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:16:58,830 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:16:59,869 INFO spawned: 'migrate' with pid 109
+2022-10-17 09:17:00,966 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:00,968 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:01,978 INFO spawned: 'migrate' with pid 110
+2022-10-17 09:17:02,920 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:03,929 INFO spawned: 'migrate' with pid 111
+2022-10-17 09:17:04,934 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:05,156 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:06,168 INFO spawned: 'migrate' with pid 112
+2022-10-17 09:17:07,219 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:07,221 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:08,234 INFO spawned: 'migrate' with pid 113
+2022-10-17 09:17:09,337 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:09,340 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:10,348 INFO spawned: 'migrate' with pid 114
+2022-10-17 09:17:11,341 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:12,350 INFO spawned: 'migrate' with pid 115
+2022-10-17 09:17:14,299 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:14,301 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:15,310 INFO spawned: 'migrate' with pid 116
+2022-10-17 09:17:16,436 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:16,439 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:17,463 INFO spawned: 'migrate' with pid 117
+2022-10-17 09:17:18,471 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:19,122 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:20,130 INFO spawned: 'migrate' with pid 118
+2022-10-17 09:17:21,133 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:21,341 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:22,352 INFO spawned: 'migrate' with pid 126
+2022-10-17 09:17:23,266 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:24,278 INFO spawned: 'migrate' with pid 127
+2022-10-17 09:17:25,318 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:25,320 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:26,328 INFO spawned: 'migrate' with pid 128
+2022-10-17 09:17:27,339 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:29,111 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:30,125 INFO spawned: 'migrate' with pid 129
+2022-10-17 09:17:31,128 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:31,655 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:32,670 INFO spawned: 'migrate' with pid 131
+2022-10-17 09:17:33,798 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:33,799 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:34,807 INFO spawned: 'migrate' with pid 132
+2022-10-17 09:17:35,810 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:36,273 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:37,284 INFO spawned: 'migrate' with pid 133
+2022-10-17 09:17:38,288 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:38,656 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:39,665 INFO spawned: 'migrate' with pid 134
+2022-10-17 09:17:40,677 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:41,259 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:42,293 INFO spawned: 'migrate' with pid 135
+2022-10-17 09:17:43,287 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:44,493 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:45,501 INFO spawned: 'migrate' with pid 136
+2022-10-17 09:17:46,596 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:46,600 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:47,617 INFO spawned: 'migrate' with pid 137
+2022-10-17 09:17:48,621 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:48,993 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:50,005 INFO spawned: 'migrate' with pid 138
+2022-10-17 09:17:51,005 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:51,240 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:52,259 INFO spawned: 'migrate' with pid 139
+2022-10-17 09:17:53,340 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:53,348 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:54,363 INFO spawned: 'migrate' with pid 140
+2022-10-17 09:17:55,352 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:56,547 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:57,556 INFO spawned: 'migrate' with pid 141
+2022-10-17 09:17:58,707 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:17:58,709 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:17:59,715 INFO spawned: 'migrate' with pid 142
+2022-10-17 09:18:00,718 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:18:02,003 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:18:03,011 INFO spawned: 'migrate' with pid 143
+2022-10-17 09:18:04,021 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:18:12,970 INFO exited: migrate (exit status 0; expected)
+2022-10-17 09:19:46,291 WARN received SIGTERM indicating exit request
+2022-10-17 09:19:46,298 INFO waiting for web to die
+2022-10-17 09:19:46,865 INFO stopped: web (exit status 0)
+2022-10-17 09:20:47,585 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-17 09:20:47,595 INFO RPC interface 'supervisor' initialized
+2022-10-17 09:20:47,596 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-17 09:20:47,600 INFO supervisord started with pid 1
+2022-10-17 09:20:48,607 INFO spawned: 'migrate' with pid 9
+2022-10-17 09:20:48,611 INFO spawned: 'web' with pid 10
+2022-10-17 09:20:49,614 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:20:49,615 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:20:50,920 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:20:51,926 INFO spawned: 'migrate' with pid 13
+2022-10-17 09:20:52,930 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:20:53,285 INFO exited: migrate (exit status 1; not expected)
+2022-10-17 09:20:54,299 INFO spawned: 'migrate' with pid 14
+2022-10-17 09:20:55,302 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-17 09:20:55,915 INFO exited: migrate (exit status 0; expected)
+2022-10-18 01:31:29,031 WARN received SIGTERM indicating exit request
+2022-10-18 01:31:29,056 INFO waiting for web to die
+2022-10-18 01:31:30,970 INFO stopped: web (exit status 0)
+2022-10-18 07:54:23,223 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-18 07:54:23,317 INFO RPC interface 'supervisor' initialized
+2022-10-18 07:54:23,322 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-18 07:54:23,335 INFO supervisord started with pid 1
+2022-10-18 07:54:24,345 INFO spawned: 'migrate' with pid 8
+2022-10-18 07:54:24,353 INFO spawned: 'web' with pid 9
+2022-10-18 07:54:26,332 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-18 07:54:26,335 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-18 07:54:30,234 INFO exited: migrate (exit status 1; not expected)
+2022-10-18 07:54:31,489 INFO spawned: 'migrate' with pid 12
+2022-10-18 07:54:32,939 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-18 07:54:39,199 INFO exited: migrate (exit status 1; not expected)
+2022-10-18 07:54:40,305 INFO spawned: 'migrate' with pid 13
+2022-10-18 07:54:41,368 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-18 07:54:44,580 INFO exited: migrate (exit status 0; expected)
+2022-10-18 07:56:20,674 WARN received SIGTERM indicating exit request
+2022-10-18 07:56:20,682 INFO waiting for web to die
+2022-10-18 07:56:22,070 INFO stopped: web (exit status 0)
+2022-10-18 07:56:26,945 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-18 07:56:26,951 INFO RPC interface 'supervisor' initialized
+2022-10-18 07:56:26,951 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-18 07:56:26,956 INFO supervisord started with pid 1
+2022-10-18 07:56:27,963 INFO spawned: 'migrate' with pid 10
+2022-10-18 07:56:27,969 INFO spawned: 'web' with pid 11
+2022-10-18 07:56:29,048 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-18 07:56:29,050 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-18 07:56:29,190 INFO exited: migrate (exit status 0; expected)
+2022-10-18 09:22:15,873 WARN received SIGTERM indicating exit request
+2022-10-18 09:22:15,924 INFO waiting for web to die
+2022-10-18 09:22:17,293 INFO stopped: web (exit status 0)
+2022-10-18 09:31:35,120 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-18 09:31:35,133 INFO RPC interface 'supervisor' initialized
+2022-10-18 09:31:35,136 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-18 09:31:35,155 INFO supervisord started with pid 1
+2022-10-18 09:31:36,163 INFO spawned: 'migrate' with pid 8
+2022-10-18 09:31:36,172 INFO spawned: 'web' with pid 9
+2022-10-18 09:31:37,176 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-18 09:31:37,178 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-18 09:31:51,168 INFO exited: migrate (exit status 0; expected)
+2022-10-21 01:38:09,122 WARN received SIGTERM indicating exit request
+2022-10-21 01:38:09,322 INFO waiting for web to die
+2022-10-23 07:18:45,957 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-23 07:18:45,972 INFO RPC interface 'supervisor' initialized
+2022-10-23 07:18:45,973 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-23 07:18:45,978 INFO supervisord started with pid 1
+2022-10-23 07:18:46,990 INFO spawned: 'migrate' with pid 8
+2022-10-23 07:18:46,996 INFO spawned: 'web' with pid 9
+2022-10-23 07:18:47,999 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 07:18:48,000 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 07:18:48,806 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 07:18:48,861 INFO spawned: 'migrate' with pid 18
+2022-10-23 07:18:49,820 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 07:18:50,831 INFO spawned: 'migrate' with pid 22
+2022-10-23 07:18:51,770 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 07:18:53,784 INFO spawned: 'migrate' with pid 26
+2022-10-23 07:18:54,727 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 07:18:57,740 INFO spawned: 'migrate' with pid 30
+2022-10-23 07:18:58,728 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 07:18:59,732 INFO gave up: migrate entered FATAL state, too many start retries too quickly
+2022-10-23 07:19:50,786 WARN received SIGTERM indicating exit request
+2022-10-23 07:19:50,789 INFO waiting for web to die
+2022-10-23 07:19:51,914 INFO stopped: web (exit status 0)
+2022-10-23 07:19:56,265 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-23 07:19:56,270 INFO RPC interface 'supervisor' initialized
+2022-10-23 07:19:56,271 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-23 07:19:56,274 INFO supervisord started with pid 1
+2022-10-23 07:19:57,283 INFO spawned: 'migrate' with pid 8
+2022-10-23 07:19:57,288 INFO spawned: 'web' with pid 9
+2022-10-23 07:19:58,291 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 07:19:58,292 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 07:19:58,750 INFO exited: migrate (exit status 0; expected)
+2022-10-23 09:51:22,081 WARN received SIGTERM indicating exit request
+2022-10-23 09:51:22,118 INFO waiting for web to die
+2022-10-23 09:51:23,651 INFO stopped: web (exit status 0)
+2022-10-23 09:51:30,049 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-23 09:51:30,060 INFO RPC interface 'supervisor' initialized
+2022-10-23 09:51:30,061 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-23 09:51:30,065 INFO supervisord started with pid 1
+2022-10-23 09:51:31,073 INFO spawned: 'migrate' with pid 8
+2022-10-23 09:51:31,088 INFO spawned: 'web' with pid 9
+2022-10-23 09:51:32,049 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:51:32,103 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:51:33,421 INFO spawned: 'migrate' with pid 12
+2022-10-23 09:51:34,518 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:51:34,521 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:51:35,532 INFO spawned: 'migrate' with pid 13
+2022-10-23 09:51:36,389 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:51:37,399 INFO spawned: 'migrate' with pid 14
+2022-10-23 09:51:38,404 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:51:39,680 INFO exited: migrate (exit status 0; expected)
+2022-10-23 09:52:21,735 WARN received SIGTERM indicating exit request
+2022-10-23 09:52:21,738 INFO waiting for web to die
+2022-10-23 09:52:21,852 INFO stopped: web (exit status 0)
+2022-10-23 09:52:26,202 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-23 09:52:26,206 INFO RPC interface 'supervisor' initialized
+2022-10-23 09:52:26,207 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-23 09:52:26,210 INFO supervisord started with pid 1
+2022-10-23 09:52:27,231 INFO spawned: 'migrate' with pid 7
+2022-10-23 09:52:27,255 INFO spawned: 'web' with pid 8
+2022-10-23 09:52:28,340 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:52:28,344 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:52:28,346 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:52:28,505 INFO spawned: 'migrate' with pid 11
+2022-10-23 09:52:29,412 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:52:30,423 INFO spawned: 'migrate' with pid 12
+2022-10-23 09:52:31,235 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:52:33,246 INFO spawned: 'migrate' with pid 13
+2022-10-23 09:52:34,089 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:52:37,100 INFO spawned: 'migrate' with pid 14
+2022-10-23 09:52:37,947 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:52:38,950 INFO gave up: migrate entered FATAL state, too many start retries too quickly
+2022-10-23 09:53:01,985 WARN received SIGTERM indicating exit request
+2022-10-23 09:53:02,003 INFO waiting for web to die
+2022-10-23 09:53:02,175 INFO stopped: web (exit status 0)
+2022-10-23 09:53:15,107 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-23 09:53:15,114 INFO RPC interface 'supervisor' initialized
+2022-10-23 09:53:15,115 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-23 09:53:15,118 INFO supervisord started with pid 1
+2022-10-23 09:53:16,123 INFO spawned: 'migrate' with pid 8
+2022-10-23 09:53:16,130 INFO spawned: 'web' with pid 9
+2022-10-23 09:53:17,234 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:53:17,236 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:53:17,237 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:53:17,259 INFO spawned: 'migrate' with pid 12
+2022-10-23 09:53:18,369 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:53:18,574 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:53:19,582 INFO spawned: 'migrate' with pid 13
+2022-10-23 09:53:20,588 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:53:20,767 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:53:21,775 INFO spawned: 'migrate' with pid 14
+2022-10-23 09:53:22,854 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:53:22,858 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:53:23,869 INFO spawned: 'migrate' with pid 15
+2022-10-23 09:53:24,786 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:53:25,794 INFO spawned: 'migrate' with pid 16
+2022-10-23 09:53:26,588 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:53:28,596 INFO spawned: 'migrate' with pid 17
+2022-10-23 09:53:29,636 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:53:29,638 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:53:30,647 INFO spawned: 'migrate' with pid 18
+2022-10-23 09:53:31,494 INFO exited: migrate (exit status 1; not expected)
+2022-10-23 09:53:32,506 INFO spawned: 'migrate' with pid 19
+2022-10-23 09:53:33,510 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:53:33,910 INFO exited: migrate (exit status 0; expected)
+2022-10-23 09:53:41,927 WARN received SIGTERM indicating exit request
+2022-10-23 09:53:41,929 INFO waiting for web to die
+2022-10-23 09:53:42,062 INFO stopped: web (exit status 0)
+2022-10-23 09:53:53,176 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-23 09:53:53,184 INFO RPC interface 'supervisor' initialized
+2022-10-23 09:53:53,185 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-23 09:53:53,190 INFO supervisord started with pid 1
+2022-10-23 09:53:54,197 INFO spawned: 'migrate' with pid 8
+2022-10-23 09:53:54,206 INFO spawned: 'web' with pid 9
+2022-10-23 09:53:55,209 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:53:55,211 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-23 09:53:55,896 INFO exited: migrate (exit status 0; expected)
+2022-10-26 02:38:51,550 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-26 02:38:51,568 INFO RPC interface 'supervisor' initialized
+2022-10-26 02:38:51,569 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-26 02:38:51,574 INFO supervisord started with pid 1
+2022-10-26 02:38:52,581 INFO spawned: 'migrate' with pid 8
+2022-10-26 02:38:52,587 INFO spawned: 'web' with pid 9
+2022-10-26 02:38:53,589 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:38:53,591 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:38:54,759 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:38:54,926 INFO spawned: 'migrate' with pid 18
+2022-10-26 02:38:55,923 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:38:56,108 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:38:57,117 INFO spawned: 'migrate' with pid 22
+2022-10-26 02:38:58,103 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:38:59,111 INFO spawned: 'migrate' with pid 26
+2022-10-26 02:39:00,148 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:39:00,343 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:39:01,349 INFO spawned: 'migrate' with pid 30
+2022-10-26 02:39:02,352 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:39:03,631 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:39:04,645 INFO spawned: 'migrate' with pid 34
+2022-10-26 02:39:05,648 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:39:05,909 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:39:06,917 INFO spawned: 'migrate' with pid 38
+2022-10-26 02:39:08,010 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:39:08,011 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:39:09,024 INFO spawned: 'migrate' with pid 42
+2022-10-26 02:39:10,071 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:39:10,073 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:39:11,077 INFO spawned: 'migrate' with pid 46
+2022-10-26 02:39:12,080 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:39:13,151 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:39:14,157 INFO spawned: 'migrate' with pid 50
+2022-10-26 02:39:15,159 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:39:17,049 INFO exited: migrate (exit status 1; not expected)
+2022-10-26 02:39:18,057 INFO spawned: 'migrate' with pid 54
+2022-10-26 02:39:19,303 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:39:19,304 INFO exited: migrate (exit status 0; expected)
+2022-10-26 02:39:45,335 WARN received SIGTERM indicating exit request
+2022-10-26 02:39:45,337 INFO waiting for web to die
+2022-10-26 02:39:45,496 INFO stopped: web (exit status 0)
+2022-10-26 02:40:13,957 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-26 02:40:13,970 INFO RPC interface 'supervisor' initialized
+2022-10-26 02:40:13,971 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-26 02:40:13,976 INFO supervisord started with pid 1
+2022-10-26 02:40:15,190 INFO spawned: 'migrate' with pid 9
+2022-10-26 02:40:15,207 INFO spawned: 'web' with pid 10
+2022-10-26 02:40:16,213 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:40:16,780 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-26 02:40:20,671 INFO exited: migrate (exit status 0; expected)
+2022-10-27 02:36:44,887 WARN received SIGTERM indicating exit request
+2022-10-27 02:36:44,914 INFO waiting for web to die
+2022-10-27 02:36:47,738 INFO stopped: web (exit status 0)
+2022-10-27 02:37:31,066 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-27 02:37:31,096 INFO RPC interface 'supervisor' initialized
+2022-10-27 02:37:31,100 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-27 02:37:31,115 INFO supervisord started with pid 1
+2022-10-27 02:37:32,124 INFO spawned: 'beat' with pid 9
+2022-10-27 02:37:32,132 INFO spawned: 'celery' with pid 10
+2022-10-27 02:37:32,149 INFO spawned: 'migrate' with pid 11
+2022-10-27 02:37:32,180 INFO spawned: 'web' with pid 12
+2022-10-27 02:37:33,187 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:37:33,193 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:37:33,195 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:37:33,199 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:37:35,413 INFO exited: migrate (exit status 1; not expected)
+2022-10-27 02:37:35,456 INFO spawned: 'migrate' with pid 24
+2022-10-27 02:37:36,554 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:37:40,582 INFO exited: beat (exit status 1; not expected)
+2022-10-27 02:37:41,354 INFO spawned: 'beat' with pid 32
+2022-10-27 02:37:42,535 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:37:47,063 INFO exited: migrate (exit status 0; expected)
+2022-10-27 02:39:17,473 WARN received SIGTERM indicating exit request
+2022-10-27 02:39:17,477 INFO waiting for beat, celery, web to die
+2022-10-27 02:39:17,860 INFO stopped: web (exit status 0)
+2022-10-27 02:39:20,745 INFO waiting for beat, celery to die
+2022-10-27 02:39:21,714 INFO stopped: celery (exit status 0)
+2022-10-27 02:39:22,967 INFO stopped: beat (exit status 0)
+2022-10-27 02:39:27,710 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-27 02:39:27,719 INFO RPC interface 'supervisor' initialized
+2022-10-27 02:39:27,720 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-27 02:39:27,727 INFO supervisord started with pid 1
+2022-10-27 02:39:28,735 INFO spawned: 'beat' with pid 8
+2022-10-27 02:39:28,747 INFO spawned: 'celery' with pid 9
+2022-10-27 02:39:28,753 INFO spawned: 'migrate' with pid 10
+2022-10-27 02:39:28,768 INFO spawned: 'web' with pid 11
+2022-10-27 02:39:30,279 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:39:30,282 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:39:30,284 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:39:30,288 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 02:39:31,579 INFO exited: migrate (exit status 0; expected)
+2022-10-27 02:46:19,639 WARN received SIGTERM indicating exit request
+2022-10-27 02:46:19,664 INFO waiting for beat, celery, web to die
+2022-10-27 02:46:20,664 INFO stopped: web (exit status 0)
+2022-10-27 02:46:22,966 INFO waiting for beat, celery to die
+2022-10-27 02:46:25,102 INFO stopped: celery (exit status 0)
+2022-10-27 02:46:26,831 INFO stopped: beat (exit status 0)
+2022-10-27 06:37:34,505 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-27 06:37:34,521 INFO RPC interface 'supervisor' initialized
+2022-10-27 06:37:34,522 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-27 06:37:34,531 INFO supervisord started with pid 1
+2022-10-27 06:37:35,538 INFO spawned: 'beat' with pid 9
+2022-10-27 06:37:35,552 INFO spawned: 'celery' with pid 10
+2022-10-27 06:37:35,565 INFO spawned: 'migrate' with pid 11
+2022-10-27 06:37:35,597 INFO spawned: 'web' with pid 12
+2022-10-27 06:37:36,610 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 06:37:36,614 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 06:37:36,627 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 06:37:36,648 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 06:37:47,587 INFO exited: migrate (exit status 0; expected)
+2022-10-27 06:38:36,716 WARN received SIGTERM indicating exit request
+2022-10-27 06:38:36,731 INFO waiting for beat, celery, web to die
+2022-10-27 06:38:37,014 INFO stopped: web (exit status 0)
+2022-10-27 06:38:39,788 INFO stopped: celery (exit status 0)
+2022-10-27 06:38:39,789 INFO waiting for beat to die
+2022-10-27 06:38:40,146 INFO stopped: beat (exit status 0)
+2022-10-27 06:38:44,902 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-27 06:38:44,910 INFO RPC interface 'supervisor' initialized
+2022-10-27 06:38:44,911 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-27 06:38:44,915 INFO supervisord started with pid 1
+2022-10-27 06:38:45,924 INFO spawned: 'beat' with pid 9
+2022-10-27 06:38:45,930 INFO spawned: 'celery' with pid 10
+2022-10-27 06:38:45,936 INFO spawned: 'migrate' with pid 11
+2022-10-27 06:38:45,941 INFO spawned: 'web' with pid 12
+2022-10-27 06:38:47,564 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 06:38:47,565 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 06:38:47,567 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 06:38:47,569 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 06:38:49,079 INFO exited: migrate (exit status 0; expected)
+2022-10-27 07:09:33,805 WARN received SIGTERM indicating exit request
+2022-10-27 07:09:33,820 INFO waiting for beat, celery, web to die
+2022-10-27 07:09:34,696 INFO stopped: web (exit status 0)
+2022-10-27 07:09:37,678 INFO waiting for beat, celery to die
+2022-10-27 07:09:39,387 INFO stopped: celery (exit status 0)
+2022-10-27 07:09:39,874 INFO stopped: beat (exit status 0)
+2022-10-27 07:09:44,747 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-27 07:09:44,755 INFO RPC interface 'supervisor' initialized
+2022-10-27 07:09:44,756 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-27 07:09:44,762 INFO supervisord started with pid 1
+2022-10-27 07:09:45,771 INFO spawned: 'beat' with pid 8
+2022-10-27 07:09:45,777 INFO spawned: 'celery' with pid 9
+2022-10-27 07:09:45,785 INFO spawned: 'migrate' with pid 10
+2022-10-27 07:09:45,792 INFO spawned: 'web' with pid 11
+2022-10-27 07:09:47,275 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:09:47,276 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:09:47,278 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:09:47,280 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:09:48,463 INFO exited: migrate (exit status 0; expected)
+2022-10-27 07:29:05,405 WARN received SIGTERM indicating exit request
+2022-10-27 07:29:05,420 INFO waiting for beat, celery, web to die
+2022-10-27 07:29:05,904 INFO stopped: web (exit status 0)
+2022-10-27 07:29:08,922 INFO waiting for beat, celery to die
+2022-10-27 07:29:09,118 INFO stopped: celery (exit status 0)
+2022-10-27 07:29:10,484 INFO stopped: beat (exit status 0)
+2022-10-27 07:29:15,456 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-27 07:29:15,474 INFO RPC interface 'supervisor' initialized
+2022-10-27 07:29:15,477 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-27 07:29:15,486 INFO supervisord started with pid 1
+2022-10-27 07:29:16,500 INFO spawned: 'beat' with pid 7
+2022-10-27 07:29:16,512 INFO spawned: 'celery' with pid 8
+2022-10-27 07:29:16,528 INFO spawned: 'migrate' with pid 9
+2022-10-27 07:29:16,552 INFO spawned: 'web' with pid 10
+2022-10-27 07:29:18,460 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:29:18,491 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:29:18,496 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:29:18,500 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:29:19,574 INFO exited: migrate (exit status 0; expected)
+2022-10-27 07:52:42,149 WARN received SIGTERM indicating exit request
+2022-10-27 07:52:42,158 INFO waiting for beat, celery, web to die
+2022-10-27 07:52:43,718 INFO stopped: web (exit status 0)
+2022-10-27 07:52:45,733 INFO waiting for beat, celery to die
+2022-10-27 07:52:47,968 INFO stopped: celery (exit status 0)
+2022-10-27 07:52:48,725 INFO stopped: beat (exit status 0)
+2022-10-27 07:52:53,850 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-27 07:52:53,858 INFO RPC interface 'supervisor' initialized
+2022-10-27 07:52:53,859 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-27 07:52:53,866 INFO supervisord started with pid 1
+2022-10-27 07:52:54,873 INFO spawned: 'beat' with pid 9
+2022-10-27 07:52:54,881 INFO spawned: 'celery' with pid 10
+2022-10-27 07:52:54,888 INFO spawned: 'celery_send_msg' with pid 11
+2022-10-27 07:52:54,893 INFO spawned: 'migrate' with pid 12
+2022-10-27 07:52:54,901 INFO spawned: 'web' with pid 13
+2022-10-27 07:52:56,691 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:52:56,692 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:52:56,693 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:52:56,694 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:52:56,696 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 07:52:57,744 INFO exited: migrate (exit status 0; expected)
+2022-10-27 09:17:58,077 WARN received SIGTERM indicating exit request
+2022-10-27 09:17:58,120 INFO waiting for beat, celery, celery_send_msg, web to die
+2022-10-27 09:17:59,700 INFO stopped: web (exit status 0)
+2022-10-27 09:18:02,031 INFO waiting for beat, celery, celery_send_msg to die
+2022-10-27 09:18:04,300 INFO stopped: celery_send_msg (exit status 0)
+2022-10-27 09:18:05,418 INFO waiting for beat, celery to die
+2022-10-27 09:18:06,792 INFO stopped: celery (exit status 0)
+2022-10-27 09:18:07,443 INFO stopped: beat (exit status 0)
+2022-10-27 09:18:12,970 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-27 09:18:12,979 INFO RPC interface 'supervisor' initialized
+2022-10-27 09:18:12,980 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-27 09:18:12,986 INFO supervisord started with pid 1
+2022-10-27 09:18:13,994 INFO spawned: 'beat' with pid 9
+2022-10-27 09:18:14,001 INFO spawned: 'celery' with pid 10
+2022-10-27 09:18:14,007 INFO spawned: 'celery_send_msg' with pid 11
+2022-10-27 09:18:14,013 INFO spawned: 'migrate' with pid 12
+2022-10-27 09:18:14,019 INFO spawned: 'web' with pid 13
+2022-10-27 09:18:15,857 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 09:18:15,860 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 09:18:15,868 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 09:18:15,870 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 09:18:15,895 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-27 09:18:17,063 INFO exited: migrate (exit status 0; expected)
+2022-10-28 02:23:52,562 WARN received SIGTERM indicating exit request
+2022-10-28 02:23:52,607 INFO waiting for beat, celery, celery_send_msg, web to die
+2022-10-28 02:23:55,658 INFO stopped: web (exit status 0)
+2022-10-28 02:23:55,663 INFO waiting for beat, celery, celery_send_msg to die
+2022-10-28 02:23:58,697 INFO waiting for beat, celery, celery_send_msg to die
+2022-10-28 02:24:02,067 INFO waiting for beat, celery, celery_send_msg to die
+2022-10-28 02:24:17,220 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-28 02:24:17,238 INFO RPC interface 'supervisor' initialized
+2022-10-28 02:24:17,240 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-28 02:24:17,252 INFO supervisord started with pid 1
+2022-10-28 02:24:18,260 INFO spawned: 'beat' with pid 8
+2022-10-28 02:24:18,269 INFO spawned: 'celery' with pid 9
+2022-10-28 02:24:18,276 INFO spawned: 'celery_send_msg' with pid 10
+2022-10-28 02:24:18,296 INFO spawned: 'migrate' with pid 11
+2022-10-28 02:24:18,306 INFO spawned: 'web' with pid 12
+2022-10-28 02:24:20,171 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:20,176 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:20,179 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:20,182 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:20,185 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:27,225 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:27,230 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:27,665 INFO spawned: 'beat' with pid 40
+2022-10-28 02:24:27,684 INFO spawned: 'migrate' with pid 41
+2022-10-28 02:24:28,711 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:28,713 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:31,202 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:31,446 INFO spawned: 'migrate' with pid 48
+2022-10-28 02:24:31,449 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:32,478 INFO spawned: 'beat' with pid 49
+2022-10-28 02:24:32,481 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:33,492 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:37,468 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:41,510 INFO spawned: 'migrate' with pid 53
+2022-10-28 02:24:42,688 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:43,031 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:43,726 INFO spawned: 'beat' with pid 60
+2022-10-28 02:24:43,908 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:44,286 INFO spawned: 'migrate' with pid 61
+2022-10-28 02:24:45,159 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:45,391 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:45,393 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:45,513 INFO spawned: 'beat' with pid 68
+2022-10-28 02:24:45,643 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:45,878 INFO spawned: 'migrate' with pid 69
+2022-10-28 02:24:46,883 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:46,897 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:47,639 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:47,650 INFO spawned: 'beat' with pid 76
+2022-10-28 02:24:47,841 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:48,145 INFO spawned: 'migrate' with pid 77
+2022-10-28 02:24:49,152 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:49,174 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:50,229 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:50,493 INFO spawned: 'beat' with pid 84
+2022-10-28 02:24:50,813 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:51,150 INFO spawned: 'migrate' with pid 85
+2022-10-28 02:24:52,155 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:52,164 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:53,126 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:53,298 INFO spawned: 'beat' with pid 92
+2022-10-28 02:24:53,501 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:53,857 INFO spawned: 'migrate' with pid 93
+2022-10-28 02:24:54,828 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:54,858 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:55,109 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:55,235 INFO spawned: 'beat' with pid 100
+2022-10-28 02:24:55,434 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:55,686 INFO spawned: 'migrate' with pid 101
+2022-10-28 02:24:56,689 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:56,694 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:57,633 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:57,729 INFO spawned: 'beat' with pid 108
+2022-10-28 02:24:57,895 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:24:58,316 INFO spawned: 'migrate' with pid 109
+2022-10-28 02:24:59,319 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:59,325 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:24:59,906 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:24:59,915 INFO spawned: 'beat' with pid 116
+2022-10-28 02:25:00,098 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:00,363 INFO spawned: 'migrate' with pid 117
+2022-10-28 02:25:01,237 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:01,572 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:01,574 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:01,675 INFO spawned: 'beat' with pid 124
+2022-10-28 02:25:02,456 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:03,460 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:03,475 INFO spawned: 'migrate' with pid 125
+2022-10-28 02:25:04,707 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:04,711 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:05,303 INFO spawned: 'beat' with pid 132
+2022-10-28 02:25:05,535 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:05,849 INFO spawned: 'migrate' with pid 133
+2022-10-28 02:25:06,821 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:06,844 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:07,100 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:07,172 INFO spawned: 'beat' with pid 140
+2022-10-28 02:25:07,373 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:07,678 INFO spawned: 'migrate' with pid 141
+2022-10-28 02:25:08,559 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:08,829 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:08,832 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:08,951 INFO spawned: 'beat' with pid 148
+2022-10-28 02:25:09,465 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:10,132 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:10,139 INFO spawned: 'migrate' with pid 152
+2022-10-28 02:25:10,946 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:11,958 INFO spawned: 'beat' with pid 153
+2022-10-28 02:25:11,961 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:13,719 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:13,721 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:13,735 INFO spawned: 'migrate' with pid 160
+2022-10-28 02:25:14,035 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:15,046 INFO spawned: 'beat' with pid 164
+2022-10-28 02:25:15,048 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:15,213 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:15,441 INFO spawned: 'migrate' with pid 165
+2022-10-28 02:25:16,286 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:16,581 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:16,583 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:16,646 INFO spawned: 'beat' with pid 172
+2022-10-28 02:25:16,814 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:17,050 INFO spawned: 'migrate' with pid 173
+2022-10-28 02:25:17,777 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:18,058 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:18,060 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:18,147 INFO spawned: 'beat' with pid 180
+2022-10-28 02:25:18,326 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:18,536 INFO spawned: 'migrate' with pid 181
+2022-10-28 02:25:19,344 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:19,599 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:19,601 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:19,724 INFO spawned: 'beat' with pid 188
+2022-10-28 02:25:19,894 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:20,150 INFO spawned: 'migrate' with pid 189
+2022-10-28 02:25:21,184 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:21,186 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:21,489 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:21,683 INFO spawned: 'beat' with pid 196
+2022-10-28 02:25:21,893 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:22,187 INFO spawned: 'migrate' with pid 197
+2022-10-28 02:25:23,104 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:23,382 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:23,388 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:23,496 INFO spawned: 'beat' with pid 204
+2022-10-28 02:25:23,671 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:23,990 INFO spawned: 'migrate' with pid 205
+2022-10-28 02:25:24,997 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:25,003 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:25,536 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:25,599 INFO spawned: 'beat' with pid 212
+2022-10-28 02:25:25,766 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:25,989 INFO spawned: 'migrate' with pid 213
+2022-10-28 02:25:26,875 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:27,171 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:27,176 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:27,207 INFO spawned: 'beat' with pid 220
+2022-10-28 02:25:27,381 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:27,651 INFO spawned: 'migrate' with pid 221
+2022-10-28 02:25:28,458 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:28,688 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:28,690 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:28,794 INFO spawned: 'beat' with pid 228
+2022-10-28 02:25:28,955 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:29,185 INFO spawned: 'migrate' with pid 229
+2022-10-28 02:25:30,189 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:30,192 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:30,756 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:30,912 INFO spawned: 'beat' with pid 236
+2022-10-28 02:25:31,131 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:31,458 INFO spawned: 'migrate' with pid 237
+2022-10-28 02:25:32,462 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:32,464 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:32,895 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:33,012 INFO spawned: 'beat' with pid 244
+2022-10-28 02:25:33,206 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:33,484 INFO spawned: 'migrate' with pid 245
+2022-10-28 02:25:34,488 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:34,490 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:35,177 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:35,453 INFO spawned: 'beat' with pid 252
+2022-10-28 02:25:35,801 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:36,139 INFO spawned: 'migrate' with pid 253
+2022-10-28 02:25:37,144 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:37,145 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:37,467 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:37,476 INFO spawned: 'beat' with pid 260
+2022-10-28 02:25:37,631 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:37,881 INFO spawned: 'migrate' with pid 261
+2022-10-28 02:25:38,687 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:38,952 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:38,954 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:39,084 INFO spawned: 'beat' with pid 268
+2022-10-28 02:25:39,270 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:39,534 INFO spawned: 'migrate' with pid 269
+2022-10-28 02:25:40,427 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:40,530 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:40,946 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:41,053 INFO spawned: 'beat' with pid 276
+2022-10-28 02:25:41,593 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:41,610 INFO spawned: 'migrate' with pid 277
+2022-10-28 02:25:42,617 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:42,621 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:43,394 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:43,406 INFO spawned: 'beat' with pid 284
+2022-10-28 02:25:43,642 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:44,050 INFO spawned: 'migrate' with pid 285
+2022-10-28 02:25:45,058 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:45,061 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:48,556 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:48,603 INFO spawned: 'migrate' with pid 292
+2022-10-28 02:25:48,611 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:49,618 INFO spawned: 'beat' with pid 293
+2022-10-28 02:25:49,620 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:50,848 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:50,850 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:25:51,867 INFO spawned: 'migrate' with pid 300
+2022-10-28 02:25:52,480 INFO exited: beat (exit status 1; not expected)
+2022-10-28 02:25:53,508 INFO spawned: 'beat' with pid 301
+2022-10-28 02:25:53,515 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:25:54,537 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:26:06,750 INFO exited: migrate (exit status 1; not expected)
+2022-10-28 02:26:07,772 INFO spawned: 'migrate' with pid 305
+2022-10-28 02:26:08,822 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:26:12,038 INFO exited: migrate (exit status 0; expected)
+2022-10-28 02:26:22,058 WARN received SIGTERM indicating exit request
+2022-10-28 02:26:22,063 INFO waiting for beat, celery, celery_send_msg, web to die
+2022-10-28 02:26:23,096 INFO stopped: web (exit status 0)
+2022-10-28 02:26:25,109 INFO waiting for beat, celery, celery_send_msg to die
+2022-10-28 02:26:27,663 INFO stopped: celery_send_msg (exit status 0)
+2022-10-28 02:26:28,692 INFO waiting for beat, celery to die
+2022-10-28 02:26:30,260 INFO stopped: celery (exit status 0)
+2022-10-28 02:26:30,528 INFO stopped: beat (exit status 0)
+2022-10-28 02:26:43,694 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-28 02:26:44,223 INFO RPC interface 'supervisor' initialized
+2022-10-28 02:26:44,230 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-28 02:26:44,268 INFO supervisord started with pid 1
+2022-10-28 02:26:45,357 INFO spawned: 'beat' with pid 8
+2022-10-28 02:26:45,459 INFO spawned: 'celery' with pid 9
+2022-10-28 02:26:45,535 INFO spawned: 'celery_send_msg' with pid 10
+2022-10-28 02:26:45,570 INFO spawned: 'migrate' with pid 11
+2022-10-28 02:26:45,617 INFO spawned: 'web' with pid 12
+2022-10-28 02:26:46,823 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:26:46,838 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:26:46,845 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:26:46,867 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:26:46,874 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 02:27:02,887 INFO exited: migrate (exit status 0; expected)
+2022-10-28 03:08:58,059 WARN received SIGTERM indicating exit request
+2022-10-28 03:08:58,081 INFO waiting for beat, celery, celery_send_msg, web to die
+2022-10-28 03:08:59,222 INFO stopped: web (exit status 0)
+2022-10-28 03:09:02,023 INFO waiting for beat, celery, celery_send_msg to die
+2022-10-28 03:09:04,615 INFO stopped: celery_send_msg (exit status 0)
+2022-10-28 03:09:05,626 INFO waiting for beat, celery to die
+2022-10-28 03:09:14,120 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-28 03:09:14,134 INFO RPC interface 'supervisor' initialized
+2022-10-28 03:09:14,136 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-28 03:09:14,147 INFO supervisord started with pid 1
+2022-10-28 03:09:15,154 INFO spawned: 'beat' with pid 8
+2022-10-28 03:09:15,161 INFO spawned: 'celery' with pid 9
+2022-10-28 03:09:15,169 INFO spawned: 'celery_send_msg' with pid 10
+2022-10-28 03:09:15,180 INFO spawned: 'migrate' with pid 11
+2022-10-28 03:09:15,193 INFO spawned: 'web' with pid 12
+2022-10-28 03:09:16,199 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 03:09:16,206 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 03:09:16,218 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 03:09:16,231 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 03:09:16,234 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-28 03:09:18,572 INFO exited: migrate (exit status 0; expected)
+2022-10-31 01:41:43,498 WARN received SIGTERM indicating exit request
+2022-10-31 06:07:54,248 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-31 06:07:54,269 INFO RPC interface 'supervisor' initialized
+2022-10-31 06:07:54,271 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-31 06:07:54,277 INFO supervisord started with pid 1
+2022-10-31 06:07:55,283 INFO spawned: 'beat' with pid 7
+2022-10-31 06:07:55,288 INFO spawned: 'celery' with pid 8
+2022-10-31 06:07:55,296 INFO spawned: 'celery_send_msg' with pid 9
+2022-10-31 06:07:55,306 INFO spawned: 'migrate' with pid 10
+2022-10-31 06:07:55,317 INFO spawned: 'web' with pid 11
+2022-10-31 06:07:56,330 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 06:07:56,399 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 06:07:56,423 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 06:07:56,424 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 06:07:56,426 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 06:08:06,044 INFO exited: migrate (exit status 0; expected)
+2022-10-31 12:37:27,494 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-10-31 12:37:27,516 INFO RPC interface 'supervisor' initialized
+2022-10-31 12:37:27,517 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-10-31 12:37:27,523 INFO supervisord started with pid 1
+2022-10-31 12:37:28,531 INFO spawned: 'beat' with pid 9
+2022-10-31 12:37:28,539 INFO spawned: 'celery' with pid 10
+2022-10-31 12:37:28,552 INFO spawned: 'celery_send_msg' with pid 11
+2022-10-31 12:37:28,573 INFO spawned: 'migrate' with pid 12
+2022-10-31 12:37:28,597 INFO spawned: 'web' with pid 13
+2022-10-31 12:37:29,602 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 12:37:29,604 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 12:37:29,606 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 12:37:29,608 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 12:37:29,610 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-10-31 12:37:33,373 INFO exited: migrate (exit status 0; expected)
+2022-11-01 01:18:27,864 WARN received SIGTERM indicating exit request
+2022-11-01 01:18:27,877 INFO waiting for beat, celery, celery_send_msg, web to die
+2022-11-01 01:18:29,241 INFO stopped: web (exit status 0)
+2022-11-01 01:18:31,070 INFO waiting for beat, celery, celery_send_msg to die
+2022-11-01 01:18:33,174 INFO stopped: celery_send_msg (exit status 0)
+2022-11-01 01:18:34,186 INFO waiting for beat, celery to die
+2022-11-01 01:18:35,735 INFO stopped: celery (exit status 0)
+2022-11-01 01:18:36,511 INFO stopped: beat (exit status 0)
+2022-11-01 07:20:56,970 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-11-01 07:20:57,010 INFO RPC interface 'supervisor' initialized
+2022-11-01 07:20:57,013 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-11-01 07:20:57,022 INFO supervisord started with pid 1
+2022-11-01 07:20:58,028 INFO spawned: 'beat' with pid 8
+2022-11-01 07:20:58,035 INFO spawned: 'celery' with pid 9
+2022-11-01 07:20:58,047 INFO spawned: 'celery_send_msg' with pid 10
+2022-11-01 07:20:58,054 INFO spawned: 'migrate' with pid 11
+2022-11-01 07:20:58,065 INFO spawned: 'web' with pid 12
+2022-11-01 07:20:59,068 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 07:20:59,072 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 07:20:59,097 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 07:20:59,110 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 07:20:59,112 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 07:21:03,303 INFO exited: migrate (exit status 0; expected)
+2022-11-01 08:49:23,904 WARN received SIGTERM indicating exit request
+2022-11-01 08:49:23,961 INFO waiting for beat, celery, celery_send_msg, web to die
+2022-11-01 09:36:16,980 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-11-01 09:36:16,996 INFO RPC interface 'supervisor' initialized
+2022-11-01 09:36:16,997 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-11-01 09:36:17,004 INFO supervisord started with pid 1
+2022-11-01 09:36:18,010 INFO spawned: 'beat' with pid 8
+2022-11-01 09:36:18,018 INFO spawned: 'celery' with pid 9
+2022-11-01 09:36:18,022 INFO spawned: 'celery_send_msg' with pid 10
+2022-11-01 09:36:18,027 INFO spawned: 'migrate' with pid 11
+2022-11-01 09:36:18,035 INFO spawned: 'web' with pid 12
+2022-11-01 09:36:19,853 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 09:36:19,854 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 09:36:19,855 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 09:36:19,856 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 09:36:19,857 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 09:36:22,343 INFO exited: beat (exit status 1; not expected)
+2022-11-01 09:36:22,352 INFO spawned: 'beat' with pid 36
+2022-11-01 09:36:22,354 INFO exited: migrate (exit status 1; not expected)
+2022-11-01 09:36:22,410 INFO spawned: 'migrate' with pid 37
+2022-11-01 09:36:23,443 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 09:36:23,443 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-01 09:36:24,299 INFO exited: migrate (exit status 0; expected)
+2022-11-01 14:42:25,354 WARN received SIGTERM indicating exit request
+2022-11-02 02:13:44,957 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-11-02 02:13:44,984 INFO RPC interface 'supervisor' initialized
+2022-11-02 02:13:44,985 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-11-02 02:13:44,993 INFO supervisord started with pid 1
+2022-11-02 02:13:46,000 INFO spawned: 'beat' with pid 8
+2022-11-02 02:13:46,005 INFO spawned: 'celery' with pid 9
+2022-11-02 02:13:46,011 INFO spawned: 'celery_send_msg' with pid 10
+2022-11-02 02:13:46,018 INFO spawned: 'migrate' with pid 11
+2022-11-02 02:13:46,023 INFO spawned: 'web' with pid 12
+2022-11-02 02:13:47,751 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 02:13:47,752 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 02:13:47,753 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 02:13:47,754 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 02:13:47,755 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 02:13:49,663 INFO exited: migrate (exit status 0; expected)
+2022-11-02 12:20:10,600 WARN received SIGTERM indicating exit request
+2022-11-02 12:20:10,626 INFO waiting for beat, celery, celery_send_msg, web to die
+2022-11-02 12:20:11,455 INFO stopped: web (exit status 0)
+2022-11-02 12:20:13,869 INFO waiting for beat, celery, celery_send_msg to die
+2022-11-02 12:20:16,786 INFO stopped: celery_send_msg (exit status 0)
+2022-11-02 12:20:17,790 INFO waiting for beat, celery to die
+2022-11-02 12:20:56,137 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-11-02 12:20:56,146 INFO RPC interface 'supervisor' initialized
+2022-11-02 12:20:56,147 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2022-11-02 12:20:56,152 INFO supervisord started with pid 1
+2022-11-02 12:20:57,158 INFO spawned: 'beat' with pid 8
+2022-11-02 12:20:57,173 INFO spawned: 'celery' with pid 9
+2022-11-02 12:20:57,181 INFO spawned: 'celery_send_msg' with pid 10
+2022-11-02 12:20:57,202 INFO spawned: 'migrate' with pid 11
+2022-11-02 12:20:57,213 INFO spawned: 'web' with pid 12
+2022-11-02 12:20:58,226 INFO success: beat entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 12:20:58,230 INFO success: celery entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 12:20:58,238 INFO success: celery_send_msg entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 12:20:58,240 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 12:20:58,241 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-11-02 12:21:00,954 INFO exited: migrate (exit status 0; expected)

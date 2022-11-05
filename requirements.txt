@@ -30,4 +30,4 @@ PyMySQL==1.0.2
 
 django-redis==5.2.0
 
-numpy==1.21.2
+numpy==1.23.4

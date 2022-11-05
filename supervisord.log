@@ -1422,3 +1422,9 @@
 2022-11-02 12:20:58,240 INFO success: migrate entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2022-11-02 12:20:58,241 INFO success: web entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2022-11-02 12:21:00,954 INFO exited: migrate (exit status 0; expected)
+2022-11-05 07:58:14,897 WARN received SIGTERM indicating exit request
+2022-11-05 07:58:14,975 INFO waiting for beat, celery, celery_send_msg, web to die
+2022-11-05 07:58:18,277 INFO waiting for beat, celery, celery_send_msg, web to die
+2022-11-05 07:58:18,951 INFO stopped: web (exit status 0)
+2022-11-05 07:58:21,282 INFO waiting for beat, celery, celery_send_msg to die
+2022-11-05 07:58:24,288 INFO waiting for beat, celery, celery_send_msg to die

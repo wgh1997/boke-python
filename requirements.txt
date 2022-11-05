@@ -28,6 +28,6 @@ django-auto-prefetching==0.1.10
 
 PyMySQL==1.0.2 
 
-django-redis==5.2.0  
+django-redis==6.2.5
 
 numpy==1.21.2

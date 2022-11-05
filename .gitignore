@@ -1,1 +1,5 @@
 .env
+mysql_data
+supervisord.pid
+supervisord.log
+/log

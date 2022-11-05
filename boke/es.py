@@ -7,7 +7,7 @@ ES =["42.192.148.228:9200"]
 # 创建elasticsearch客户端
 es = Elasticsearch(
     ES,
-    # http_auth=('elastic','yw181126'),##账号密码
+    http_auth=('elastic','yw181126'),##账号密码
     scheme="http",
     ssl_context=context,
 )

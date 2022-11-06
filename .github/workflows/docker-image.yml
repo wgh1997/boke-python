@@ -11,7 +11,6 @@ jobs:
     steps:
       - name: Check Out
         uses: actions/checkout@v2
-          
       # 使用SSH远程连接
       - name: SSH Remote Commands
         uses: appleboy/ssh-action@master

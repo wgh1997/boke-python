@@ -131,7 +131,7 @@ class ArticleSerializer(serializers.Serializer):
         "required": "缺少创建时间参数"
     })
     article_tags = serializers.SerializerMethodField()
-
+    type = serializers.SerializerMethodField()
     class Meta:
         model = Article
 
@@ -139,7 +139,9 @@ class ArticleSerializer(serializers.Serializer):
         publisher = TagsArticleModels.objects.filter(article_id=obj.id)
         data = TagsArticleSerializer(publisher, many=True)
         return data.data
-
+    def get_type(self, obj):
+        publisher = ClassifyModels.objects.get(id=obj.article_type)
+        return publisher.name
     def create(self, validated_data):
         """新建"""
         print(validated_data, "-->")

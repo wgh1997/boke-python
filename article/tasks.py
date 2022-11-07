@@ -3,7 +3,7 @@ from celery_task.main import app
 from boke.es import es, index
 from elasticsearch import helpers
 from article.models import Article as ArticleModels
-from article.serializers import Article as ArticleSerializer
+from article.serializers import ArticleSerializer
 
 @app.task
 def cogradient(*para):

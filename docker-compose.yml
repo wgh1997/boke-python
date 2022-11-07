@@ -11,9 +11,9 @@ services:
     restart: always
     ports: #为映射端口。
       - 3306:3306
-    # volumes:
-    #   - ./init.sql:/data/application/init.sql  
-    #   - ./mysql_data:/var/lib/mysql
+    volumes:
+      - ./init.sql:/data/application/init.sql  
+      - ./mysql_data:/var/lib/mysql
   redis:
     image: redis:6.2.5
     restart: unless-stopped

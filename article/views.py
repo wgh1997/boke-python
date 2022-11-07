@@ -443,6 +443,7 @@ class TextView(APIView):
         }))
 
     def post(self, request):
+        # 定时从数据库同步到es文章数据
         try:
             article = ArticleModels.objects.all()
             serializer = ArticleSerializer(article, many=True)

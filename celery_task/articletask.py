@@ -3,7 +3,6 @@ from django_celery_beat.models import CrontabSchedule, IntervalSchedule, Periodi
 import pytz
 
 def get_article_task(obj):
-    print(obj['enabled'])
     crontab_time = {'minute': obj['minute'], 'hour': obj['hour'],
                     'day_of_week': obj['day_of_week'], 'day_of_month': obj['day_of_month'], 'month_of_year': obj['month_of_year']}
     task = 'article.tasks.cogradient'
@@ -13,7 +12,7 @@ def get_article_task(obj):
         name=obj['name'],  # 名称保持唯一
         task=task,
         crontab=schedule,
-        args=json.dumps([10, 2, 76]),
+        # args=json.dumps([10, 2, 76]),
         enabled=obj['enabled'],  # 是否开启
     )
     return data

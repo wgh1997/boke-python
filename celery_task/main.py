@@ -32,7 +32,6 @@ app.conf.update(
         'celery_task.task.send_email': {'queue': 'send_msg'},
         'celery_task.task.send_iphone': {'queue': 'send_msg'},
         'celery_task.task.send_wx_official_notify': {'queue': 'send_msg'},
-
         'celery_task.task.export_csv': {'queue': 'default'},
         'celery_task.task.sub': {'queue': 'default'},
         'celery_task.task.update_login_infor': {'queue': 'default'},

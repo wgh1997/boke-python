@@ -2273,3 +2273,267 @@ In Celery 5.1 it is set to False by default. The setting will be set to True by 
 [2022-11-05 15:58:15,268: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: Error 111 connecting to redis:6379. Connection refused..
 Trying again in 2.00 seconds... (1/100)
 
+/usr/local/lib/python3.11/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-11-07 10:07:42
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7f465b009fd0
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-11-07 10:07:42,584: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:07:42,584: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:07:42,584: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:07:42,584: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:07:42,585: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:07:42,585: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:07:42,585: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:07:42,585: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:07:42,585: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-11-07 10:07:42,969: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-11-07 10:07:42,973: INFO/MainProcess] mingle: searching for neighbors
+[2022-11-07 10:07:43,985: INFO/MainProcess] mingle: all alone
+[2022-11-07 10:07:44,020: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-11-07 10:07:44,020: INFO/MainProcess] celery@worker_default ready.
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.11/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-11-07 10:13:44
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7f2d49f13550
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-11-07 10:13:45,000: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:13:45,001: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:13:45,001: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:13:45,001: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:13:45,001: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:13:45,001: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:13:45,001: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:13:45,002: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:13:45,002: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-11-07 10:13:45,772: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-11-07 10:13:45,777: INFO/MainProcess] mingle: searching for neighbors
+[2022-11-07 10:13:46,804: INFO/MainProcess] mingle: all alone
+[2022-11-07 10:13:46,839: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-11-07 10:13:46,839: INFO/MainProcess] celery@worker_default ready.
+
+worker: Warm shutdown (MainProcess)
+/usr/local/lib/python3.11/site-packages/celery/platforms.py:840: SecurityWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(SecurityWarning(ROOT_DISCOURAGED.format(
+ 
+ -------------- celery@worker_default v5.2.3 (dawn-chorus)
+--- ***** ----- 
+-- ******* ---- Linux-5.10.25-linuxkit-x86_64-with-glibc2.31 2022-11-07 10:16:36
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         boke:0x7f637d23f5d0
+- ** ---------- .> transport:   redis://redis:6379//
+- ** ---------- .> results:     redis://redis:6379/
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> default          exchange=default(direct) key=default
+                
+
+[tasks]
+  . article.tasks.cogradient
+  . users.tasks.send_sms_celery
+  . users.tasks.timing
+
+[2022-11-07 10:16:36,536: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_QUEUE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_queue instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:16:36,537: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_EXCHANGE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_exchange instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:16:36,538: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:16:36,538: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_TIMEZONE' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the timezone instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:16:36,538: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'BROKER_URL' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the broker_url instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:16:36,538: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_ROUTES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_routes instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:16:36,538: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_DEFAULT_ROUTING_KEY' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_default_routing_key instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:16:36,539: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_QUEUES' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the task_queues instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2022-11-07 10:16:36,539: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2022-11-07 10:16:37,099: INFO/MainProcess] Connected to redis://redis:6379//
+[2022-11-07 10:16:37,103: INFO/MainProcess] mingle: searching for neighbors
+[2022-11-07 10:16:38,114: INFO/MainProcess] mingle: all alone
+[2022-11-07 10:16:38,132: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-11-07 10:16:38,132: INFO/MainProcess] celery@worker_default ready.
+[2022-11-07 12:00:00,902: INFO/MainProcess] Task celery.backend_cleanup[1113fddf-1892-402c-9aff-7a1c1e2fb18c] received
+[2022-11-07 12:00:01,462: INFO/ForkPoolWorker-4] Task celery.backend_cleanup[1113fddf-1892-402c-9aff-7a1c1e2fb18c] succeeded in 0.36273477600116166s: None

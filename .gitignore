@@ -3,3 +3,4 @@ mysql_data
 supervisord.pid
 supervisord.log
 /log
+local.py

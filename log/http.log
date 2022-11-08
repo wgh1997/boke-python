@@ -17805,3 +17805,89 @@ Quit the server with CONTROL-C.
 [07/Nov/2022 22:15:59] "GET /api/article/task?pageNum=1&pageSize=10 HTTP/1.1" 200 269
 [07/Nov/2022 22:16:03] "DELETE /api/article/task?name=%E5%A4%A7%E5%A3%B0%E9%81%93%E6%92%92 HTTP/1.1" 200 31
 [07/Nov/2022 22:16:03] "GET /api/article/task?pageNum=1&pageSize=10 HTTP/1.1" 200 169
+[07/Nov/2022 22:21:23] "GET /api/article/text?id=7747f2d4-c0cc-49c8-a0d5-048b0be2c4dc&pageSize=1&pageNum=1 HTTP/1.1" 200 463
+Not Found: /
+[07/Nov/2022 22:40:26] "GET / HTTP/1.1" 404 2407
+Not Found: /
+[07/Nov/2022 22:41:58] "GET / HTTP/1.1" 404 2407
+/code/article/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+elastic yw181126
+System check identified no issues (0 silenced).
+November 07, 2022 - 22:42:20
+Django version 3.2.4, using settings 'boke.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+/code/article/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+elastic yw181126
+System check identified no issues (0 silenced).
+November 07, 2022 - 22:42:38
+Django version 3.2.4, using settings 'boke.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+/code/article/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+elastic yw181126
+System check identified no issues (0 silenced).
+November 07, 2022 - 22:42:51
+Django version 3.2.4, using settings 'boke.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+/code/article/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+elastic yw181126
+System check identified no issues (0 silenced).
+November 07, 2022 - 22:43:00
+Django version 3.2.4, using settings 'boke.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+/usr/local/lib/python3.11/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in document index requests is deprecated, use the /{index}/_doc/{id} endpoint instead.
+  warnings.warn(message, category=ElasticsearchWarning)
+[07/Nov/2022 22:43:23] "POST /api/article/text?id=422b4427-a45d-409f-9b02-2c5133599624&pageNum=1&pageSize=10 HTTP/1.1" 200 51
+/code/article/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+elastic yw181126
+System check identified no issues (0 silenced).
+November 07, 2022 - 22:43:33
+Django version 3.2.4, using settings 'boke.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+/usr/local/lib/python3.11/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in document index requests is deprecated, use the /{index}/_doc/{id} endpoint instead.
+  warnings.warn(message, category=ElasticsearchWarning)
+[07/Nov/2022 22:43:47] "POST /api/article/text?id=422b4427-a45d-409f-9b02-2c5133599624&pageNum=1&pageSize=10 HTTP/1.1" 200 51
+/code/article/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+elastic yw181126
+System check identified no issues (0 silenced).
+November 07, 2022 - 22:43:54
+Django version 3.2.4, using settings 'boke.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+/code/article/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+elastic yw181126
+System check identified no issues (0 silenced).
+November 07, 2022 - 22:44:04
+Django version 3.2.4, using settings 'boke.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+/usr/local/lib/python3.11/site-packages/elasticsearch/connection/base.py:200: ElasticsearchWarning: [types removal] Specifying types in document index requests is deprecated, use the /{index}/_doc/{id} endpoint instead.
+  warnings.warn(message, category=ElasticsearchWarning)
+[07/Nov/2022 22:44:05] "POST /api/article/text?id=422b4427-a45d-409f-9b02-2c5133599624&pageNum=1&pageSize=10 HTTP/1.1" 200 51
+[07/Nov/2022 22:51:00] "GET /api/article/text?pageNum=1&pageSize=1&lately=1 HTTP/1.1" 200 63
+[07/Nov/2022 22:51:00] "GET /api/article/text?pageNum=1&pageSize=1&lately=1 HTTP/1.1" 200 63

@@ -3348,3 +3348,79 @@ User information: uid=0 euid=0 gid=0 egid=0
   warnings.warn('''Using settings.DEBUG leads to a memory
 
 [2022-11-07 22:14:34,168: INFO/MainProcess] celery@worker_send_msg ready.
+[2022-11-07 23:03:44,190: INFO/MainProcess] missed heartbeat from celery@worker_default
+[2022-11-08 01:40:05,106: WARNING/MainProcess] Substantial drift from celery@worker_default may mean clocks are out of sync.  Current drift is 9381 seconds.  [orig: 2022-11-08 01:40:05.092086 recv: 2022-11-07 23:03:44.064303]
+[2022-11-08 01:40:19,151: INFO/MainProcess] missed heartbeat from celery@worker_default
+[2022-11-08 01:40:31,285: INFO/MainProcess] missed heartbeat from celery@worker_default
+[2022-11-08 02:35:14,126: INFO/MainProcess] missed heartbeat from celery@worker_default
+[2022-11-08 02:36:03,503: INFO/MainProcess] missed heartbeat from celery@worker_default
+[2022-11-08 02:36:25,228: INFO/MainProcess] missed heartbeat from celery@worker_default
+[2022-11-08 05:22:11,011: INFO/MainProcess] missed heartbeat from celery@worker_default
+[2022-11-08 05:22:23,592: INFO/MainProcess] missed heartbeat from celery@worker_default
+[2022-11-08 08:43:22,506: INFO/MainProcess] missed heartbeat from celery@worker_default
+[2022-11-08 09:21:51,574: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py", line 326, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.11/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py", line 618, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.11/site-packages/celery/worker/loops.py", line 97, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.11/site-packages/kombu/asynchronous/hub.py", line 362, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.11/site-packages/kombu/transport/redis.py", line 1326, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.11/site-packages/kombu/transport/redis.py", line 562, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.11/site-packages/kombu/transport/redis.py", line 906, in _receive
+    ret.append(self._receive_one(c))
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/kombu/transport/redis.py", line 916, in _receive_one
+    response = c.parse_response()
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/redis/client.py", line 1500, in parse_response
+    response = self._execute(conn, conn.read_response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/usr/local/lib/python3.11/site-packages/redis/client.py", line 1484, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    raise error
+  File "/usr/local/lib/python3.11/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+           ^^^^
+  File "/usr/local/lib/python3.11/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/redis/connection.py", line 824, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/redis/connection.py", line 318, in read_response
+    raw = self._buffer.readline()
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/redis/connection.py", line 249, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.11/site-packages/redis/connection.py", line 195, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+[2022-11-08 09:21:51,849: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/worker/consumer/consumer.py:361: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered back to the queue.
+You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss setting.
+In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+[2022-11-08 09:21:51,932: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379//: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds... (1/100)
+
+
+worker: Warm shutdown (MainProcess)

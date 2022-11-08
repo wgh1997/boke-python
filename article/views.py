@@ -443,22 +443,21 @@ class TextView(APIView):
         }))
 
     def post(self, request):
-        # 定时从数据库同步到es文章数据
+        # try:
+        #     article = ArticleModels.objects.all()
+        #     serializer = ArticleSerializer(article, many=True)
+        # except:
+        #     s = traceback.format_exc()
+        #     print(f"文章查询失败, msg: --> {s}")
+        # print(f"文章查询成功, msg: --> {serializer.data}")
+        # action = [{
+        #     "_index": index,
+        #     "_id":i['id'],
+        #     "_type": "doc",
+        #     "_source": i
+        # }for i in serializer.data]
         try:
-            article = ArticleModels.objects.all()
-            serializer = ArticleSerializer(article, many=True)
-        except:
-            s = traceback.format_exc()
-            print(f"文章查询失败, msg: --> {s}")
-        print(f"文章查询成功, msg: --> {serializer.data}")
-        action = [{
-            "_index": index,
-            "_id":i['id'],
-            "_type": "doc",
-            "_source": i
-        }for i in serializer.data]
-        try:
-            helpers.bulk(es, action)
+            es.delete(index=index, doc_type='doc', id='7747f2d4-c0cc-49c8-a0d5-048b0be2c4dc')
         except:
             s=traceback.format_exc()
             print(f"文章查询失败, msg: --> {s}")

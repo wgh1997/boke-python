@@ -4,3 +4,4 @@ supervisord.pid
 supervisord.log
 /log
 local.py
+.media/

@@ -9,6 +9,8 @@
 - [ ] 简单的SEO功能，新建文章等会自动通知Google和百度。
 - [x] 项目基于Docker启动
 - [x] 项目配置Github Actions 自动化部署项目
+
+
 ## 运行项目
 运行项目之前要再`/boke-python/boke/`目录下创建`local.py`文件配置es数据库账号密码
 ```python

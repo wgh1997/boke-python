@@ -375,6 +375,8 @@ class TextView(APIView):
     def get(self, request):
         pageSize = request.query_params['pageSize']
         pageNum = request.query_params['pageNum']
+        print(request,'90900')
+        
         query = {
             "match_all": {}
         }
@@ -435,8 +437,6 @@ class TextView(APIView):
             s = traceback.format_exc()
             print("查询失败, msg: --> {}".format(s))
             return Response(dict(code=1, message="success", msg="查询失败"))
-        #es.search(index=index, body=body)
-        # return Response(dict(code=0, message="success", data=data))
         return Response(dict(code=0, message="success", data={
             'datalist': datalist,
             "total": total
@@ -456,9 +456,9 @@ class TextView(APIView):
         #     "_type": "doc",
         #     "_source": i
         # }for i in serializer.data]
-        try:
-            es.delete(index=index, doc_type='doc', id='7747f2d4-c0cc-49c8-a0d5-048b0be2c4dc')
-        except:
-            s=traceback.format_exc()
-            print(f"文章查询失败, msg: --> {s}")
+        # try:
+        #     es.delete(index=index, doc_type='doc', id='7747f2d4-c0cc-49c8-a0d5-048b0be2c4dc')
+        # except:
+        #     s=traceback.format_exc()
+        #     print(f"文章查询失败, msg: --> {s}")
         return Response(dict(code=1, message="success", msg="查询失败"))

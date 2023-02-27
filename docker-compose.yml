@@ -2,7 +2,7 @@ version: "3"
 services:
 
   mysql:
-    image: "mysql" #镜像的地址和版本
+    image: "mysql:8.0" #镜像的地址和版本
     container_name: boke_mysql
     environment:
       MYSQL_ROOT_PASSWORD: "boke" # 为数据库的密码，也就是root用户的密。
